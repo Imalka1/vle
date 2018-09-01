@@ -2419,11 +2419,13 @@ var MainComponent = /** @class */ (function () {
                 _this.checkSize();
             });
         };
+        window.addEventListener("beforeunload", function (e) {
+            socketService.sendOfflineMessage();
+        });
         loadMaterials();
         socketService.initSocket();
     }
     MainComponent.prototype.beforeunloadHandler = function ($event) {
-        this.socketService.sendOfflineMessage();
     };
     MainComponent.prototype.ngAfterViewInit = function () {
     };
@@ -4148,9 +4150,9 @@ __webpack_require__.r(__webpack_exports__);
 // The list of file replacements can be found in `angular.json`.
 var environment = {
     production: false,
-    backend_url: 'http://imalkag.ddns.net:8080'
+    // backend_url: 'http://imalkag.ddns.net:8080'
     // backend_url: '111.223.139.191:8080'
-    // backend_url: 'http://localhost:8080'
+    backend_url: 'http://localhost:8080'
 };
 /*
  * In development mode, to ignore zone related error stack frames such as
