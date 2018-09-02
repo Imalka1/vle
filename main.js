@@ -2420,7 +2420,7 @@ var MainComponent = /** @class */ (function () {
             });
         };
         window.addEventListener("beforeunload", function (e) {
-            socketService.sendOfflineMessage();
+            // socketService.sendOfflineMessage();
         });
         loadMaterials();
         socketService.initSocket();
