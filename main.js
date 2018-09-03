@@ -1002,6 +1002,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var sockjs_client__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(sockjs_client__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _stomp_stompjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @stomp/stompjs */ "./node_modules/@stomp/stompjs/index.js");
 /* harmony import */ var _stomp_stompjs__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_stomp_stompjs__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var rxjs_index__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/index */ "./node_modules/rxjs/index.js");
+/* harmony import */ var rxjs_index__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(rxjs_index__WEBPACK_IMPORTED_MODULE_4__);
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1012,10 +1014,25 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 
+
 // const SERVER_URL = '/api/v1/socket';
 var SocketService = /** @class */ (function () {
     function SocketService() {
+        this.onlineCount = new rxjs_index__WEBPACK_IMPORTED_MODULE_4__["Subject"]();
+        this.websiteVisits = new rxjs_index__WEBPACK_IMPORTED_MODULE_4__["Subject"]();
+        //
+        // public onMessage(): Observable<Message> {
+        //   return new Observable<Message>(observer => {
+        //     this.socket.on('message', (data: Message) => observer.next(data));
+        //   });
+        // }
+        // public onEvent(event: Event): Observable<any> {
+        //   return new Observable<Event>(observer => {
+        //     this.socket.on(event, () => observer.next());
+        //   });
+        // }
     }
+    // isSidebarVisible: boolean;
     SocketService.prototype.initSocket = function () {
         this.socket = new sockjs_client__WEBPACK_IMPORTED_MODULE_2___default.a(_url_backend_url__WEBPACK_IMPORTED_MODULE_1__["BackendUrl"].getMainUrl() + "/lms-web-socket");
         this.stompClient = _stomp_stompjs__WEBPACK_IMPORTED_MODULE_3__["over"](this.socket);
@@ -1029,10 +1046,11 @@ var SocketService = /** @class */ (function () {
                 console.log("ACC2");
             });
             that.stompClient.subscribe('/topic/onlineCount', function (socket) {
-                that.dashboard.setOnlineCount(JSON.parse(socket.body).onlineCount);
+                that.onlineCount.next(JSON.parse(socket.body).onlineCount);
+                // new DashboardComponent().setOnlineCount(JSON.parse(socket.body).onlineCount);
             });
             that.stompClient.subscribe('/topic/websiteVisits', function (socket) {
-                that.dashboard.setWebsiteVisits(JSON.parse(socket.body).websiteVisits);
+                that.websiteVisits.next(JSON.parse(socket.body).websiteVisits);
             });
             // that.stompClient.subscribe('/topic/userId', function (socket) {
             //   that.stompClient.send("/app/userId", {}, localStorage.getItem("userId"));
@@ -1249,6 +1267,8 @@ var StudentRegistrationService = /** @class */ (function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WizardColorService", function() { return WizardColorService; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var rxjs_index__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs/index */ "./node_modules/rxjs/index.js");
+/* harmony import */ var rxjs_index__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(rxjs_index__WEBPACK_IMPORTED_MODULE_1__);
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1259,22 +1279,18 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
 var WizardColorService = /** @class */ (function () {
     function WizardColorService() {
-        this.elementStudent = 0;
         this.elementLecturer = 0;
+        this.studentReg = new rxjs_index__WEBPACK_IMPORTED_MODULE_1__["Subject"]();
+        this.lecturerReg = new rxjs_index__WEBPACK_IMPORTED_MODULE_1__["Subject"]();
     }
     WizardColorService.prototype.setStudentWizardGreen = function (elementStudent) {
-        this.elementStudent = elementStudent;
-    };
-    WizardColorService.prototype.getStudentWizardGreen = function () {
-        return this.elementStudent;
+        this.studentReg.next(elementStudent);
     };
     WizardColorService.prototype.setLecturerWizardGreen = function (elementLecturer) {
-        this.elementLecturer = elementLecturer;
-    };
-    WizardColorService.prototype.getLecturerWizardGreen = function () {
-        return this.elementLecturer;
+        this.lecturerReg.next(elementLecturer);
     };
     WizardColorService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
@@ -1474,6 +1490,7 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 var DashboardComponent = /** @class */ (function () {
     function DashboardComponent(datePipe, loginService, cookieService, socketService) {
+        var _this = this;
         this.datePipe = datePipe;
         this.loginService = loginService;
         this.cookieService = cookieService;
@@ -1481,17 +1498,15 @@ var DashboardComponent = /** @class */ (function () {
         this.onlineCount = 0;
         this.websiteVisits = 0;
         // loadMaterials();
-        // this.socketService.saveDashboard(this);
+        socketService.onlineCount.subscribe(function (value) {
+            _this.onlineCount = value;
+        });
+        socketService.websiteVisits.subscribe(function (value) {
+            _this.websiteVisits = value;
+        });
     }
     DashboardComponent.prototype.ngOnInit = function () {
         // loadMaterials();
-        this.socketService.saveDashboard(this);
-    };
-    DashboardComponent.prototype.setOnlineCount = function (onlineCount) {
-        this.onlineCount = onlineCount;
-    };
-    DashboardComponent.prototype.setWebsiteVisits = function (websiteVisits) {
-        this.websiteVisits = websiteVisits;
     };
     DashboardComponent.prototype.loginStatus = function () {
         return _additional_classes_login_status__WEBPACK_IMPORTED_MODULE_5__["LoginStatus"].getLoginStatus();
@@ -1714,21 +1729,16 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 var LecturerSubjectsRegistrationsComponent = /** @class */ (function () {
     function LecturerSubjectsRegistrationsComponent(renderer, router, datePipe, wizardColor) {
+        var _this = this;
         this.renderer = renderer;
         this.router = router;
         this.datePipe = datePipe;
         this.wizardColor = wizardColor;
+        wizardColor.lecturerReg.subscribe(function (value) {
+            _this.setElementsGreen(value);
+        });
     }
     LecturerSubjectsRegistrationsComponent.prototype.ngOnInit = function () {
-    };
-    LecturerSubjectsRegistrationsComponent.prototype.ngAfterViewInit = function () {
-        var _this = this;
-        this.router.events.subscribe(function (val) {
-            if (val instanceof _angular_router__WEBPACK_IMPORTED_MODULE_1__["NavigationEnd"]) {
-                _this.elementLecturer = _this.wizardColor.getLecturerWizardGreen();
-                _this.setElementsGreen(_this.elementLecturer);
-            }
-        });
     };
     LecturerSubjectsRegistrationsComponent.prototype.setElementsGreen = function (j) {
         for (var i = 0; i < 2; i++) {
@@ -2751,7 +2761,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row\" *ngIf=\"loginStatus()==1\">\n  <div class=\"col-md-12 col-12\">\n    <div class=\"card\">\n      <div class=\"card-header card-header-icon\" data-background-color=\"purple\">\n        <i class=\"material-icons\">assignment</i>\n      </div>\n\n      <div class=\"card-content\">\n        <h4 class=\"card-title\" style=\"color: #4e4e4e;font-size: 17px\">STUDENT DETAILS</h4>\n        <div class=\"toolbar\">\n          <!--        Here you can write extra buttons/actions for the toolbar              -->\n        </div>\n        <div class=\"material-datatables\">\n          <table class=\"table table-striped table-no-bordered table-hover datatables\" cellspacing=\"0\"\n                 width=\"100%\" style=\"width:100%\">\n            <thead>\n            <tr>\n              <th>Student ID</th>\n              <th>Name With Initials</th>\n              <th>Email</th>\n              <th class=\"disabled-sorting text-right\">Remove</th>\n            </tr>\n            </thead>\n            <tfoot>\n            <tr>\n              <th>Student ID</th>\n              <th>Name With Initials</th>\n              <th>Email</th>\n              <th class=\"text-right\">Remove</th>\n            </tr>\n            </tfoot>\n            <tbody>\n            <tr style=\"font-size: 16px;background-color: white;height: 50px;cursor: pointer\"  *ngFor=\"let student of students\" (click)=\"selectStudent(student)\" [ngClass]=\"{'green':selectedRow==student.studentID}\">\n              <td>{{student.studentID}}</td>\n              <td>{{student.nameWithInitials}}</td>\n              <td>{{student.email}}</td>\n              <td class=\"text-right\">\n                <a href=\"#\" class=\"btn btn-simple btn-danger btn-icon remove\"><i\n                  class=\"material-icons\">close</i></a>\n              </td>\n            </tr>\n            </tbody>\n          </table>\n          <style>\n            .green{color: green;font-weight: bold}\n          </style>\n        </div>\n      </div><!-- end content-->\n    </div><!--  end card  -->\n  </div>\n</div> <!-- end col-md-12 -->\n<div class=\"row\">\n  <div class=\"col-md-12 col-12\">\n    <div class=\"card\">\n      <form class=\"form-horizontal\" (ngSubmit)=\"saveStudent(frmStudent)\" #frmStudent=\"ngForm\" action=\"\" method=\"post\">\n        <div class=\"card-header card-header-text\" data-background-color=\"rose\">\n          <h4 class=\"card-title\" style=\"font-weight: lighter\">STUDENT DETAILS</h4>\n        </div>\n        <!-- /.card-header -->\n        <div class=\"card-content\">\n          <div class=\"row\">\n            <div class=\"col-sm-12\">\n              <div class=\"card-footer\">\n                <div style=\"font-weight: bold\" *ngIf=\"loginStatus()!=5\">Note:- If you are a new student, the system will\n                  automatically generate a new Student ID.\n                </div>\n                <div style=\"font-weight: bold\" *ngIf=\"loginStatus()==5\">Note:- The browser is temporary saving your data\n                  until you do the payment.\n                </div>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\" *ngIf=\"loginStatus()!=5\">\n            <label class=\"col-sm-2 label-on-left\">Student ID</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"text\" class=\"form-control\" name=\"txtId\" disabled [(ngModel)]=\"student.studentID\">\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Title</label>\n            <div class=\"col-sm-10\">\n              <select class=\"form-control\" data-style=\"select-with-transition\" title=\"Single Select\"\n                      [(ngModel)]=\"student.title\" name=\"txtStudentTitle\" (change)=\"saveToLocalStorage()\">\n                <option selected>Mr</option>\n                <option>Miss</option>\n                <option>Mrs</option>\n              </select>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Name with initials</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input id=\"txtStudentNameInit\" type=\"text\" class=\"form-control\" required=\"true\"\n                       [(ngModel)]=\"student.nameWithInitials\"\n                       name=\"txtStudentNameInit\" (keyup)=\"saveToLocalStorage()\">\n                <div *ngIf=\"inputs[0]\" style=\"color: red;font-weight: bold\">Required</div>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Full Name</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"text\" class=\"form-control\" required=\"true\" [(ngModel)]=\"student.fullName\"\n                       name=\"txtStudentFullName\" (keyup)=\"saveToLocalStorage()\">\n                <div *ngIf=\"inputs[1]\" style=\"color: red;font-weight: bold\">Required</div>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Address</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"text\" class=\"form-control\" required=\"true\" [(ngModel)]=\"student.address\" name=\"txtAddress\"\n                       (keyup)=\"saveToLocalStorage()\">\n                <div *ngIf=\"inputs[2]\" style=\"color: red;font-weight: bold\">Required</div>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Date of birth</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"date\" class=\"form-control\" required=\"true\" [(ngModel)]=\"student.dateOfBirth\"\n                       name=\"txtDateOfBirth\" (change)=\"saveToLocalStorage()\">\n                <div *ngIf=\"inputs[3]\" style=\"color: red;font-weight: bold\">Required</div>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Email</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"email\" class=\"form-control\" [(ngModel)]=\"student.email\" name=\"txtEmailAddress\"\n                       (keyup)=\"saveToLocalStorage()\">\n                <div *ngIf=\"inputs[4]\" style=\"color: red;font-weight: bold\">Required</div>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Telephone</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"text\" class=\"form-control\" required=\"true\" [(ngModel)]=\"student.telephone\"\n                       name=\"txtTelephone\" (keyup)=\"saveToLocalStorage()\">\n                <div *ngIf=\"inputs[5]\" style=\"color: red;font-weight: bold\">Required</div>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Gender</label>\n            <div class=\"col-sm-10 checkbox-radios\">\n              <div class=\"radio\">\n                <label>\n                  <input type=\"radio\" ng-control=\"options\" name=\"optionsRadios\" [(ngModel)]=\"student.gender\"\n                         value=\"Male\" (click)=\"setGender('Male')\">\n                  Male\n                </label>\n              </div>\n              <div class=\"radio\">\n                <label>\n                  <input type=\"radio\" ng-control=\"options\" name=\"optionsRadios\" [(ngModel)]=\"student.gender\"\n                         value=\"Female\" (click)=\"setGender('Female')\">\n                  Female\n                </label>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <div class=\"col-sm-12\" style=\"height: 50px\"></div>\n          </div>\n          <div class=\"row\" style=\"padding-left: 50px\">\n            <div class=\"col-sm-4\"></div>\n            <div class=\"col-sm-4\">\n              <div class=\"card-footer\">\n                <button *ngIf=\"loginStatus()==1\" type=\"submit\" style=\"left: 50%;transform: translateX(-50%)\" class=\"btn btn-fill\">Save / Update Student</button>\n                <button *ngIf=\"loginStatus()!=1\" type=\"submit\" style=\"left: 50%;transform: translateX(-50%)\" class=\"btn btn-fill\">Next to register</button>\n              </div>\n            </div>\n            <div class=\"col-sm-4\">\n              <div class=\"card-footer\">\n                <button type=\"button\" style=\"left: 50%;transform: translateX(-50%)\" class=\"btn btn-fill\" (click)=\"nextPage()\" [disabled]=\"selectedRow==''\">Next</button>\n              </div>\n            </div>\n          </div>\n        </div>\n      </form>\n      <form method=\"POST\" enctype=\"multipart/form-data\" modelAttribute=\"fileBucket\" (ngSubmit)=\"upload()\"\n            #frmUp=\"ngForm\" action=\"\">\n        <input type=\"file\" name=\"file\" multiple=\"multiple\" #fileInput>\n        <div>{{size}}</div>\n        <button type=\"button\" (click)=\"soc()\">Click</button>\n        <button type=\"button\" (click)=\"socc()\">Click</button>\n      </form>\n      <!-- /.card-body -->\n    </div>\n    <!-- /.card -->\n  </div>\n</div>\n"
+module.exports = "<div class=\"row\" *ngIf=\"loginStatus()==1\">\n  <div class=\"col-md-12 col-12\">\n    <div class=\"card\">\n      <div class=\"card-header card-header-icon\" data-background-color=\"purple\">\n        <i class=\"material-icons\">assignment</i>\n      </div>\n\n      <div class=\"card-content\">\n        <h4 class=\"card-title\" style=\"color: #4e4e4e;font-size: 17px\">STUDENT DETAILS</h4>\n        <div class=\"toolbar\">\n          <!--        Here you can write extra buttons/actions for the toolbar              -->\n        </div>\n        <div class=\"material-datatables\">\n          <table class=\"table table-striped table-no-bordered table-hover datatables\" cellspacing=\"0\"\n                 width=\"100%\" style=\"width:100%\">\n            <thead>\n            <tr>\n              <th>Student ID</th>\n              <th>Name With Initials</th>\n              <th>Email</th>\n              <th class=\"disabled-sorting text-right\">Remove</th>\n            </tr>\n            </thead>\n            <tfoot>\n            <tr>\n              <th>Student ID</th>\n              <th>Name With Initials</th>\n              <th>Email</th>\n              <th class=\"text-right\">Remove</th>\n            </tr>\n            </tfoot>\n            <tbody>\n            <tr style=\"font-size: 16px;background-color: white;height: 50px;cursor: pointer\"  *ngFor=\"let student of students\" (click)=\"selectStudent(student)\" [ngClass]=\"{'green':selectedRow==student.studentID}\">\n              <td>{{student.studentID}}</td>\n              <td>{{student.nameWithInitials}}</td>\n              <td>{{student.email}}</td>\n              <td class=\"text-right\">\n                <a href=\"#\" class=\"btn btn-simple btn-danger btn-icon remove\"><i\n                  class=\"material-icons\">close</i></a>\n              </td>\n            </tr>\n            </tbody>\n          </table>\n          <style>\n            .green{color: green;font-weight: bold}\n          </style>\n        </div>\n      </div><!-- end content-->\n    </div><!--  end card  -->\n  </div>\n</div> <!-- end col-md-12 -->\n<div class=\"row\">\n  <div class=\"col-md-12 col-12\">\n    <div class=\"card\">\n      <form class=\"form-horizontal\" (ngSubmit)=\"saveStudent(frmStudent)\" #frmStudent=\"ngForm\" action=\"\" method=\"post\">\n        <div class=\"card-header card-header-text\" data-background-color=\"rose\">\n          <h4 class=\"card-title\" style=\"font-weight: lighter\">STUDENT DETAILS</h4>\n        </div>\n        <!-- /.card-header -->\n        <div class=\"card-content\">\n          <div class=\"row\">\n            <div class=\"col-sm-12\">\n              <div class=\"card-footer\">\n                <div style=\"font-weight: bold\" *ngIf=\"loginStatus()!=5\">Note:- If you are a new student, the system will\n                  automatically generate a new Student ID.\n                </div>\n                <div style=\"font-weight: bold\" *ngIf=\"loginStatus()==5\">Note:- The browser is temporary saving your data\n                  until you do the payment.\n                </div>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\" *ngIf=\"loginStatus()!=5\">\n            <label class=\"col-sm-2 label-on-left\">Student ID</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"text\" class=\"form-control\" name=\"txtId\" disabled [(ngModel)]=\"student.studentID\">\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Title</label>\n            <div class=\"col-sm-10\">\n              <select class=\"form-control\" data-style=\"select-with-transition\" title=\"Single Select\"\n                      [(ngModel)]=\"student.title\" name=\"txtStudentTitle\" (change)=\"saveToLocalStorage()\">\n                <option selected>Mr</option>\n                <option>Miss</option>\n                <option>Mrs</option>\n              </select>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Name with initials</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input id=\"txtStudentNameInit\" type=\"text\" class=\"form-control\" required=\"true\"\n                       [(ngModel)]=\"student.nameWithInitials\"\n                       name=\"txtStudentNameInit\" (keyup)=\"saveToLocalStorage()\">\n                <div *ngIf=\"inputs[0]\" style=\"color: red;font-weight: bold\">Required</div>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Full Name</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"text\" class=\"form-control\" required=\"true\" [(ngModel)]=\"student.fullName\"\n                       name=\"txtStudentFullName\" (keyup)=\"saveToLocalStorage()\">\n                <div *ngIf=\"inputs[1]\" style=\"color: red;font-weight: bold\">Required</div>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Address</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"text\" class=\"form-control\" required=\"true\" [(ngModel)]=\"student.address\" name=\"txtAddress\"\n                       (keyup)=\"saveToLocalStorage()\">\n                <div *ngIf=\"inputs[2]\" style=\"color: red;font-weight: bold\">Required</div>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Date of birth</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"date\" class=\"form-control\" required=\"true\" [(ngModel)]=\"student.dateOfBirth\"\n                       name=\"txtDateOfBirth\" (change)=\"saveToLocalStorage()\">\n                <div *ngIf=\"inputs[3]\" style=\"color: red;font-weight: bold\">Required</div>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Email</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"email\" class=\"form-control\" [(ngModel)]=\"student.email\" name=\"txtEmailAddress\"\n                       (keyup)=\"saveToLocalStorage()\">\n                <div *ngIf=\"inputs[4]\" style=\"color: red;font-weight: bold\">Required</div>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Telephone</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"text\" class=\"form-control\" required=\"true\" [(ngModel)]=\"student.telephone\"\n                       name=\"txtTelephone\" (keyup)=\"saveToLocalStorage()\">\n                <div *ngIf=\"inputs[5]\" style=\"color: red;font-weight: bold\">Required</div>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Gender</label>\n            <div class=\"col-sm-10 checkbox-radios\">\n              <div class=\"radio\">\n                <label>\n                  <input type=\"radio\" ng-control=\"options\" name=\"optionsRadios\" [(ngModel)]=\"student.gender\"\n                         value=\"Male\" (click)=\"setGender('Male')\">\n                  Male\n                </label>\n              </div>\n              <div class=\"radio\">\n                <label>\n                  <input type=\"radio\" ng-control=\"options\" name=\"optionsRadios\" [(ngModel)]=\"student.gender\"\n                         value=\"Female\" (click)=\"setGender('Female')\">\n                  Female\n                </label>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <div class=\"col-sm-12\" style=\"height: 50px\"></div>\n          </div>\n          <div class=\"row\" style=\"padding-left: 50px\">\n            <div class=\"col-sm-4\"></div>\n            <div class=\"col-sm-4\">\n              <div class=\"card-footer\">\n                <button *ngIf=\"loginStatus()==1\" type=\"submit\" style=\"left: 50%;transform: translateX(-50%)\" class=\"btn btn-fill\">Save / Update Student</button>\n                <button *ngIf=\"loginStatus()!=1\" type=\"submit\" style=\"left: 50%;transform: translateX(-50%)\" class=\"btn btn-fill\">Next to register</button>\n              </div>\n            </div>\n            <div class=\"col-sm-4\">\n              <div class=\"card-footer\">\n                <button type=\"button\" style=\"left: 50%;transform: translateX(-50%)\" class=\"btn btn-fill\" (click)=\"nextPage()\" [disabled]=\"selectedRow==''\">Next</button>\n              </div>\n            </div>\n          </div>\n        </div>\n      </form>\n      <form method=\"POST\" enctype=\"multipart/form-data\" modelAttribute=\"fileBucket\" (ngSubmit)=\"upload()\"\n            #frmUp=\"ngForm\" action=\"\">\n        <input type=\"file\" name=\"file\" multiple=\"multiple\" #fileInput>\n        <div>{{size}}</div>\n        <button type=\"submit\">Click</button>\n      </form>\n      <!-- /.card-body -->\n    </div>\n    <!-- /.card -->\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -2936,12 +2946,6 @@ var StudentDetailsComponent = /** @class */ (function () {
             this.fileService.uploadFile(formData);
         }
     };
-    StudentDetailsComponent.prototype.soc = function () {
-        this.so.initSocket();
-    };
-    StudentDetailsComponent.prototype.socc = function () {
-        this.so.send();
-    };
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])('fileInput'),
         __metadata("design:type", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"])
@@ -3017,22 +3021,17 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 var StudentRegComponent = /** @class */ (function () {
     function StudentRegComponent(renderer, router, datePipe, wizardColor) {
+        var _this = this;
         this.renderer = renderer;
         this.router = router;
         this.datePipe = datePipe;
         this.wizardColor = wizardColor;
+        wizardColor.studentReg.subscribe(function (value) {
+            _this.setElementsGreen(value);
+        });
     }
     StudentRegComponent.prototype.ngOnInit = function () {
         this.accountType = _additional_classes_login_status__WEBPACK_IMPORTED_MODULE_4__["LoginStatus"].getLoginStatus();
-    };
-    StudentRegComponent.prototype.ngAfterViewInit = function () {
-        var _this = this;
-        this.router.events.subscribe(function (val) {
-            if (val instanceof _angular_router__WEBPACK_IMPORTED_MODULE_1__["NavigationEnd"]) {
-                _this.elementStudent = _this.wizardColor.getStudentWizardGreen();
-                _this.setElementsGreen(_this.elementStudent);
-            }
-        });
     };
     StudentRegComponent.prototype.setElementsGreen = function (j) {
         var number = 5;
@@ -4160,9 +4159,9 @@ __webpack_require__.r(__webpack_exports__);
 // The list of file replacements can be found in `angular.json`.
 var environment = {
     production: false,
-    backend_url: 'http://imalkag.ddns.net:8080'
+    // backend_url: 'http://imalkag.ddns.net:8080'
     // backend_url: '111.223.139.191:8080'
-    // backend_url: 'http://localhost:8080'
+    backend_url: 'http://localhost:8080'
 };
 /*
  * In development mode, to ignore zone related error stack frames such as
