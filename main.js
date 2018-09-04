@@ -1061,6 +1061,9 @@ var SocketService = /** @class */ (function () {
     SocketService.prototype.send = function () {
         this.stompClient.send("/app/hello2");
     };
+    SocketService.prototype.sendOnlineMessage = function () {
+        this.stompClient.send("/app/online");
+    };
     SocketService.prototype.sendOfflineMessage = function () {
         this.stompClient.send("/app/offline");
     };
@@ -1507,6 +1510,7 @@ var DashboardComponent = /** @class */ (function () {
     }
     DashboardComponent.prototype.ngOnInit = function () {
         // loadMaterials();
+        this.socketService.sendOnlineMessage();
     };
     DashboardComponent.prototype.loginStatus = function () {
         return _additional_classes_login_status__WEBPACK_IMPORTED_MODULE_5__["LoginStatus"].getLoginStatus();
