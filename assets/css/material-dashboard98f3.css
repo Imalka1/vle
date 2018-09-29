@@ -6020,7 +6020,7 @@ h2.title {
 
 .sidebar[data-background-color="black"] .sidebar-background:after {
   background: #000;
-  opacity: .75;
+  opacity: .7;
 }
 
 .sidebar[data-background-color="white"]:after, .sidebar[data-background-color="white"]:before {
