@@ -21,7 +21,7 @@ a:hover {
 }
 
 .text-primary {
-  color: #fed136 !important
+  color: #f6c837 !important
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -171,7 +171,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: #fff;
-  background-image: url(../img/dashboard/image.jpg);
+  background-image: url(../img/dashboard/image-5.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
