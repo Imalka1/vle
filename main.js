@@ -35,26 +35,27 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppRoutingModule", function() { return AppRoutingModule; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _views_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./views/dashboard/dashboard.component */ "./src/app/views/dashboard/dashboard.component.ts");
-/* harmony import */ var _views_main_main_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./views/main/main.component */ "./src/app/views/main/main.component.ts");
+/* harmony import */ var _views_main_main_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./views/main/main.component */ "./src/app/views/main/main.component.ts");
+/* harmony import */ var _views_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./views/dashboard/dashboard.component */ "./src/app/views/dashboard/dashboard.component.ts");
 /* harmony import */ var _views_student_reg_student_reg_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./views/student-reg/student-reg.component */ "./src/app/views/student-reg/student-reg.component.ts");
 /* harmony import */ var _views_student_reg_student_details_student_details_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./views/student-reg/student-details/student-details.component */ "./src/app/views/student-reg/student-details/student-details.component.ts");
 /* harmony import */ var _views_student_reg_student_registrations_student_registrations_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./views/student-reg/student-registrations/student-registrations.component */ "./src/app/views/student-reg/student-registrations/student-registrations.component.ts");
-/* harmony import */ var _views_student_reg_semester_registration_semester_registration_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./views/student-reg/semester-registration/semester-registration.component */ "./src/app/views/student-reg/semester-registration/semester-registration.component.ts");
-/* harmony import */ var _views_student_reg_semester_payments_semester_payments_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./views/student-reg/semester-payments/semester-payments.component */ "./src/app/views/student-reg/semester-payments/semester-payments.component.ts");
-/* harmony import */ var _views_lecturer_subjects_registrations_lecturer_subjects_registrations_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./views/lecturer-subjects-registrations/lecturer-subjects-registrations.component */ "./src/app/views/lecturer-subjects-registrations/lecturer-subjects-registrations.component.ts");
-/* harmony import */ var _views_lecturer_subjects_registrations_lecturer_details_lecturer_details_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./views/lecturer-subjects-registrations/lecturer-details/lecturer-details.component */ "./src/app/views/lecturer-subjects-registrations/lecturer-details/lecturer-details.component.ts");
-/* harmony import */ var _views_lecturer_subjects_registrations_subjects_details_subjects_details_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./views/lecturer-subjects-registrations/subjects-details/subjects-details.component */ "./src/app/views/lecturer-subjects-registrations/subjects-details/subjects-details.component.ts");
-/* harmony import */ var _views_login_screen_login_login_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./views/login-screen/login/login.component */ "./src/app/views/login-screen/login/login.component.ts");
-/* harmony import */ var _views_login_screen_lock_lock_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./views/login-screen/lock/lock.component */ "./src/app/views/login-screen/lock/lock.component.ts");
-/* harmony import */ var _views_login_screen_log_screen_log_screen_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./views/login-screen/log-screen/log-screen.component */ "./src/app/views/login-screen/log-screen/log-screen.component.ts");
-/* harmony import */ var _guards_login_guard__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./guards/login.guard */ "./src/app/guards/login.guard.ts");
-/* harmony import */ var _guards_login_screen_guard__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./guards/login-screen.guard */ "./src/app/guards/login-screen.guard.ts");
-/* harmony import */ var _guards_lock_screen_guard__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./guards/lock-screen.guard */ "./src/app/guards/lock-screen.guard.ts");
-/* harmony import */ var _views_login_screen_email_verify_email_verify_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./views/login-screen/email-verify/email-verify.component */ "./src/app/views/login-screen/email-verify/email-verify.component.ts");
-/* harmony import */ var _views_login_screen_password_reset_password_reset_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./views/login-screen/password-reset/password-reset.component */ "./src/app/views/login-screen/password-reset/password-reset.component.ts");
-/* harmony import */ var _guards_password_reset_guard__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./guards/password-reset.guard */ "./src/app/guards/password-reset.guard.ts");
-/* harmony import */ var _views_student_reg_student_summary_student_summary_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./views/student-reg/student-summary/student-summary.component */ "./src/app/views/student-reg/student-summary/student-summary.component.ts");
+/* harmony import */ var _views_student_reg_semester_payments_semester_payments_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./views/student-reg/semester-payments/semester-payments.component */ "./src/app/views/student-reg/semester-payments/semester-payments.component.ts");
+/* harmony import */ var _views_student_reg_semester_registration_semester_registration_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./views/student-reg/semester-registration/semester-registration.component */ "./src/app/views/student-reg/semester-registration/semester-registration.component.ts");
+/* harmony import */ var _views_student_reg_student_summary_student_summary_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./views/student-reg/student-summary/student-summary.component */ "./src/app/views/student-reg/student-summary/student-summary.component.ts");
+/* harmony import */ var _views_lecturer_subjects_registrations_lecturer_subjects_registrations_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./views/lecturer-subjects-registrations/lecturer-subjects-registrations.component */ "./src/app/views/lecturer-subjects-registrations/lecturer-subjects-registrations.component.ts");
+/* harmony import */ var _views_lecturer_subjects_registrations_lecturer_details_lecturer_details_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./views/lecturer-subjects-registrations/lecturer-details/lecturer-details.component */ "./src/app/views/lecturer-subjects-registrations/lecturer-details/lecturer-details.component.ts");
+/* harmony import */ var _views_lecturer_subjects_registrations_subjects_details_subjects_details_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./views/lecturer-subjects-registrations/subjects-details/subjects-details.component */ "./src/app/views/lecturer-subjects-registrations/subjects-details/subjects-details.component.ts");
+/* harmony import */ var _views_login_screen_login_login_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./views/login-screen/login/login.component */ "./src/app/views/login-screen/login/login.component.ts");
+/* harmony import */ var _views_login_screen_lock_lock_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./views/login-screen/lock/lock.component */ "./src/app/views/login-screen/lock/lock.component.ts");
+/* harmony import */ var _views_login_screen_email_verify_email_verify_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./views/login-screen/email-verify/email-verify.component */ "./src/app/views/login-screen/email-verify/email-verify.component.ts");
+/* harmony import */ var _views_login_screen_password_reset_password_reset_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./views/login-screen/password-reset/password-reset.component */ "./src/app/views/login-screen/password-reset/password-reset.component.ts");
+/* harmony import */ var _views_login_screen_login_screen_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./views/login-screen/login-screen.component */ "./src/app/views/login-screen/login-screen.component.ts");
+/* harmony import */ var _views_login_screen_login_login_guard__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./views/login-screen/login/login.guard */ "./src/app/views/login-screen/login/login.guard.ts");
+/* harmony import */ var _views_login_screen_login_screen_guard__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./views/login-screen/login-screen.guard */ "./src/app/views/login-screen/login-screen.guard.ts");
+/* harmony import */ var _views_login_screen_lock_lock_guard__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./views/login-screen/lock/lock.guard */ "./src/app/views/login-screen/lock/lock.guard.ts");
+/* harmony import */ var _views_login_screen_password_reset_password_reset_guard__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./views/login-screen/password-reset/password-reset.guard */ "./src/app/views/login-screen/password-reset/password-reset.guard.ts");
+/* harmony import */ var _views_root_root_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./views/root/root.component */ "./src/app/views/root/root.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -83,41 +84,47 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 
+
 var appRoutes = [
     {
-        path: "main", component: _views_main_main_component__WEBPACK_IMPORTED_MODULE_3__["MainComponent"],
+        path: "root", component: _views_root_root_component__WEBPACK_IMPORTED_MODULE_22__["RootComponent"],
         children: [
-            { path: "dashboard", component: _views_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_2__["DashboardComponent"] },
+            { path: "dashboard", component: _views_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_3__["DashboardComponent"] },
             {
-                path: "student-reg", component: _views_student_reg_student_reg_component__WEBPACK_IMPORTED_MODULE_4__["StudentRegComponent"],
+                path: "main", component: _views_main_main_component__WEBPACK_IMPORTED_MODULE_2__["MainComponent"],
                 children: [
-                    { path: "student-details", component: _views_student_reg_student_details_student_details_component__WEBPACK_IMPORTED_MODULE_5__["StudentDetailsComponent"] },
-                    { path: "student-registrations", component: _views_student_reg_student_registrations_student_registrations_component__WEBPACK_IMPORTED_MODULE_6__["StudentRegistrationsComponent"] },
-                    { path: "semester-registrations", component: _views_student_reg_semester_registration_semester_registration_component__WEBPACK_IMPORTED_MODULE_7__["SemesterRegistrationComponent"], canActivate: [_guards_login_guard__WEBPACK_IMPORTED_MODULE_15__["LoginGuard"]] },
-                    { path: "semester-payments", component: _views_student_reg_semester_payments_semester_payments_component__WEBPACK_IMPORTED_MODULE_8__["SemesterPaymentsComponent"] },
-                    { path: "student-summary", component: _views_student_reg_student_summary_student_summary_component__WEBPACK_IMPORTED_MODULE_21__["StudentSummaryComponent"] },
+                    {
+                        path: "student-reg", component: _views_student_reg_student_reg_component__WEBPACK_IMPORTED_MODULE_4__["StudentRegComponent"],
+                        children: [
+                            { path: "student-details", component: _views_student_reg_student_details_student_details_component__WEBPACK_IMPORTED_MODULE_5__["StudentDetailsComponent"] },
+                            { path: "student-registrations", component: _views_student_reg_student_registrations_student_registrations_component__WEBPACK_IMPORTED_MODULE_6__["StudentRegistrationsComponent"] },
+                            { path: "semester-registrations", component: _views_student_reg_semester_registration_semester_registration_component__WEBPACK_IMPORTED_MODULE_8__["SemesterRegistrationComponent"], canActivate: [_views_login_screen_login_login_guard__WEBPACK_IMPORTED_MODULE_18__["LoginGuard"]] },
+                            { path: "semester-payments", component: _views_student_reg_semester_payments_semester_payments_component__WEBPACK_IMPORTED_MODULE_7__["SemesterPaymentsComponent"] },
+                            { path: "student-summary", component: _views_student_reg_student_summary_student_summary_component__WEBPACK_IMPORTED_MODULE_9__["StudentSummaryComponent"] },
+                        ]
+                    },
+                    {
+                        path: "lecturers-subjects", component: _views_lecturer_subjects_registrations_lecturer_subjects_registrations_component__WEBPACK_IMPORTED_MODULE_10__["LecturerSubjectsRegistrationsComponent"], canActivate: [_views_login_screen_login_login_guard__WEBPACK_IMPORTED_MODULE_18__["LoginGuard"]],
+                        children: [
+                            { path: "lecturer-details", component: _views_lecturer_subjects_registrations_lecturer_details_lecturer_details_component__WEBPACK_IMPORTED_MODULE_11__["LecturerDetailsComponent"] },
+                            { path: "subject-details", component: _views_lecturer_subjects_registrations_subjects_details_subjects_details_component__WEBPACK_IMPORTED_MODULE_12__["SubjectsDetailsComponent"] },
+                        ]
+                    },
                 ]
             },
             {
-                path: "lecturers-subjects", component: _views_lecturer_subjects_registrations_lecturer_subjects_registrations_component__WEBPACK_IMPORTED_MODULE_9__["LecturerSubjectsRegistrationsComponent"], canActivate: [_guards_login_guard__WEBPACK_IMPORTED_MODULE_15__["LoginGuard"]],
+                path: "log-screen", component: _views_login_screen_login_screen_component__WEBPACK_IMPORTED_MODULE_17__["LoginScreenComponent"],
                 children: [
-                    { path: "lecturer-details", component: _views_lecturer_subjects_registrations_lecturer_details_lecturer_details_component__WEBPACK_IMPORTED_MODULE_10__["LecturerDetailsComponent"] },
-                    { path: "subject-details", component: _views_lecturer_subjects_registrations_subjects_details_subjects_details_component__WEBPACK_IMPORTED_MODULE_11__["SubjectsDetailsComponent"] },
+                    { path: "login", component: _views_login_screen_login_login_component__WEBPACK_IMPORTED_MODULE_13__["LoginComponent"], canActivate: [_views_login_screen_login_screen_guard__WEBPACK_IMPORTED_MODULE_19__["LoginScreenGuard"]] },
+                    { path: "lock", component: _views_login_screen_lock_lock_component__WEBPACK_IMPORTED_MODULE_14__["LockComponent"], canActivate: [_views_login_screen_lock_lock_guard__WEBPACK_IMPORTED_MODULE_20__["LockGuard"]] },
+                    { path: "email-verify", component: _views_login_screen_email_verify_email_verify_component__WEBPACK_IMPORTED_MODULE_15__["EmailVerifyComponent"] },
+                    { path: "password-reset", component: _views_login_screen_password_reset_password_reset_component__WEBPACK_IMPORTED_MODULE_16__["PasswordResetComponent"], canActivate: [_views_login_screen_password_reset_password_reset_guard__WEBPACK_IMPORTED_MODULE_21__["PasswordResetGuard"]] }
                 ]
             },
         ]
     },
-    {
-        path: "log-screen", component: _views_login_screen_log_screen_log_screen_component__WEBPACK_IMPORTED_MODULE_14__["LogScreenComponent"],
-        children: [
-            { path: "login", component: _views_login_screen_login_login_component__WEBPACK_IMPORTED_MODULE_12__["LoginComponent"], canActivate: [_guards_login_screen_guard__WEBPACK_IMPORTED_MODULE_16__["LoginScreenGuard"]] },
-            { path: "lock", component: _views_login_screen_lock_lock_component__WEBPACK_IMPORTED_MODULE_13__["LockComponent"], canActivate: [_guards_lock_screen_guard__WEBPACK_IMPORTED_MODULE_17__["LockScreenGuard"]] },
-            { path: "email-verify", component: _views_login_screen_email_verify_email_verify_component__WEBPACK_IMPORTED_MODULE_18__["EmailVerifyComponent"] },
-            { path: "password-reset", component: _views_login_screen_password_reset_password_reset_component__WEBPACK_IMPORTED_MODULE_19__["PasswordResetComponent"], canActivate: [_guards_password_reset_guard__WEBPACK_IMPORTED_MODULE_20__["PasswordResetGuard"]] }
-        ]
-    },
-    { path: "", pathMatch: "full", redirectTo: "/main/dashboard" },
-    { path: "main", pathMatch: "full", redirectTo: "/main/dashboard" }
+    { path: "", pathMatch: "full", redirectTo: "/root/dashboard" },
+    { path: "root", pathMatch: "full", redirectTo: "/root/dashboard" }
 ];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
@@ -125,11 +132,13 @@ var AppRoutingModule = /** @class */ (function () {
     AppRoutingModule = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
             imports: [
+                // CommonModule,
                 _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"].forRoot(appRoutes, { useHash: true })
             ],
             exports: [
                 _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"]
             ],
+            declarations: []
         })
     ], AppRoutingModule);
     return AppRoutingModule;
@@ -210,43 +219,43 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
-/* harmony import */ var _views_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./views/dashboard/dashboard.component */ "./src/app/views/dashboard/dashboard.component.ts");
-/* harmony import */ var _views_main_main_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./views/main/main.component */ "./src/app/views/main/main.component.ts");
-/* harmony import */ var _views_student_reg_student_reg_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./views/student-reg/student-reg.component */ "./src/app/views/student-reg/student-reg.component.ts");
-/* harmony import */ var _views_student_reg_student_details_student_details_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./views/student-reg/student-details/student-details.component */ "./src/app/views/student-reg/student-details/student-details.component.ts");
-/* harmony import */ var _views_student_reg_student_registrations_student_registrations_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./views/student-reg/student-registrations/student-registrations.component */ "./src/app/views/student-reg/student-registrations/student-registrations.component.ts");
-/* harmony import */ var _services_student_details_service__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./services/student-details.service */ "./src/app/services/student-details.service.ts");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
-/* harmony import */ var _views_student_reg_semester_registration_semester_registration_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./views/student-reg/semester-registration/semester-registration.component */ "./src/app/views/student-reg/semester-registration/semester-registration.component.ts");
-/* harmony import */ var _views_student_reg_semester_payments_semester_payments_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./views/student-reg/semester-payments/semester-payments.component */ "./src/app/views/student-reg/semester-payments/semester-payments.component.ts");
-/* harmony import */ var _views_lecturer_subjects_registrations_lecturer_subjects_registrations_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./views/lecturer-subjects-registrations/lecturer-subjects-registrations.component */ "./src/app/views/lecturer-subjects-registrations/lecturer-subjects-registrations.component.ts");
+/* harmony import */ var _views_student_reg_student_summary_student_summary_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./views/student-reg/student-summary/student-summary.component */ "./src/app/views/student-reg/student-summary/student-summary.component.ts");
+/* harmony import */ var _views_student_reg_student_settings_student_settings_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./views/student-reg/student-settings/student-settings.component */ "./src/app/views/student-reg/student-settings/student-settings.component.ts");
+/* harmony import */ var _views_student_reg_student_registrations_student_registrations_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./views/student-reg/student-registrations/student-registrations.component */ "./src/app/views/student-reg/student-registrations/student-registrations.component.ts");
+/* harmony import */ var _views_student_reg_student_details_student_details_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./views/student-reg/student-details/student-details.component */ "./src/app/views/student-reg/student-details/student-details.component.ts");
+/* harmony import */ var _views_student_reg_semester_registration_semester_registration_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./views/student-reg/semester-registration/semester-registration.component */ "./src/app/views/student-reg/semester-registration/semester-registration.component.ts");
+/* harmony import */ var _views_student_reg_semester_payments_semester_payments_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./views/student-reg/semester-payments/semester-payments.component */ "./src/app/views/student-reg/semester-payments/semester-payments.component.ts");
+/* harmony import */ var _views_main_main_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./views/main/main.component */ "./src/app/views/main/main.component.ts");
+/* harmony import */ var _views_login_screen_password_reset_password_reset_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./views/login-screen/password-reset/password-reset.component */ "./src/app/views/login-screen/password-reset/password-reset.component.ts");
+/* harmony import */ var _views_login_screen_login_login_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./views/login-screen/login/login.component */ "./src/app/views/login-screen/login/login.component.ts");
+/* harmony import */ var _views_login_screen_lock_lock_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./views/login-screen/lock/lock.component */ "./src/app/views/login-screen/lock/lock.component.ts");
+/* harmony import */ var _views_login_screen_email_verify_email_verify_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./views/login-screen/email-verify/email-verify.component */ "./src/app/views/login-screen/email-verify/email-verify.component.ts");
 /* harmony import */ var _views_lecturer_subjects_registrations_lecturer_details_lecturer_details_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./views/lecturer-subjects-registrations/lecturer-details/lecturer-details.component */ "./src/app/views/lecturer-subjects-registrations/lecturer-details/lecturer-details.component.ts");
 /* harmony import */ var _views_lecturer_subjects_registrations_subjects_details_subjects_details_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./views/lecturer-subjects-registrations/subjects-details/subjects-details.component */ "./src/app/views/lecturer-subjects-registrations/subjects-details/subjects-details.component.ts");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
-/* harmony import */ var _views_dashboard_events_calendar_events_calendar_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./views/dashboard/events-calendar/events-calendar.component */ "./src/app/views/dashboard/events-calendar/events-calendar.component.ts");
-/* harmony import */ var ngx_cookie_service__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ngx-cookie-service */ "./node_modules/ngx-cookie-service/index.js");
-/* harmony import */ var _views_login_screen_login_login_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./views/login-screen/login/login.component */ "./src/app/views/login-screen/login/login.component.ts");
-/* harmony import */ var _views_login_screen_lock_lock_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./views/login-screen/lock/lock.component */ "./src/app/views/login-screen/lock/lock.component.ts");
-/* harmony import */ var _services_login_service__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./services/login.service */ "./src/app/services/login.service.ts");
-/* harmony import */ var _views_login_screen_log_screen_log_screen_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./views/login-screen/log-screen/log-screen.component */ "./src/app/views/login-screen/log-screen/log-screen.component.ts");
-/* harmony import */ var _guards_login_guard__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./guards/login.guard */ "./src/app/guards/login.guard.ts");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
-/* harmony import */ var _guards_login_screen_guard__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./guards/login-screen.guard */ "./src/app/guards/login-screen.guard.ts");
-/* harmony import */ var _guards_lock_screen_guard__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./guards/lock-screen.guard */ "./src/app/guards/lock-screen.guard.ts");
-/* harmony import */ var _views_login_screen_password_reset_password_reset_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./views/login-screen/password-reset/password-reset.component */ "./src/app/views/login-screen/password-reset/password-reset.component.ts");
-/* harmony import */ var _views_login_screen_email_verify_email_verify_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./views/login-screen/email-verify/email-verify.component */ "./src/app/views/login-screen/email-verify/email-verify.component.ts");
-/* harmony import */ var _guards_password_reset_guard__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./guards/password-reset.guard */ "./src/app/guards/password-reset.guard.ts");
-/* harmony import */ var _services_student_registration_service__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./services/student-registration.service */ "./src/app/services/student-registration.service.ts");
-/* harmony import */ var _services_faculty_service__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./services/faculty.service */ "./src/app/services/faculty.service.ts");
-/* harmony import */ var _services_intake_service__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./services/intake.service */ "./src/app/services/intake.service.ts");
-/* harmony import */ var _services_file_service_service__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./services/file-service.service */ "./src/app/services/file-service.service.ts");
-/* harmony import */ var _services_degree_service__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./services/degree.service */ "./src/app/services/degree.service.ts");
-/* harmony import */ var _views_student_reg_student_summary_student_summary_component__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./views/student-reg/student-summary/student-summary.component */ "./src/app/views/student-reg/student-summary/student-summary.component.ts");
-/* harmony import */ var _views_student_reg_student_settings_student_settings_component__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./views/student-reg/student-settings/student-settings.component */ "./src/app/views/student-reg/student-settings/student-settings.component.ts");
-/* harmony import */ var _views_chat_room_chat_room_component__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./views/chat-room/chat-room.component */ "./src/app/views/chat-room/chat-room.component.ts");
-/* harmony import */ var _services_wizard_color_service__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./services/wizard-color.service */ "./src/app/services/wizard-color.service.ts");
-/* harmony import */ var _services_socket_service__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./services/socket.service */ "./src/app/services/socket.service.ts");
+/* harmony import */ var _views_lecturer_subjects_registrations_lecturer_subjects_registrations_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./views/lecturer-subjects-registrations/lecturer-subjects-registrations.component */ "./src/app/views/lecturer-subjects-registrations/lecturer-subjects-registrations.component.ts");
+/* harmony import */ var _views_student_reg_student_reg_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./views/student-reg/student-reg.component */ "./src/app/views/student-reg/student-reg.component.ts");
+/* harmony import */ var _views_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./views/dashboard/dashboard.component */ "./src/app/views/dashboard/dashboard.component.ts");
+/* harmony import */ var _views_dashboard_events_calendar_events_calendar_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./views/dashboard/events-calendar/events-calendar.component */ "./src/app/views/dashboard/events-calendar/events-calendar.component.ts");
+/* harmony import */ var _views_chat_room_chat_room_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./views/chat-room/chat-room.component */ "./src/app/views/chat-room/chat-room.component.ts");
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _views_login_screen_login_screen_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./views/login-screen/login-screen.component */ "./src/app/views/login-screen/login-screen.component.ts");
+/* harmony import */ var _views_login_screen_login_login_guard__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./views/login-screen/login/login.guard */ "./src/app/views/login-screen/login/login.guard.ts");
+/* harmony import */ var _views_login_screen_login_screen_guard__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./views/login-screen/login-screen.guard */ "./src/app/views/login-screen/login-screen.guard.ts");
+/* harmony import */ var _views_login_screen_password_reset_password_reset_guard__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./views/login-screen/password-reset/password-reset.guard */ "./src/app/views/login-screen/password-reset/password-reset.guard.ts");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
+/* harmony import */ var _views_login_screen_lock_lock_guard__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./views/login-screen/lock/lock.guard */ "./src/app/views/login-screen/lock/lock.guard.ts");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var _services_common_wizard_color_wizard_color_service__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./services/common/wizard-color/wizard-color.service */ "./src/app/services/common/wizard-color/wizard-color.service.ts");
+/* harmony import */ var _services_login_screen_login_login_service__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./services/login-screen/login/login.service */ "./src/app/services/login-screen/login/login.service.ts");
+/* harmony import */ var _services_student_reg_student_details_student_details_service__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./services/student-reg/student-details/student-details.service */ "./src/app/services/student-reg/student-details/student-details.service.ts");
+/* harmony import */ var _services_student_reg_student_registration_student_registration_service__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./services/student-reg/student-registration/student-registration.service */ "./src/app/services/student-reg/student-registration/student-registration.service.ts");
+/* harmony import */ var _services_common_file_file_service__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./services/common/file/file.service */ "./src/app/services/common/file/file.service.ts");
+/* harmony import */ var _services_common_degree_degree_service__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./services/common/degree/degree.service */ "./src/app/services/common/degree/degree.service.ts");
+/* harmony import */ var _services_common_faculty_faculty_service__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./services/common/faculty/faculty.service */ "./src/app/services/common/faculty/faculty.service.ts");
+/* harmony import */ var _services_common_intake_intake_service__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./services/common/intake/intake.service */ "./src/app/services/common/intake/intake.service.ts");
+/* harmony import */ var _services_common_socket_socket_service__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./services/common/socket/socket.service */ "./src/app/services/common/socket/socket.service.ts");
+/* harmony import */ var _views_root_root_component__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./views/root/root.component */ "./src/app/views/root/root.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -300,54 +309,91 @@ var AppModule = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
             declarations: [
                 _app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"],
-                _views_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_4__["DashboardComponent"],
-                _views_main_main_component__WEBPACK_IMPORTED_MODULE_5__["MainComponent"],
-                _views_student_reg_student_reg_component__WEBPACK_IMPORTED_MODULE_6__["StudentRegComponent"],
-                _views_student_reg_student_details_student_details_component__WEBPACK_IMPORTED_MODULE_7__["StudentDetailsComponent"],
-                _views_student_reg_student_registrations_student_registrations_component__WEBPACK_IMPORTED_MODULE_8__["StudentRegistrationsComponent"],
-                _views_student_reg_semester_registration_semester_registration_component__WEBPACK_IMPORTED_MODULE_11__["SemesterRegistrationComponent"],
-                _views_student_reg_semester_payments_semester_payments_component__WEBPACK_IMPORTED_MODULE_12__["SemesterPaymentsComponent"],
-                _views_lecturer_subjects_registrations_lecturer_subjects_registrations_component__WEBPACK_IMPORTED_MODULE_13__["LecturerSubjectsRegistrationsComponent"],
+                _views_student_reg_student_summary_student_summary_component__WEBPACK_IMPORTED_MODULE_3__["StudentSummaryComponent"],
+                _views_student_reg_student_settings_student_settings_component__WEBPACK_IMPORTED_MODULE_4__["StudentSettingsComponent"],
+                _views_student_reg_student_registrations_student_registrations_component__WEBPACK_IMPORTED_MODULE_5__["StudentRegistrationsComponent"],
+                _views_student_reg_student_details_student_details_component__WEBPACK_IMPORTED_MODULE_6__["StudentDetailsComponent"],
+                _views_student_reg_semester_registration_semester_registration_component__WEBPACK_IMPORTED_MODULE_7__["SemesterRegistrationComponent"],
+                _views_student_reg_semester_payments_semester_payments_component__WEBPACK_IMPORTED_MODULE_8__["SemesterPaymentsComponent"],
+                _views_main_main_component__WEBPACK_IMPORTED_MODULE_9__["MainComponent"],
+                _views_login_screen_password_reset_password_reset_component__WEBPACK_IMPORTED_MODULE_10__["PasswordResetComponent"],
+                _views_login_screen_login_login_component__WEBPACK_IMPORTED_MODULE_11__["LoginComponent"],
+                _views_login_screen_lock_lock_component__WEBPACK_IMPORTED_MODULE_12__["LockComponent"],
+                _views_login_screen_email_verify_email_verify_component__WEBPACK_IMPORTED_MODULE_13__["EmailVerifyComponent"],
                 _views_lecturer_subjects_registrations_lecturer_details_lecturer_details_component__WEBPACK_IMPORTED_MODULE_14__["LecturerDetailsComponent"],
                 _views_lecturer_subjects_registrations_subjects_details_subjects_details_component__WEBPACK_IMPORTED_MODULE_15__["SubjectsDetailsComponent"],
-                _views_dashboard_events_calendar_events_calendar_component__WEBPACK_IMPORTED_MODULE_17__["EventsCalendarComponent"],
-                _views_login_screen_login_login_component__WEBPACK_IMPORTED_MODULE_19__["LoginComponent"],
-                _views_login_screen_lock_lock_component__WEBPACK_IMPORTED_MODULE_20__["LockComponent"],
-                _views_login_screen_log_screen_log_screen_component__WEBPACK_IMPORTED_MODULE_22__["LogScreenComponent"],
-                _views_login_screen_password_reset_password_reset_component__WEBPACK_IMPORTED_MODULE_27__["PasswordResetComponent"],
-                _views_login_screen_email_verify_email_verify_component__WEBPACK_IMPORTED_MODULE_28__["EmailVerifyComponent"],
-                _views_student_reg_student_summary_student_summary_component__WEBPACK_IMPORTED_MODULE_35__["StudentSummaryComponent"],
-                _views_student_reg_student_settings_student_settings_component__WEBPACK_IMPORTED_MODULE_36__["StudentSettingsComponent"],
-                _views_chat_room_chat_room_component__WEBPACK_IMPORTED_MODULE_37__["ChatRoomComponent"]
+                _views_lecturer_subjects_registrations_lecturer_subjects_registrations_component__WEBPACK_IMPORTED_MODULE_16__["LecturerSubjectsRegistrationsComponent"],
+                _views_student_reg_student_reg_component__WEBPACK_IMPORTED_MODULE_17__["StudentRegComponent"],
+                _views_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_18__["DashboardComponent"],
+                _views_dashboard_events_calendar_events_calendar_component__WEBPACK_IMPORTED_MODULE_19__["EventsCalendarComponent"],
+                _views_chat_room_chat_room_component__WEBPACK_IMPORTED_MODULE_20__["ChatRoomComponent"],
+                _views_login_screen_login_screen_component__WEBPACK_IMPORTED_MODULE_23__["LoginScreenComponent"],
+                _views_root_root_component__WEBPACK_IMPORTED_MODULE_39__["RootComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
-                _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
-                _angular_common_http__WEBPACK_IMPORTED_MODULE_10__["HttpClientModule"],
-                _angular_forms__WEBPACK_IMPORTED_MODULE_24__["FormsModule"],
-                _angular_forms__WEBPACK_IMPORTED_MODULE_24__["ReactiveFormsModule"]
+                _angular_common_http__WEBPACK_IMPORTED_MODULE_22__["HttpClientModule"],
+                _app_routing_module__WEBPACK_IMPORTED_MODULE_21__["AppRoutingModule"],
+                _angular_forms__WEBPACK_IMPORTED_MODULE_29__["FormsModule"],
             ],
             providers: [
-                _services_student_details_service__WEBPACK_IMPORTED_MODULE_9__["StudentDetailsService"],
-                _services_student_registration_service__WEBPACK_IMPORTED_MODULE_30__["StudentRegistrationService"],
-                ngx_cookie_service__WEBPACK_IMPORTED_MODULE_18__["CookieService"],
-                _services_login_service__WEBPACK_IMPORTED_MODULE_21__["LoginService"],
-                _services_faculty_service__WEBPACK_IMPORTED_MODULE_31__["FacultyService"],
-                _services_intake_service__WEBPACK_IMPORTED_MODULE_32__["IntakeService"],
-                _services_degree_service__WEBPACK_IMPORTED_MODULE_34__["DegreeService"],
-                _services_file_service_service__WEBPACK_IMPORTED_MODULE_33__["FileServiceService"],
-                _services_wizard_color_service__WEBPACK_IMPORTED_MODULE_38__["WizardColorService"],
-                _services_socket_service__WEBPACK_IMPORTED_MODULE_39__["SocketService"],
-                _guards_login_guard__WEBPACK_IMPORTED_MODULE_23__["LoginGuard"],
-                _guards_login_screen_guard__WEBPACK_IMPORTED_MODULE_25__["LoginScreenGuard"],
-                _guards_lock_screen_guard__WEBPACK_IMPORTED_MODULE_26__["LockScreenGuard"],
-                _guards_password_reset_guard__WEBPACK_IMPORTED_MODULE_29__["PasswordResetGuard"],
-                _angular_common__WEBPACK_IMPORTED_MODULE_16__["DatePipe"],
+                _services_student_reg_student_details_student_details_service__WEBPACK_IMPORTED_MODULE_32__["StudentDetailsService"],
+                _services_student_reg_student_registration_student_registration_service__WEBPACK_IMPORTED_MODULE_33__["StudentRegistrationService"],
+                _services_login_screen_login_login_service__WEBPACK_IMPORTED_MODULE_31__["LoginService"],
+                _services_common_faculty_faculty_service__WEBPACK_IMPORTED_MODULE_36__["FacultyService"],
+                _services_common_intake_intake_service__WEBPACK_IMPORTED_MODULE_37__["IntakeService"],
+                _services_common_degree_degree_service__WEBPACK_IMPORTED_MODULE_35__["DegreeService"],
+                _services_common_file_file_service__WEBPACK_IMPORTED_MODULE_34__["FileService"],
+                _services_common_wizard_color_wizard_color_service__WEBPACK_IMPORTED_MODULE_30__["WizardColorService"],
+                _services_common_socket_socket_service__WEBPACK_IMPORTED_MODULE_38__["SocketService"],
+                _views_login_screen_login_login_guard__WEBPACK_IMPORTED_MODULE_24__["LoginGuard"],
+                _views_login_screen_login_screen_guard__WEBPACK_IMPORTED_MODULE_25__["LoginScreenGuard"],
+                _views_login_screen_lock_lock_guard__WEBPACK_IMPORTED_MODULE_28__["LockGuard"],
+                _views_login_screen_password_reset_password_reset_guard__WEBPACK_IMPORTED_MODULE_26__["PasswordResetGuard"],
+                _angular_common__WEBPACK_IMPORTED_MODULE_27__["DatePipe"],
             ],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"]]
         })
     ], AppModule);
     return AppModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/classes/login-status.ts":
+/*!*****************************************!*\
+  !*** ./src/app/classes/login-status.ts ***!
+  \*****************************************/
+/*! exports provided: LoginStatus */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoginStatus", function() { return LoginStatus; });
+var LoginStatus = /** @class */ (function () {
+    function LoginStatus() {
+    }
+    LoginStatus.getLoginStatus = function () {
+        this.accountType = localStorage.getItem('accountType');
+        if (this.accountType == "admin") {
+            return 1;
+        }
+        else if (this.accountType == "student") {
+            return 2;
+        }
+        else if (this.accountType == "lecturer") {
+            return 3;
+        }
+        else if (this.accountType == "locked") {
+            return 4;
+        }
+        else {
+            return 5;
+        }
+    };
+    return LoginStatus;
 }());
 
 
@@ -535,209 +581,10 @@ var User = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/guards/lock-screen.guard.ts":
-/*!*********************************************!*\
-  !*** ./src/app/guards/lock-screen.guard.ts ***!
-  \*********************************************/
-/*! exports provided: LockScreenGuard */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LockScreenGuard", function() { return LockScreenGuard; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _services_login_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../services/login.service */ "./src/app/services/login.service.ts");
-/* harmony import */ var ngx_cookie_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ngx-cookie-service */ "./node_modules/ngx-cookie-service/index.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-var LockScreenGuard = /** @class */ (function () {
-    function LockScreenGuard(loginService, router, cookieService) {
-        this.loginService = loginService;
-        this.router = router;
-        this.cookieService = cookieService;
-    }
-    ;
-    LockScreenGuard.prototype.canActivate = function (next, state) {
-        if (localStorage.getItem('accountType') != "locked") {
-            this.router.navigate(['/main/dashboard']);
-            return false;
-        }
-        return true;
-    };
-    LockScreenGuard = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])(),
-        __metadata("design:paramtypes", [_services_login_service__WEBPACK_IMPORTED_MODULE_2__["LoginService"],
-            _angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"], ngx_cookie_service__WEBPACK_IMPORTED_MODULE_3__["CookieService"]])
-    ], LockScreenGuard);
-    return LockScreenGuard;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/guards/login-screen.guard.ts":
-/*!**********************************************!*\
-  !*** ./src/app/guards/login-screen.guard.ts ***!
-  \**********************************************/
-/*! exports provided: LoginScreenGuard */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoginScreenGuard", function() { return LoginScreenGuard; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _services_login_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../services/login.service */ "./src/app/services/login.service.ts");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-var LoginScreenGuard = /** @class */ (function () {
-    function LoginScreenGuard(loginService, router) {
-        this.loginService = loginService;
-        this.router = router;
-    }
-    ;
-    LoginScreenGuard.prototype.canActivate = function (next, state) {
-        if (this.loginService.isAuthenticated()) {
-            this.router.navigate(['/main/dashboard']);
-            return false;
-        }
-        return true;
-    };
-    LoginScreenGuard = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])(),
-        __metadata("design:paramtypes", [_services_login_service__WEBPACK_IMPORTED_MODULE_2__["LoginService"],
-            _angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"]])
-    ], LoginScreenGuard);
-    return LoginScreenGuard;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/guards/login.guard.ts":
-/*!***************************************!*\
-  !*** ./src/app/guards/login.guard.ts ***!
-  \***************************************/
-/*! exports provided: LoginGuard */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoginGuard", function() { return LoginGuard; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _services_login_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../services/login.service */ "./src/app/services/login.service.ts");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-var LoginGuard = /** @class */ (function () {
-    function LoginGuard(loginService, router) {
-        this.loginService = loginService;
-        this.router = router;
-    }
-    ;
-    LoginGuard.prototype.canActivate = function (next, state) {
-        if (!this.loginService.isAuthenticated()) {
-            this.router.navigate(['/main/dashboard']);
-            return false;
-        }
-        return true;
-    };
-    LoginGuard = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])(),
-        __metadata("design:paramtypes", [_services_login_service__WEBPACK_IMPORTED_MODULE_2__["LoginService"],
-            _angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"]])
-    ], LoginGuard);
-    return LoginGuard;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/guards/password-reset.guard.ts":
-/*!************************************************!*\
-  !*** ./src/app/guards/password-reset.guard.ts ***!
-  \************************************************/
-/*! exports provided: PasswordResetGuard */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PasswordResetGuard", function() { return PasswordResetGuard; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var PasswordResetGuard = /** @class */ (function () {
-    function PasswordResetGuard(router) {
-        this.router = router;
-    }
-    ;
-    PasswordResetGuard.prototype.canActivate = function (next, state) {
-        if (localStorage.getItem("verified") != "true") {
-            this.router.navigate(['/log-screen/login']);
-            return false;
-        }
-        return true;
-    };
-    PasswordResetGuard = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])(),
-        __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"]])
-    ], PasswordResetGuard);
-    return PasswordResetGuard;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/services/degree.service.ts":
-/*!********************************************!*\
-  !*** ./src/app/services/degree.service.ts ***!
-  \********************************************/
+/***/ "./src/app/services/common/degree/degree.service.ts":
+/*!**********************************************************!*\
+  !*** ./src/app/services/common/degree/degree.service.ts ***!
+  \**********************************************************/
 /*! exports provided: DegreeService */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -745,8 +592,8 @@ var PasswordResetGuard = /** @class */ (function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DegreeService", function() { return DegreeService; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _url_backend_url__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../url/backend-url */ "./src/app/url/backend-url.ts");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../environments/environment */ "./src/environments/environment.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -765,17 +612,17 @@ var DegreeService = /** @class */ (function () {
         this.http = http;
     }
     DegreeService.prototype.loadCoursesViaFaculty = function (faculty) {
-        return this.http.get(_url_backend_url__WEBPACK_IMPORTED_MODULE_1__["BackendUrl"].getMainUrl() + URL + "/coursesViaFaculty?faculty=" + faculty);
+        return this.http.get(_environments_environment__WEBPACK_IMPORTED_MODULE_2__["environment"].backend_url + URL + "/coursesViaFaculty?faculty=" + faculty);
     };
     DegreeService.prototype.getGraduationTypeAndFee = function (degree) {
-        return this.http.get(_url_backend_url__WEBPACK_IMPORTED_MODULE_1__["BackendUrl"].getMainUrl() + URL + "/graduationTypeAndFee?degree=" + degree);
+        return this.http.get(_environments_environment__WEBPACK_IMPORTED_MODULE_2__["environment"].backend_url + URL + "/graduationTypeAndFee?degree=" + degree);
     };
     DegreeService.prototype.getCourseFee = function (degree) {
-        return this.http.get(_url_backend_url__WEBPACK_IMPORTED_MODULE_1__["BackendUrl"].getMainUrl() + URL + "/courseFee?degree=" + degree);
+        return this.http.get(_environments_environment__WEBPACK_IMPORTED_MODULE_2__["environment"].backend_url + URL + "/courseFee?degree=" + degree);
     };
     DegreeService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])(),
-        __metadata("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"]])
+        __metadata("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"]])
     ], DegreeService);
     return DegreeService;
 }());
@@ -784,10 +631,10 @@ var DegreeService = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/services/faculty.service.ts":
-/*!*********************************************!*\
-  !*** ./src/app/services/faculty.service.ts ***!
-  \*********************************************/
+/***/ "./src/app/services/common/faculty/faculty.service.ts":
+/*!************************************************************!*\
+  !*** ./src/app/services/common/faculty/faculty.service.ts ***!
+  \************************************************************/
 /*! exports provided: FacultyService */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -796,7 +643,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FacultyService", function() { return FacultyService; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
-/* harmony import */ var _url_backend_url__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../url/backend-url */ "./src/app/url/backend-url.ts");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../environments/environment */ "./src/environments/environment.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -815,7 +662,7 @@ var FacultyService = /** @class */ (function () {
         this.http = http;
     }
     FacultyService.prototype.getAllFaculties = function () {
-        return this.http.get(_url_backend_url__WEBPACK_IMPORTED_MODULE_2__["BackendUrl"].getMainUrl() + URL + "/facultyNames");
+        return this.http.get(_environments_environment__WEBPACK_IMPORTED_MODULE_2__["environment"].backend_url + URL + "/facultyNames");
     };
     FacultyService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])(),
@@ -828,19 +675,19 @@ var FacultyService = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/services/file-service.service.ts":
-/*!**************************************************!*\
-  !*** ./src/app/services/file-service.service.ts ***!
-  \**************************************************/
-/*! exports provided: FileServiceService */
+/***/ "./src/app/services/common/file/file.service.ts":
+/*!******************************************************!*\
+  !*** ./src/app/services/common/file/file.service.ts ***!
+  \******************************************************/
+/*! exports provided: FileService */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FileServiceService", function() { return FileServiceService; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FileService", function() { return FileService; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
-/* harmony import */ var _url_backend_url__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../url/backend-url */ "./src/app/url/backend-url.ts");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../environments/environment */ "./src/environments/environment.ts");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -854,14 +701,14 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 var URL = "/api/v1/user/upload";
-var FileServiceService = /** @class */ (function () {
-    function FileServiceService(http) {
+var FileService = /** @class */ (function () {
+    function FileService(http) {
         this.http = http;
         this.uploadedPercentage = 0;
     }
-    FileServiceService.prototype.uploadFile = function (formData) {
+    FileService.prototype.uploadFile = function (formData) {
         var _this = this;
-        this.http.post(_url_backend_url__WEBPACK_IMPORTED_MODULE_2__["BackendUrl"].getMainUrl() + URL, formData, { reportProgress: true, observe: 'events' }).subscribe(function (event) {
+        this.http.post(_environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].backend_url + URL, formData, { reportProgress: true, observe: 'events' }).subscribe(function (event) {
             if (event.type == 1) {
                 if (Math.round(_this.uploadedPercentage) !== Math.round(event['loaded'] / event['total'] * 100)) {
                     _this.uploadedPercentage = event['loaded'] / event['total'] * 100;
@@ -870,21 +717,21 @@ var FileServiceService = /** @class */ (function () {
             }
         });
     };
-    FileServiceService = __decorate([
+    FileService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])(),
-        __metadata("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"]])
-    ], FileServiceService);
-    return FileServiceService;
+        __metadata("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"]])
+    ], FileService);
+    return FileService;
 }());
 
 
 
 /***/ }),
 
-/***/ "./src/app/services/intake.service.ts":
-/*!********************************************!*\
-  !*** ./src/app/services/intake.service.ts ***!
-  \********************************************/
+/***/ "./src/app/services/common/intake/intake.service.ts":
+/*!**********************************************************!*\
+  !*** ./src/app/services/common/intake/intake.service.ts ***!
+  \**********************************************************/
 /*! exports provided: IntakeService */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -892,8 +739,8 @@ var FileServiceService = /** @class */ (function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IntakeService", function() { return IntakeService; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _url_backend_url__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../url/backend-url */ "./src/app/url/backend-url.ts");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../environments/environment */ "./src/environments/environment.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -912,13 +759,13 @@ var IntakeService = /** @class */ (function () {
         this.http = http;
     }
     IntakeService.prototype.getAllMonths = function () {
-        return this.http.get(_url_backend_url__WEBPACK_IMPORTED_MODULE_1__["BackendUrl"].getMainUrl() + URL + "/intakeMonths");
+        return this.http.get(_environments_environment__WEBPACK_IMPORTED_MODULE_2__["environment"].backend_url + URL + "/intakeMonths");
     };
     IntakeService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
             providedIn: 'root'
         }),
-        __metadata("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"]])
+        __metadata("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"]])
     ], IntakeService);
     return IntakeService;
 }());
@@ -927,69 +774,10 @@ var IntakeService = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/services/login.service.ts":
-/*!*******************************************!*\
-  !*** ./src/app/services/login.service.ts ***!
-  \*******************************************/
-/*! exports provided: LoginService */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoginService", function() { return LoginService; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
-/* harmony import */ var _url_backend_url__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../url/backend-url */ "./src/app/url/backend-url.ts");
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-var URL = "/api/v1/user";
-var LoginService = /** @class */ (function () {
-    function LoginService(router, http, sanitizer) {
-        this.router = router;
-        this.http = http;
-        this.sanitizer = sanitizer;
-    }
-    LoginService.prototype.getLogin = function (user) {
-        return this.http.post(_url_backend_url__WEBPACK_IMPORTED_MODULE_3__["BackendUrl"].getMainUrl() + URL + "/authenticate", user);
-    };
-    LoginService.prototype.isAuthenticated = function () {
-        return localStorage.getItem("login") == 'logged' ? true : false;
-    };
-    LoginService.prototype.sendEmail = function (email) {
-        return this.http.post(_url_backend_url__WEBPACK_IMPORTED_MODULE_3__["BackendUrl"].getMainUrl() + URL + "/forgotPassword", email);
-    };
-    LoginService.prototype.getProfileImage = function () {
-        return (_url_backend_url__WEBPACK_IMPORTED_MODULE_3__["BackendUrl"].getMainUrl() + URL + "/file?path=" + localStorage.getItem('profile-image') + "");
-    };
-    LoginService = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])(),
-        __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"], _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"], _angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__["DomSanitizer"]])
-    ], LoginService);
-    return LoginService;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/services/socket.service.ts":
-/*!********************************************!*\
-  !*** ./src/app/services/socket.service.ts ***!
-  \********************************************/
+/***/ "./src/app/services/common/socket/socket.service.ts":
+/*!**********************************************************!*\
+  !*** ./src/app/services/common/socket/socket.service.ts ***!
+  \**********************************************************/
 /*! exports provided: SocketService */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -997,13 +785,13 @@ var LoginService = /** @class */ (function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SocketService", function() { return SocketService; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _url_backend_url__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../url/backend-url */ "./src/app/url/backend-url.ts");
-/* harmony import */ var sockjs_client__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! sockjs-client */ "./node_modules/sockjs-client/lib/entry.js");
-/* harmony import */ var sockjs_client__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(sockjs_client__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _stomp_stompjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @stomp/stompjs */ "./node_modules/@stomp/stompjs/index.js");
-/* harmony import */ var _stomp_stompjs__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_stomp_stompjs__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var rxjs_index__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/index */ "./node_modules/rxjs/index.js");
-/* harmony import */ var rxjs_index__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(rxjs_index__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var rxjs_index__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs/index */ "./node_modules/rxjs/index.js");
+/* harmony import */ var rxjs_index__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(rxjs_index__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../environments/environment */ "./src/environments/environment.ts");
+/* harmony import */ var sockjs_client__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! sockjs-client */ "./node_modules/sockjs-client/lib/entry.js");
+/* harmony import */ var sockjs_client__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(sockjs_client__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _stomp_stompjs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @stomp/stompjs */ "./node_modules/@stomp/stompjs/index.js");
+/* harmony import */ var _stomp_stompjs__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_stomp_stompjs__WEBPACK_IMPORTED_MODULE_4__);
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1015,27 +803,16 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 
-// const SERVER_URL = '/api/v1/socket';
 var SocketService = /** @class */ (function () {
     function SocketService() {
-        this.onlineCount = new rxjs_index__WEBPACK_IMPORTED_MODULE_4__["Subject"]();
-        this.websiteVisits = new rxjs_index__WEBPACK_IMPORTED_MODULE_4__["Subject"]();
-        //
-        // public onMessage(): Observable<Message> {
-        //   return new Observable<Message>(observer => {
-        //     this.socket.on('message', (data: Message) => observer.next(data));
-        //   });
-        // }
-        // public onEvent(event: Event): Observable<any> {
-        //   return new Observable<Event>(observer => {
-        //     this.socket.on(event, () => observer.next());
-        //   });
-        // }
+        this.established = false;
+        this.onlineCount = new rxjs_index__WEBPACK_IMPORTED_MODULE_1__["Subject"]();
+        this.websiteVisits = new rxjs_index__WEBPACK_IMPORTED_MODULE_1__["Subject"]();
     }
     // isSidebarVisible: boolean;
     SocketService.prototype.initSocket = function () {
-        this.socket = new sockjs_client__WEBPACK_IMPORTED_MODULE_2___default.a(_url_backend_url__WEBPACK_IMPORTED_MODULE_1__["BackendUrl"].getMainUrl() + "/lms-web-socket");
-        this.stompClient = _stomp_stompjs__WEBPACK_IMPORTED_MODULE_3__["over"](this.socket);
+        this.socket = new sockjs_client__WEBPACK_IMPORTED_MODULE_3___default.a(_environments_environment__WEBPACK_IMPORTED_MODULE_2__["environment"].backend_url + "/lms-web-socket");
+        this.stompClient = _stomp_stompjs__WEBPACK_IMPORTED_MODULE_4__["over"](this.socket);
         this.stompClient.debug = null;
         var that = this;
         this.stompClient.connect({}, function () {
@@ -1052,26 +829,25 @@ var SocketService = /** @class */ (function () {
             that.stompClient.subscribe('/topic/websiteVisits', function (socket) {
                 that.websiteVisits.next(JSON.parse(socket.body).websiteVisits);
             });
-            // that.stompClient.subscribe('/topic/userId', function (socket) {
-            //   that.stompClient.send("/app/userId", {}, localStorage.getItem("userId"));
-            // });
             that.stompClient.send("/app/online");
+            that.established = true;
         });
     };
     SocketService.prototype.send = function () {
         this.stompClient.send("/app/hello2");
     };
     SocketService.prototype.sendOnlineMessage = function () {
-        this.stompClient.send("/app/online");
+        if (this.established) {
+            this.stompClient.send("/app/online");
+        }
     };
     SocketService.prototype.sendOfflineMessage = function () {
         this.stompClient.send("/app/offline");
     };
-    SocketService.prototype.saveDashboard = function (dashboard) {
-        this.dashboard = dashboard;
-    };
     SocketService = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])()
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
+            providedIn: 'root'
+        })
     ], SocketService);
     return SocketService;
 }());
@@ -1080,189 +856,10 @@ var SocketService = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/services/student-details.service.ts":
-/*!*****************************************************!*\
-  !*** ./src/app/services/student-details.service.ts ***!
-  \*****************************************************/
-/*! exports provided: StudentDetailsService */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StudentDetailsService", function() { return StudentDetailsService; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
-/* harmony import */ var rxjs_internal_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/internal/operators */ "./node_modules/rxjs/internal/operators/index.js");
-/* harmony import */ var rxjs_internal_operators__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(rxjs_internal_operators__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _url_backend_url__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../url/backend-url */ "./src/app/url/backend-url.ts");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-var URL = "/api/v1/student";
-var StudentDetailsService = /** @class */ (function () {
-    function StudentDetailsService(http, router) {
-        this.http = http;
-        this.router = router;
-    }
-    StudentDetailsService.prototype.saveStudent = function () {
-        var _this = this;
-        return this.http.post("", "")
-            .pipe(Object(rxjs_internal_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (result) {
-            // sessionStorage.setItem("token", result + "");
-            if (result) {
-                _this.router.navigate(['/main/student-reg/student-registrations']);
-            }
-            else {
-                _this.router.navigate(['/main/student-reg/student-registrations']);
-            }
-            return result;
-        }));
-    };
-    StudentDetailsService.prototype.getStudentData = function (studentId) {
-        return this.http.get(_url_backend_url__WEBPACK_IMPORTED_MODULE_4__["BackendUrl"].getMainUrl() + URL + "/getStudentData?studentId=" + studentId);
-    };
-    StudentDetailsService = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])(),
-        __metadata("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"], _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"]])
-    ], StudentDetailsService);
-    return StudentDetailsService;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/services/student-registration.service.ts":
-/*!**********************************************************!*\
-  !*** ./src/app/services/student-registration.service.ts ***!
-  \**********************************************************/
-/*! exports provided: StudentRegistrationService */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StudentRegistrationService", function() { return StudentRegistrationService; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _dtos_student__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../dtos/student */ "./src/app/dtos/student.ts");
-/* harmony import */ var _dtos_degree__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../dtos/degree */ "./src/app/dtos/degree.ts");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
-/* harmony import */ var _url_backend_url__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../url/backend-url */ "./src/app/url/backend-url.ts");
-/* harmony import */ var _dtos_undergraduate_details__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../dtos/undergraduate-details */ "./src/app/dtos/undergraduate-details.ts");
-/* harmony import */ var _dtos_postgraduate_details__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../dtos/postgraduate-details */ "./src/app/dtos/postgraduate-details.ts");
-/* harmony import */ var _dtos_email__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../dtos/email */ "./src/app/dtos/email.ts");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-
-
-var URL = "/api/v1/student";
-var StudentRegistrationService = /** @class */ (function () {
-    function StudentRegistrationService(http) {
-        this.http = http;
-        this.student = new _dtos_student__WEBPACK_IMPORTED_MODULE_1__["Student"]();
-        this.degree = new _dtos_degree__WEBPACK_IMPORTED_MODULE_2__["Degree"]();
-        this.underGraduate = new _dtos_undergraduate_details__WEBPACK_IMPORTED_MODULE_5__["UndergraduateDetails"]();
-        this.postGraduate = new _dtos_postgraduate_details__WEBPACK_IMPORTED_MODULE_6__["PostgraduateDetails"]();
-        this.email = new _dtos_email__WEBPACK_IMPORTED_MODULE_7__["Email"]();
-    }
-    StudentRegistrationService.prototype.setStudent = function (student) {
-        this.student = student;
-    };
-    StudentRegistrationService.prototype.getStudent = function () {
-        return this.student;
-    };
-    StudentRegistrationService.prototype.saveUnderGraduateRegistration_FreePortal = function (underGraduate) {
-        this.underGraduate = underGraduate;
-        // this.degree = degree;
-        this.underGraduate.registration.student = this.student;
-        console.log(this.underGraduate);
-        return this.http.post(_url_backend_url__WEBPACK_IMPORTED_MODULE_4__["BackendUrl"].getMainUrl() + URL + "/saveStudentUndergraduate-freePortal", this.underGraduate);
-    };
-    StudentRegistrationService.prototype.savePostGraduateRegistration_FreePortal = function (postGraduate) {
-        this.postGraduate = postGraduate;
-        // this.degree = degree;
-        this.postGraduate.registration.student = this.student;
-        console.log(this.postGraduate);
-        return this.http.post(_url_backend_url__WEBPACK_IMPORTED_MODULE_4__["BackendUrl"].getMainUrl() + URL + "/saveStudentPostgraduate-freePortal", this.postGraduate);
-    };
-    StudentRegistrationService.prototype.getDataToPayments = function () {
-        if (this.degree.graduationType == "Undergraduate") {
-            this.underGraduate.registration.student = this.student;
-            return this.underGraduate.registration;
-        }
-        else {
-            this.postGraduate.registration.student = this.student;
-            return this.postGraduate.registration;
-        }
-    };
-    StudentRegistrationService.prototype.getAllStudentData = function () {
-        return this.http.get(_url_backend_url__WEBPACK_IMPORTED_MODULE_4__["BackendUrl"].getMainUrl() + URL + "/getAllStudentData");
-    };
-    // saveStudentFreePortal(): Observable<Email> {
-    //   if (this.degree.graduationType == "Undergraduate") {
-    //     this.underGraduate.registration.student = this.student;
-    //     console.log(this.underGraduate);
-    //     return this.http.post<Email>(BackendUrl.getMainUrl() + URL + "/saveStudentUndergraduate-freePortal", this.underGraduate);
-    //   } else {
-    //     this.postGraduate.registration.student = this.student;
-    //     console.log(this.postGraduate)
-    //     return this.http.post<Email>(BackendUrl.getMainUrl() + URL + "/saveStudentPostgraduate-freePortal", this.postGraduate);
-    //   }
-    // }
-    StudentRegistrationService.prototype.setEmailReply = function (email) {
-        this.email = email;
-    };
-    StudentRegistrationService.prototype.getEmailReply = function () {
-        return this.email;
-    };
-    StudentRegistrationService.prototype.getAllRegistrationData = function (studentId) {
-        return this.http.get(_url_backend_url__WEBPACK_IMPORTED_MODULE_4__["BackendUrl"].getMainUrl() + URL + "/getAllStudentRegistrations?studentId=" + studentId);
-    };
-    StudentRegistrationService.prototype.getUndergraduateData = function (regId) {
-        return this.http.get(_url_backend_url__WEBPACK_IMPORTED_MODULE_4__["BackendUrl"].getMainUrl() + URL + "/getUndergraduateData?regId=" + regId);
-    };
-    StudentRegistrationService.prototype.getPostgraduateData = function (regId) {
-        return this.http.get(_url_backend_url__WEBPACK_IMPORTED_MODULE_4__["BackendUrl"].getMainUrl() + URL + "/getPostgraduateData?regId=" + regId);
-    };
-    StudentRegistrationService = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])(),
-        __metadata("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClient"]])
-    ], StudentRegistrationService);
-    return StudentRegistrationService;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/services/wizard-color.service.ts":
-/*!**************************************************!*\
-  !*** ./src/app/services/wizard-color.service.ts ***!
-  \**************************************************/
+/***/ "./src/app/services/common/wizard-color/wizard-color.service.ts":
+/*!**********************************************************************!*\
+  !*** ./src/app/services/common/wizard-color/wizard-color.service.ts ***!
+  \**********************************************************************/
 /*! exports provided: WizardColorService */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1308,64 +905,234 @@ var WizardColorService = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/url/backend-url.ts":
-/*!************************************!*\
-  !*** ./src/app/url/backend-url.ts ***!
-  \************************************/
-/*! exports provided: BackendUrl */
+/***/ "./src/app/services/login-screen/login/login.service.ts":
+/*!**************************************************************!*\
+  !*** ./src/app/services/login-screen/login/login.service.ts ***!
+  \**************************************************************/
+/*! exports provided: LoginService */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BackendUrl", function() { return BackendUrl; });
-/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../environments/environment */ "./src/environments/environment.ts");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoginService", function() { return LoginService; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../environments/environment */ "./src/environments/environment.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
 
-var BackendUrl = /** @class */ (function () {
-    function BackendUrl() {
+
+
+
+var URL = "/api/v1/user";
+var LoginService = /** @class */ (function () {
+    function LoginService(router, http) {
+        this.router = router;
+        this.http = http;
     }
-    BackendUrl.getMainUrl = function () {
-        return this._mainUrl;
+    LoginService.prototype.getLogin = function (user) {
+        return this.http.post(_environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].backend_url + URL + "/authenticate", user);
     };
-    BackendUrl._mainUrl = _environments_environment__WEBPACK_IMPORTED_MODULE_0__["environment"].backend_url;
-    return BackendUrl;
+    LoginService.prototype.isAuthenticated = function () {
+        return localStorage.getItem("login") == 'logged' ? true : false;
+    };
+    LoginService.prototype.sendEmail = function (email) {
+        return this.http.post(_environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].backend_url + URL + "/forgotPassword", email);
+    };
+    LoginService.prototype.getProfileImage = function () {
+        return (_environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].backend_url + URL + "/file?path=" + localStorage.getItem('profile-image') + "");
+    };
+    LoginService = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
+            providedIn: 'root'
+        }),
+        __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"], _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClient"]])
+    ], LoginService);
+    return LoginService;
 }());
 
 
 
 /***/ }),
 
-/***/ "./src/app/views/additional-classes/login-status.ts":
-/*!**********************************************************!*\
-  !*** ./src/app/views/additional-classes/login-status.ts ***!
-  \**********************************************************/
-/*! exports provided: LoginStatus */
+/***/ "./src/app/services/student-reg/student-details/student-details.service.ts":
+/*!*********************************************************************************!*\
+  !*** ./src/app/services/student-reg/student-details/student-details.service.ts ***!
+  \*********************************************************************************/
+/*! exports provided: StudentDetailsService */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoginStatus", function() { return LoginStatus; });
-var LoginStatus = /** @class */ (function () {
-    function LoginStatus() {
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StudentDetailsService", function() { return StudentDetailsService; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../environments/environment */ "./src/environments/environment.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var URL = "/api/v1/student";
+var StudentDetailsService = /** @class */ (function () {
+    function StudentDetailsService(http, router) {
+        this.http = http;
+        this.router = router;
     }
-    LoginStatus.getLoginStatus = function () {
-        this.accountType = localStorage.getItem('accountType');
-        if (this.accountType == "admin") {
-            return 1;
-        }
-        else if (this.accountType == "student") {
-            return 2;
-        }
-        else if (this.accountType == "lecturer") {
-            return 3;
-        }
-        else if (this.accountType == "locked") {
-            return 4;
+    // saveStudent(): Observable<boolean> {
+    //   return this.http.post<boolean>("", "")
+    //     .pipe(
+    //       map((result) => {
+    //         // sessionStorage.setItem("token", result + "");
+    //         if (result) {
+    //           this.router.navigate(['/main/student-reg/student-registrations']);
+    //         } else {
+    //           this.router.navigate(['/main/student-reg/student-registrations']);
+    //         }
+    //         return result;
+    //       })
+    //     )
+    // }
+    StudentDetailsService.prototype.getStudentData = function (studentId) {
+        return this.http.get(_environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].backend_url + URL + "/getStudentData?studentId=" + studentId);
+    };
+    StudentDetailsService = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])(),
+        __metadata("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]])
+    ], StudentDetailsService);
+    return StudentDetailsService;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/services/student-reg/student-registration/student-registration.service.ts":
+/*!*******************************************************************************************!*\
+  !*** ./src/app/services/student-reg/student-registration/student-registration.service.ts ***!
+  \*******************************************************************************************/
+/*! exports provided: StudentRegistrationService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StudentRegistrationService", function() { return StudentRegistrationService; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../environments/environment */ "./src/environments/environment.ts");
+/* harmony import */ var _dtos_email__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../dtos/email */ "./src/app/dtos/email.ts");
+/* harmony import */ var _dtos_student__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../dtos/student */ "./src/app/dtos/student.ts");
+/* harmony import */ var _dtos_postgraduate_details__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../dtos/postgraduate-details */ "./src/app/dtos/postgraduate-details.ts");
+/* harmony import */ var _dtos_undergraduate_details__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../dtos/undergraduate-details */ "./src/app/dtos/undergraduate-details.ts");
+/* harmony import */ var _dtos_degree__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../dtos/degree */ "./src/app/dtos/degree.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+var URL = "/api/v1/student";
+var StudentRegistrationService = /** @class */ (function () {
+    function StudentRegistrationService(http) {
+        this.http = http;
+        this.student = new _dtos_student__WEBPACK_IMPORTED_MODULE_4__["Student"]();
+        this.degree = new _dtos_degree__WEBPACK_IMPORTED_MODULE_7__["Degree"]();
+        this.underGraduate = new _dtos_undergraduate_details__WEBPACK_IMPORTED_MODULE_6__["UndergraduateDetails"]();
+        this.postGraduate = new _dtos_postgraduate_details__WEBPACK_IMPORTED_MODULE_5__["PostgraduateDetails"]();
+        this.email = new _dtos_email__WEBPACK_IMPORTED_MODULE_3__["Email"]();
+    }
+    StudentRegistrationService.prototype.setStudent = function (student) {
+        this.student = student;
+    };
+    StudentRegistrationService.prototype.getStudent = function () {
+        return this.student;
+    };
+    StudentRegistrationService.prototype.saveUnderGraduateRegistration_FreePortal = function (underGraduate) {
+        this.underGraduate = underGraduate;
+        // this.degree = degree;
+        this.underGraduate.registration.student = this.student;
+        console.log(this.underGraduate);
+        return this.http.post(_environments_environment__WEBPACK_IMPORTED_MODULE_2__["environment"].backend_url + URL + "/saveStudentUndergraduate-freePortal", this.underGraduate);
+    };
+    StudentRegistrationService.prototype.savePostGraduateRegistration_FreePortal = function (postGraduate) {
+        this.postGraduate = postGraduate;
+        // this.degree = degree;
+        this.postGraduate.registration.student = this.student;
+        console.log(this.postGraduate);
+        return this.http.post(_environments_environment__WEBPACK_IMPORTED_MODULE_2__["environment"].backend_url + URL + "/saveStudentPostgraduate-freePortal", this.postGraduate);
+    };
+    StudentRegistrationService.prototype.getDataToPayments = function () {
+        if (this.degree.graduationType == "Undergraduate") {
+            this.underGraduate.registration.student = this.student;
+            return this.underGraduate.registration;
         }
         else {
-            return 5;
+            this.postGraduate.registration.student = this.student;
+            return this.postGraduate.registration;
         }
     };
-    return LoginStatus;
+    StudentRegistrationService.prototype.getAllStudentData = function () {
+        return this.http.get(_environments_environment__WEBPACK_IMPORTED_MODULE_2__["environment"].backend_url + URL + "/getAllStudentData");
+    };
+    // saveStudentFreePortal(): Observable<Email> {
+    //   if (this.degree.graduationType == "Undergraduate") {
+    //     this.underGraduate.registration.student = this.student;
+    //     console.log(this.underGraduate);
+    //     return this.http.post<Email>(BackendUrl.getMainUrl() + URL + "/saveStudentUndergraduate-freePortal", this.underGraduate);
+    //   } else {
+    //     this.postGraduate.registration.student = this.student;
+    //     console.log(this.postGraduate)
+    //     return this.http.post<Email>(BackendUrl.getMainUrl() + URL + "/saveStudentPostgraduate-freePortal", this.postGraduate);
+    //   }
+    // }
+    StudentRegistrationService.prototype.setEmailReply = function (email) {
+        this.email = email;
+    };
+    StudentRegistrationService.prototype.getEmailReply = function () {
+        return this.email;
+    };
+    StudentRegistrationService.prototype.getAllRegistrationData = function (studentId) {
+        return this.http.get(_environments_environment__WEBPACK_IMPORTED_MODULE_2__["environment"].backend_url + URL + "/getAllStudentRegistrations?studentId=" + studentId);
+    };
+    StudentRegistrationService.prototype.getUndergraduateData = function (regId) {
+        return this.http.get(_environments_environment__WEBPACK_IMPORTED_MODULE_2__["environment"].backend_url + URL + "/getUndergraduateData?regId=" + regId);
+    };
+    StudentRegistrationService.prototype.getPostgraduateData = function (regId) {
+        return this.http.get(_environments_environment__WEBPACK_IMPORTED_MODULE_2__["environment"].backend_url + URL + "/getPostgraduateData?regId=" + regId);
+    };
+    StudentRegistrationService = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])(),
+        __metadata("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"]])
+    ], StudentRegistrationService);
+    return StudentRegistrationService;
 }());
 
 
@@ -1453,7 +1220,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"main-panel\">\n\n  <nav class=\"navbar navbar-transparent navbar-absolute\">\n    <div class=\"container-fluid\">\n      <!--<div class=\"navbar-minimize\">-->\n        <!--<button id=\"minimizeSidebar\" class=\"btn btn-round btn-white btn-fill btn-just-icon\">-->\n          <!--<i class=\"material-icons visible-on-sidebar-regular\">more_vert</i>-->\n          <!--<i class=\"material-icons visible-on-sidebar-mini\">view_list</i>-->\n        <!--</button>-->\n      <!--</div>-->\n      <div class=\"navbar-header\">\n        <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\">\n          <span class=\"sr-only\">Toggle navigation</span>\n          <span class=\"icon-bar\"></span>\n          <span class=\"icon-bar\"></span>\n          <span class=\"icon-bar\"></span>\n        </button>\n        <!--<a class=\"navbar-brand\" href=\"#\" style=\"color: white\"> Dashboard </a>-->\n      </div>\n    </div>\n  </nav>\n\n  <!--New-->\n\n  <!-- Header -->\n  <header class=\"masthead\" style=\"position: relative\">\n\n    <div class=\"container\">\n      <div class=\"intro-text\">\n        <div class=\"row\" style=\"color: #352c24;font-size: 45px;margin-top:100px;background-color: #e9b500;padding:30px;border-radius: 30px;font-family: 'Raleway', sans-serif;left: 50%;transform: translateX(-50%);display: inline-block;position: absolute\">\n          <div class=\"col-12\" *ngIf=\"loginStatus()==1\">Admin Portal</div>\n          <div class=\"col-12\" *ngIf=\"loginStatus()==2\">Student Portal</div>\n          <div class=\"col-12\" *ngIf=\"loginStatus()==3\">Lecturer Portal</div>\n          <div class=\"col-12\" *ngIf=\"loginStatus()==4\">User Locked Mode</div>\n          <div class=\"col-12\" *ngIf=\"loginStatus()==5\">Free Browsing Portal</div>\n        </div>\n        <div class=\"intro-lead-in\" style=\"color: rgba(255,255,255,0.55);padding-top: 280px;font-family: 'Raleway', sans-serif;font-size: 45px;margin-bottom: 40px;font-weight: bold\">Experience The Virtual Learning Reality</div>\n        <div class=\"intro-heading text-uppercase\" style=\"color: rgba(255,255,255,0.51);font-family: 'Raleway', sans-serif;font-weight: bold\">Stay With Updates</div>\n      </div>\n    </div>\n    <!--<div style=\"background-color: black;opacity: 0.5;position: absolute;width: 100%;height: 100%\"></div>-->\n  </header>\n\n  <!-- Services -->\n  <section id=\"services\" style=\"padding-bottom: 100px;padding-top: 100px;background-color: #FAFAFA\">\n    <div class=\"container\">\n      <div class=\"row\">\n        <div class=\"col-lg-12 text-center\">\n          <h2 class=\"section-heading text-uppercase\" style=\"background-color: #fed136;border-radius: 30px;display: inline-block;padding-left: 20px;padding-right: 20px;color: #2b2200\">Services</h2>\n          <h3 class=\"section-subheading text-muted\">Lorem ipsum dolor sit amet consectetur.</h3>\n        </div>\n      </div>\n      <div class=\"row text-center\">\n        <div class=\"col-md-4\">\n            <span class=\"fa-stack fa-4x\">\n              <i class=\"fa fa-circle fa-stack-2x text-primary\"></i>\n              <i class=\"fa fa-laptop fa-stack-1x fa-inverse\"></i>\n            </span>\n          <h4 class=\"service-heading\">Enrollments</h4>\n          <p class=\"text-muted\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto\n            quo inventore harum ex magni, dicta impedit.</p>\n        </div>\n        <div class=\"col-md-4\">\n            <span class=\"fa-stack fa-4x\">\n              <i class=\"fa fa-circle fa-stack-2x text-primary\"></i>\n              <i class=\"fa fa-laptop fa-stack-1x fa-inverse\"></i>\n            </span>\n          <h4 class=\"service-heading\">Lecturer Browsing</h4>\n          <p class=\"text-muted\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto\n            quo inventore harum ex magni, dicta impedit.</p>\n        </div>\n        <div class=\"col-md-4\">\n            <span class=\"fa-stack fa-4x\">\n              <i class=\"fa fa-circle fa-stack-2x text-primary\"></i>\n              <i class=\"fa fa-laptop fa-stack-1x fa-inverse\"></i>\n            </span>\n          <h4 class=\"service-heading\">Student Browsing</h4>\n          <p class=\"text-muted\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto\n            quo inventore harum ex magni, dicta impedit.</p>\n        </div>\n      </div>\n    </div>\n  </section>\n\n  <!--New-->\n\n  <div class=\"content\" style=\"background-color: #FAFAFA;margin-top: 0px;padding-top: 50px;\">\n    <div class=\"container-fluid\">\n\n      <div class=\"col-md-12 col-12\" style=\"padding-bottom: 30px\">\n        <div class=\"card\">\n          <form class=\"form-horizontal\">\n            <div class=\"card-header card-header-text\" data-background-color=\"rose\">\n              <h4 class=\"card-title\" style=\"font-weight: lighter\">UPCOMING EVENTS</h4>\n            </div>\n            <!-- /.card-header -->\n            <div class=\"card-content\" style=\"padding-right: 20px\">\n              <div class=\"row\" style=\"height: 60px\"></div>\n              <div class=\"row\">\n                <div class=\"col-12\">\n                  <app-events-calendar></app-events-calendar>\n                </div>\n              </div>\n              <div class=\"row\" style=\"height: 20px\"></div>\n              <div class=\"row\" style=\"font-weight: bold;font-size: 16px;height: 30px\">\n                <div class=\"col-12\"><span style=\"color: green\">23-07-2018</span>&nbsp;&nbsp;&nbsp;-->&nbsp;&nbsp;&nbsp;No\n                  events to show\n                </div>\n              </div>\n              <div class=\"row\" style=\"font-weight: bold;font-size: 16px;height: 30px\">\n                <div class=\"col-12\"><span style=\"color: green\">22-07-2018</span>&nbsp;&nbsp;&nbsp;-->&nbsp;&nbsp;&nbsp;No\n                  events to show\n                </div>\n              </div>\n            </div>\n          </form>\n        </div>\n      </div>\n\n      <div class=\"row\">\n        <div class=\"col-md-12 col-12\" style=\"padding-bottom: 30px\">\n          <div class=\"card\">\n            <form class=\"form-horizontal\">\n              <div class=\"card-header card-header-text\" data-background-color=\"rose\">\n                <h4 class=\"card-title\" style=\"font-weight: lighter\">QUICK REFERENCE</h4>\n              </div>\n              <!-- /.card-header -->\n              <div class=\"card-content\">\n                <div class=\"row\" style=\"height: 40px\"></div>\n                <div class=\"row\" style=\"font-weight: bold;font-size: 16px\">\n                  <div class=\"col-12\"><a target=\"_blank\" style=\"color: black\"\n                                         href=\"http://www.ugc.ac.lk/en/university-admissions/academic-year-20112012.html\">Undergraduate\n                    Handbook - 2017</a></div>\n                </div>\n              </div>\n            </form>\n          </div>\n        </div>\n\n        <div class=\"col-lg-6 col-md-6 col-sm-6\">\n          <div class=\"card card-stats\">\n            <div class=\"card-header\" data-background-color=\"orange\">\n              <i class=\"material-icons\">weekend</i>\n            </div>\n            <div class=\"card-content\">\n              <p class=\"category\">Website Visits</p>\n              <h3 class=\"card-title\">{{websiteVisits}}</h3>\n            </div>\n            <div class=\"card-footer\">\n              <div class=\"stats\">\n                <i class=\"material-icons\">date_range</i> Last 5 Minutes\n                <!--<i class=\"material-icons text-danger\">warning</i> <a href=\"#pablo\">Get More Space...</a>-->\n              </div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"col-lg-6 col-md-6 col-sm-6\">\n          <div class=\"card card-stats\">\n            <div class=\"card-header\" data-background-color=\"orange\">\n              <i class=\"fa fa-globe\"></i>\n            </div>\n            <div class=\"card-content\">\n              <p class=\"category\">Online</p>\n              <h3 class=\"card-title\">{{onlineCount}}</h3>\n            </div>\n            <div class=\"card-footer\">\n              <div class=\"stats\">\n                <i class=\"material-icons\">update</i> Just Updated\n              </div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"col-lg-6 col-md-6 col-sm-6\">\n          <div class=\"card card-stats\">\n            <div class=\"card-header\" data-background-color=\"orange\">\n              <i class=\"material-icons\">equalizer</i>\n            </div>\n            <div class=\"card-content\">\n              <p class=\"category\">Enrolled Students</p>\n              <h3 class=\"card-title\">75</h3>\n            </div>\n            <div class=\"card-footer\">\n              <div class=\"stats\">\n                <i class=\"material-icons\">local_offer</i> Tracked from Google Analytics\n              </div>\n            </div>\n          </div>\n        </div>\n\n\n        <div class=\"col-lg-6 col-md-6 col-sm-6\">\n          <div class=\"card card-stats\">\n            <div class=\"card-header\" data-background-color=\"orange\">\n              <i class=\"material-icons\">store</i>\n            </div>\n            <div class=\"card-content\">\n              <p class=\"category\">Enrolled Subjects</p>\n              <h3 class=\"card-title\">34</h3>\n            </div>\n            <div class=\"card-footer\">\n              <div class=\"stats\">\n                <i class=\"material-icons\">date_range</i> Last 24 Hours\n              </div>\n            </div>\n          </div>\n        </div>\n\n      </div>\n\n      <!--<h3>Manage Listings</h3>-->\n      <!--<br>-->\n      <!--<div class=\"row\">-->\n      <!--<div class=\"col-md-4\">-->\n      <!--<div class=\"card card-product\">-->\n      <!--<div class=\"card-image\" data-header-animation=\"true\">-->\n      <!--<a href=\"#pablo\">-->\n      <!--<img class=\"img\" src=\"../assets/img/card-2.jpg\">-->\n      <!--</a>-->\n      <!--</div>-->\n\n      <!--<div class=\"card-content\">-->\n      <!--<div class=\"card-actions\">-->\n      <!--<button type=\"button\" class=\"btn btn-danger btn-simple fix-broken-card\">-->\n      <!--<i class=\"material-icons\">build</i> Fix Header!-->\n      <!--</button>-->\n\n      <!--<button type=\"button\" class=\"btn btn-default btn-simple\" rel=\"tooltip\" data-placement=\"bottom\" title=\"View\">-->\n      <!--<i class=\"material-icons\">art_track</i>-->\n      <!--</button>-->\n      <!--<button type=\"button\" class=\"btn btn-success btn-simple\" rel=\"tooltip\" data-placement=\"bottom\" title=\"Edit\">-->\n      <!--<i class=\"material-icons\">edit</i>-->\n      <!--</button>-->\n      <!--<button type=\"button\" class=\"btn btn-danger btn-simple\" rel=\"tooltip\" data-placement=\"bottom\" title=\"Remove\">-->\n      <!--<i class=\"material-icons\">close</i>-->\n      <!--</button>-->\n      <!--</div>-->\n\n      <!--<h4 class=\"card-title\">-->\n      <!--<a href=\"#pablo\">Cozy 5 Stars Apartment</a>-->\n      <!--</h4>-->\n      <!--<div class=\"card-description\">-->\n      <!--The place is close to Barceloneta Beach and bus stop just 2 min by walk and near to \"Naviglio\" where you can enjoy the main night life in Barcelona.-->\n      <!--</div>-->\n      <!--</div>-->\n      <!--<div class=\"card-footer\">-->\n      <!--<div class=\"price\">-->\n      <!--<h4>$899/night</h4>-->\n      <!--</div>-->\n      <!--<div class=\"stats pull-right\">-->\n      <!--<p class=\"category\"><i class=\"material-icons\">place</i> Barcelona, Spain</p>-->\n      <!--</div>-->\n      <!--</div>-->\n      <!--</div>-->\n      <!--</div>-->\n\n      <!--<div class=\"col-md-4\">-->\n      <!--<div class=\"card card-product\">-->\n      <!--<div class=\"card-image\" data-header-animation=\"true\">-->\n      <!--<a href=\"#pablo\">-->\n      <!--<img class=\"img\" src=\"../assets/img/card-3.jpg\">-->\n      <!--</a>-->\n      <!--</div>-->\n\n      <!--<div class=\"card-content\">-->\n      <!--<div class=\"card-actions\">-->\n      <!--<button type=\"button\" class=\"btn btn-danger btn-simple fix-broken-card\">-->\n      <!--<i class=\"material-icons\">build</i> Fix Header!-->\n      <!--</button>-->\n\n      <!--<button type=\"button\" class=\"btn btn-default btn-simple\" rel=\"tooltip\" data-placement=\"bottom\" title=\"View\">-->\n      <!--<i class=\"material-icons\">art_track</i>-->\n      <!--</button>-->\n      <!--<button type=\"button\" class=\"btn btn-success btn-simple\" rel=\"tooltip\" data-placement=\"bottom\" title=\"Edit\">-->\n      <!--<i class=\"material-icons\">edit</i>-->\n      <!--</button>-->\n      <!--<button type=\"button\" class=\"btn btn-danger btn-simple\" rel=\"tooltip\" data-placement=\"bottom\" title=\"Remove\">-->\n      <!--<i class=\"material-icons\">close</i>-->\n      <!--</button>-->\n      <!--</div>-->\n\n      <!--<h4 class=\"card-title\">-->\n      <!--<a href=\"#pablo\">Office Studio</a>-->\n      <!--</h4>-->\n      <!--<div class=\"card-description\">-->\n      <!--The place is close to Metro Station and bus stop just 2 min by walk and near to \"Naviglio\" where you can enjoy the night life in London, UK.-->\n      <!--</div>-->\n      <!--</div>-->\n      <!--<div class=\"card-footer\">-->\n      <!--<div class=\"price\">-->\n      <!--<h4>$1.119/night</h4>-->\n      <!--</div>-->\n      <!--<div class=\"stats pull-right\">-->\n      <!--<p class=\"category\"><i class=\"material-icons\">place</i> London, UK</p>-->\n      <!--</div>-->\n      <!--</div>-->\n      <!--</div>-->\n      <!--</div>-->\n\n      <!--<div class=\"col-md-4\">-->\n      <!--<div class=\"card card-product\">-->\n      <!--<div class=\"card-image\" data-header-animation=\"true\">-->\n      <!--<a href=\"#pablo\">-->\n      <!--<img class=\"img\" src=\"../assets/img/card-1.jpg\">-->\n      <!--</a>-->\n      <!--</div>-->\n\n      <!--<div class=\"card-content\">-->\n      <!--<div class=\"card-actions\">-->\n      <!--<button type=\"button\" class=\"btn btn-danger btn-simple fix-broken-card\">-->\n      <!--<i class=\"material-icons\">build</i> Fix Header!-->\n      <!--</button>-->\n\n      <!--<button type=\"button\" class=\"btn btn-default btn-simple\" rel=\"tooltip\" data-placement=\"bottom\" title=\"View\">-->\n      <!--<i class=\"material-icons\">art_track</i>-->\n      <!--</button>-->\n      <!--<button type=\"button\" class=\"btn btn-success btn-simple\" rel=\"tooltip\" data-placement=\"bottom\" title=\"Edit\">-->\n      <!--<i class=\"material-icons\">edit</i>-->\n      <!--</button>-->\n      <!--<button type=\"button\" class=\"btn btn-danger btn-simple\" rel=\"tooltip\" data-placement=\"bottom\" title=\"Remove\">-->\n      <!--<i class=\"material-icons\">close</i>-->\n      <!--</button>-->\n      <!--</div>-->\n\n      <!--<h4 class=\"card-title\">-->\n      <!--<a href=\"#pablo\">Beautiful Castle</a>-->\n      <!--</h4>-->\n      <!--<div class=\"card-description\">-->\n      <!--The place is close to Metro Station and bus stop just 2 min by walk and near to \"Naviglio\" where you can enjoy the main night life in Milan.-->\n      <!--</div>-->\n      <!--</div>-->\n      <!--<div class=\"card-footer\">-->\n      <!--<div class=\"price\">-->\n      <!--<h4>$459/night</h4>-->\n      <!--</div>-->\n      <!--<div class=\"stats pull-right\">-->\n      <!--<p class=\"category\"><i class=\"material-icons\">place</i> Milan, Italy</p>-->\n      <!--</div>-->\n      <!--</div>-->\n      <!--</div>-->\n      <!--</div>-->\n      <!--</div>-->\n\n    </div>\n  </div>\n\n  <footer class=\"footer\" style=\"background-color: white\">\n    <div class=\"container-fluid\">\n      <p class=\"copyright pull-right\">\n        Copyright &copy; {{getYear()}} - University Of Sri Jayewardenapura , Virtual Learning Environment / Developed by\n        Imalka Gunawardana\n      </p>\n    </div>\n  </footer>\n\n</div>\n<!--<div class=\"fixed-plugin\">-->\n<!--<div class=\"dropdown show-dropdown\">-->\n<!--<a href=\"#\" data-toggle=\"dropdown\">-->\n<!--<i class=\"fa fa-cog fa-2x\"> </i>-->\n<!--</a>-->\n<!--<ul class=\"dropdown-menu\">-->\n<!--<li class=\"header-title\"> Sidebar Filters</li>-->\n<!--<li class=\"adjustments-line\">-->\n<!--<a href=\"javascript:void(0)\" class=\"switch-trigger active-color\">-->\n<!--<div class=\"badge-colors text-center\">-->\n<!--<span class=\"badge filter badge-purple\" data-color=\"purple\"></span>-->\n<!--<span class=\"badge filter badge-blue\" data-color=\"blue\"></span>-->\n<!--<span class=\"badge filter badge-green\" data-color=\"green\"></span>-->\n<!--<span class=\"badge filter badge-orange\" data-color=\"orange\"></span>-->\n<!--<span class=\"badge filter badge-red\" data-color=\"red\"></span>-->\n<!--<span class=\"badge filter badge-rose active\" data-color=\"rose\"></span>-->\n<!--</div>-->\n<!--<div class=\"clearfix\"></div>-->\n<!--</a>-->\n<!--</li>-->\n<!--<li class=\"header-title\">Sidebar Background</li>-->\n<!--<li class=\"adjustments-line\">-->\n<!--<a href=\"javascript:void(0)\" class=\"switch-trigger background-color\">-->\n<!--<div class=\"text-center\">-->\n<!--<span class=\"badge filter badge-white\" data-color=\"white\"></span>-->\n<!--<span class=\"badge filter badge-black active\" data-color=\"black\"></span>-->\n<!--</div>-->\n<!--<div class=\"clearfix\"></div>-->\n<!--</a>-->\n<!--</li>-->\n\n<!--<li class=\"adjustments-line\">-->\n<!--<a href=\"javascript:void(0)\" class=\"switch-trigger\">-->\n<!--<p>Sidebar Mini</p>-->\n<!--<div class=\"togglebutton switch-sidebar-mini\">-->\n<!--<label>-->\n<!--<input type=\"checkbox\" unchecked=\"\">-->\n<!--</label>-->\n<!--</div>-->\n<!--<div class=\"clearfix\"></div>-->\n<!--</a>-->\n<!--</li>-->\n\n<!--<li class=\"adjustments-line\">-->\n<!--<a href=\"javascript:void(0)\" class=\"switch-trigger\">-->\n<!--<p>Sidebar Image</p>-->\n<!--<div class=\"togglebutton switch-sidebar-image\">-->\n<!--<label>-->\n<!--<input type=\"checkbox\" checked=\"\">-->\n<!--</label>-->\n<!--</div>-->\n<!--<div class=\"clearfix\"></div>-->\n<!--</a>-->\n<!--</li>-->\n\n<!--<li class=\"header-title\">Images</li>-->\n<!--<li class=\"active\">-->\n<!--<a class=\"img-holder switch-trigger\" href=\"javascript:void(0)\">-->\n<!--<img src=\"../assets/img/sidebar-1.jpg\" alt=\"\" />-->\n<!--</a>-->\n<!--</li>-->\n<!--<li>-->\n<!--<a class=\"img-holder switch-trigger\" href=\"javascript:void(0)\">-->\n<!--<img src=\"../assets/img/sidebar-2.jpg\" alt=\"\" />-->\n<!--</a>-->\n<!--</li>-->\n<!--<li>-->\n<!--<a class=\"img-holder switch-trigger\" href=\"javascript:void(0)\">-->\n<!--<img src=\"../assets/img/sidebar-3.jpg\" alt=\"\" />-->\n<!--</a>-->\n<!--</li>-->\n<!--<li>-->\n<!--<a class=\"img-holder switch-trigger\" href=\"javascript:void(0)\">-->\n<!--<img src=\"../assets/img/sidebar-4.jpg\" alt=\"\" />-->\n<!--</a>-->\n<!--</li>-->\n\n<!--<li class=\"button-container\">-->\n<!--<div class=\"\">-->\n<!--<a href=\"http://www.creative-tim.com/product/material-dashboard-pro\" target=\"_blank\" class=\"btn btn-rose btn-block\">Buy Now</a>-->\n<!--</div>-->\n\n<!--<div class=\"\">-->\n<!--<a href=\"http://www.creative-tim.com/product/material-dashboard\" target=\"_blank\" class=\"btn btn-info btn-block\">Get Free Demo</a>-->\n<!--</div>-->\n<!--</li>-->\n\n<!--<li class=\"header-title\">Thank you for 95 shares!</li>-->\n\n<!--<li class=\"button-container\">-->\n<!--<button id=\"twitter\" class=\"btn btn-social btn-twitter btn-round\"><i class=\"fa fa-twitter\"></i> &middot; 45</button>-->\n<!--<button id=\"facebook\" class=\"btn btn-social btn-facebook btn-round\"><i class=\"fa fa-facebook-square\"> &middot;</i>50</button>-->\n<!--</li>-->\n<!--</ul>-->\n<!--</div>-->\n<!--</div>-->\n<!-- Footer -->\n"
+module.exports = "<div>\n\n  <nav class=\"navbar navbar-transparent navbar-absolute\">\n    <div class=\"container-fluid\">\n      <div class=\"navbar-header\">\n        <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\">\n          <span class=\"sr-only\">Toggle navigation</span>\n          <span class=\"icon-bar\"></span>\n          <span class=\"icon-bar\"></span>\n          <span class=\"icon-bar\"></span>\n        </button>\n        <!--<a class=\"navbar-brand\" href=\"#\" style=\"color: white\"> Dashboard </a>-->\n      </div>\n    </div>\n  </nav>\n\n  <!--New-->\n\n  <!-- Header -->\n  <header class=\"masthead\" style=\"position: relative\">\n\n    <div class=\"container\">\n      <div class=\"intro-text\">\n        <div class=\"row\"\n             style=\"color: #352c24;font-size: 45px;margin-top:10px;background-color: #e9b500;padding:30px;border-radius: 30px;font-family: 'Raleway', sans-serif;left: 50%;transform: translateX(-50%);display: inline-block;position: absolute\">\n          <div class=\"col-12\" *ngIf=\"loginStatus()==1\">Admin Portal</div>\n          <div class=\"col-12\" *ngIf=\"loginStatus()==2\">Student Portal</div>\n          <div class=\"col-12\" *ngIf=\"loginStatus()==3\">Lecturer Portal</div>\n          <div class=\"col-12\" *ngIf=\"loginStatus()==4\">User Locked Mode</div>\n          <div class=\"col-12\" *ngIf=\"loginStatus()==5\">Free Browsing Portal</div>\n        </div>\n        <div class=\"intro-lead-in\"\n             style=\"color: rgba(255,255,255,0.55);padding-top: 190px;font-family: 'Raleway', sans-serif;font-size: 45px;margin-bottom: 40px;font-weight: 500\">\n          Experience The Virtual Learning Reality\n        </div>\n        <div class=\"intro-heading text-uppercase\"\n             style=\"color: rgba(255,255,255,0.51);font-family: 'Raleway', sans-serif;font-weight: 500\">Stay With Updates\n        </div>\n        <div class=\"row\" *ngIf=\"loginStatus()==5\">\n          <div class=\"col-sm-12\">\n            <button type=\"button\"\n                    style=\"font-size: 20px;border: 1px white solid;width: 300px;background-color: rgba(249,254,242,0)\"\n                    class=\"btn btn-fill\" (click)=\"login()\">Sign in\n            </button>\n          </div>\n        </div>\n        <div class=\"row\" *ngIf=\"loginStatus()!=5\">\n          <div class=\"col-sm-12\">\n            <div class=\"row\">\n              <div class=\"row\" style=\"padding-top: 20px\">\n                <div class=\"col-sm-12\">\n                  <div class=\"card card-profile card-hidden\" style=\"background-color: #f0f8ff00;border: none;\">\n                    <div class=\"card-avatar\">\n                      <img class=\"avatar\" [src]=\"imagePath\">\n                    </div>\n                  </div>\n                </div>\n                <div class=\"col-sm-12\">\n                  <span style=\"font-weight: 400;font-size: 23px;color: #e6e9dd\">\n                         {{userName}}\n                    </span>\n                </div>\n              </div>\n              <div class=\"row\" style=\"padding-top: 50px\">\n                <div class=\"col-sm-12\">\n                  <button type=\"button\"\n                          style=\"font-size: 20px;border: 1px white solid;width: 300px;background-color: rgba(249,254,242,0)\"\n                          class=\"btn btn-fill\" (click)=\"lock()\">lock\n                  </button>\n                </div>\n                <div class=\"col-sm-12\">\n                  <button type=\"button\"\n                          style=\"font-size: 20px;border: 1px white solid;width: 300px;background-color: rgba(249,254,242,0)\"\n                          class=\"btn btn-fill\" (click)=\"logout()\">Sign out\n                  </button>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n    <!--<div style=\"background-color: black;opacity: 0.5;position: absolute;width: 100%;height: 100%\"></div>-->\n  </header>\n\n  <!-- Services -->\n  <section id=\"services\" style=\"padding-bottom: 100px;padding-top: 100px;background-color: #FAFAFA\">\n    <div class=\"container\">\n      <div class=\"row\">\n        <div class=\"col-lg-12 text-center\">\n          <h2 class=\"section-heading text-uppercase\"\n              style=\"background-color: #fed136;border-radius: 30px;display: inline-block;padding-left: 20px;padding-right: 20px;color: #2b2200\">\n            Services</h2>\n          <h3 class=\"section-subheading text-muted\">Click on enabled services below for further experience.</h3>\n        </div>\n      </div>\n      <div class=\"row text-center\">\n        <div class=\"col-md-3\" style=\"cursor: pointer\" (click)=\"routeToFree()\">\n            <span class=\"fa-stack fa-4x\">\n              <i class=\"fa fa-circle fa-stack-2x text-primary\"></i>\n              <i class=\"fa fa-laptop fa-stack-1x fa-inverse\"></i>\n            </span>\n          <h4 class=\"service-heading\">Free Browsing<br>(Student Registration)</h4>\n          <p class=\"text-muted\" style=\"padding-bottom: 12px\">Enable free browsing including new students registration portal.<br>Click here to register as a new student to the system and to explore other stuff.</p>\n          <i *ngIf=\"loginStatus()==1\" class=\"fa fa-times fa-4x\" style=\"color: red\"></i>\n          <i *ngIf=\"loginStatus()==2\" class=\"fa fa-times fa-4x\" style=\"color: red\"></i>\n          <i *ngIf=\"loginStatus()==3\" class=\"fa fa-times fa-4x\" style=\"color: red\"></i>\n          <i *ngIf=\"loginStatus()==4\" class=\"fa fa-check fa-4x\" style=\"color: green\"></i>\n          <i *ngIf=\"loginStatus()==5\" class=\"fa fa-check fa-4x\" style=\"color: green\"></i>\n        </div>\n        <div class=\"col-md-3\" style=\"cursor: pointer\" (click)=\"routeToAdmin()\">\n            <span class=\"fa-stack fa-4x\">\n              <i class=\"fa fa-circle fa-stack-2x text-primary\"></i>\n              <i class=\"fa fa-laptop fa-stack-1x fa-inverse\"></i>\n            </span>\n          <h4 class=\"service-heading\">Admin Browsing<br><br></h4>\n          <p class=\"text-muted\" style=\"padding-bottom: 12px\">Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n            Minima maxime quam architecto\n            quo inventore harum ex magni, dicta impedit.</p>\n          <i *ngIf=\"loginStatus()==1\" class=\"fa fa-check fa-4x\" style=\"color: green\"></i>\n          <i *ngIf=\"loginStatus()==2\" class=\"fa fa-times fa-4x\" style=\"color: red\"></i>\n          <i *ngIf=\"loginStatus()==3\" class=\"fa fa-times fa-4x\" style=\"color: red\"></i>\n          <i *ngIf=\"loginStatus()==4\" class=\"fa fa-times fa-4x\" style=\"color: red\"></i>\n          <i *ngIf=\"loginStatus()==5\" class=\"fa fa-times fa-4x\" style=\"color: red\"></i>\n        </div>\n        <div class=\"col-md-3\" style=\"cursor: pointer\" (click)=\"routeToStudent()\">\n            <span class=\"fa-stack fa-4x\">\n              <i class=\"fa fa-circle fa-stack-2x text-primary\"></i>\n              <i class=\"fa fa-laptop fa-stack-1x fa-inverse\"></i>\n            </span>\n          <h4 class=\"service-heading\">Student Browsing<br><br></h4>\n          <p class=\"text-muted\" style=\"padding-bottom: 12px\">Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n            Minima maxime quam architecto\n            quo inventore harum ex magni, dicta impedit.</p>\n          <i *ngIf=\"loginStatus()==1\" class=\"fa fa-times fa-4x\" style=\"color: red\"></i>\n          <i *ngIf=\"loginStatus()==2\" class=\"fa fa-check fa-4x\" style=\"color: green\"></i>\n          <i *ngIf=\"loginStatus()==3\" class=\"fa fa-times fa-4x\" style=\"color: red\"></i>\n          <i *ngIf=\"loginStatus()==4\" class=\"fa fa-times fa-4x\" style=\"color: red\"></i>\n          <i *ngIf=\"loginStatus()==5\" class=\"fa fa-times fa-4x\" style=\"color: red\"></i>\n        </div>\n        <div class=\"col-md-3\" style=\"cursor: pointer\" (click)=\"routeToLecturer()\">\n            <span class=\"fa-stack fa-4x\">\n              <i class=\"fa fa-circle fa-stack-2x text-primary\"></i>\n              <i class=\"fa fa-laptop fa-stack-1x fa-inverse\"></i>\n            </span>\n          <h4 class=\"service-heading\">Lecturer Browsing<br><br></h4>\n          <p class=\"text-muted\" style=\"padding-bottom: 12px\">Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n            Minima maxime quam architecto\n            quo inventore harum ex magni, dicta impedit.</p>\n          <i *ngIf=\"loginStatus()==1\" class=\"fa fa-times fa-4x\" style=\"color: red\"></i>\n          <i *ngIf=\"loginStatus()==2\" class=\"fa fa-times fa-4x\" style=\"color: red\"></i>\n          <i *ngIf=\"loginStatus()==3\" class=\"fa fa-check fa-4x\" style=\"color: green\"></i>\n          <i *ngIf=\"loginStatus()==4\" class=\"fa fa-times fa-4x\" style=\"color: red\"></i>\n          <i *ngIf=\"loginStatus()==5\" class=\"fa fa-times fa-4x\" style=\"color: red\"></i>\n        </div>\n      </div>\n    </div>\n  </section>\n\n  <!--New-->\n\n  <div class=\"content\" style=\"background-color: #FAFAFA;margin-top: 0px;padding-top: 50px;\">\n    <div class=\"container-fluid\">\n\n      <div class=\"row\">\n        <div class=\"col-md-12 col-12\" style=\"padding-bottom: 30px\">\n          <div class=\"card\">\n            <form class=\"form-horizontal\">\n              <div class=\"card-header card-header-text\" data-background-color=\"rose\">\n                <h4 class=\"card-title\" style=\"font-weight: lighter\">QUICK REFERENCE</h4>\n              </div>\n              <!-- /.card-header -->\n              <div class=\"card-content\">\n                <div class=\"row\" style=\"height: 40px\"></div>\n                <div class=\"row\" style=\"font-weight: bold;font-size: 16px\">\n                  <div class=\"col-12\"><a target=\"_blank\" style=\"color: black\"\n                                         href=\"http://www.ugc.ac.lk/en/university-admissions/academic-year-20112012.html\">Undergraduate\n                    Handbook - 2017</a></div>\n                </div>\n              </div>\n            </form>\n          </div>\n        </div>\n\n        <div class=\"col-md-12 col-12\" style=\"padding-bottom: 30px\">\n          <div class=\"card\">\n            <form class=\"form-horizontal\">\n              <div class=\"card-header card-header-text\" data-background-color=\"rose\">\n                <h4 class=\"card-title\" style=\"font-weight: lighter\">UPCOMING EVENTS</h4>\n              </div>\n              <!-- /.card-header -->\n              <div class=\"card-content\" style=\"padding-right: 20px\">\n                <div class=\"row\" style=\"height: 60px\"></div>\n                <div class=\"row\">\n                  <div class=\"col-12\">\n                    <app-events-calendar></app-events-calendar>\n                  </div>\n                </div>\n                <div class=\"row\" style=\"height: 20px\"></div>\n                <div class=\"row\" style=\"font-weight: bold;font-size: 16px;height: 30px\">\n                  <div class=\"col-12\"><span style=\"color: green\">23-07-2018</span>&nbsp;&nbsp;&nbsp;-->&nbsp;&nbsp;&nbsp;No\n                    events to show\n                  </div>\n                </div>\n                <div class=\"row\" style=\"font-weight: bold;font-size: 16px;height: 30px\">\n                  <div class=\"col-12\"><span style=\"color: green\">22-07-2018</span>&nbsp;&nbsp;&nbsp;-->&nbsp;&nbsp;&nbsp;No\n                    events to show\n                  </div>\n                </div>\n              </div>\n            </form>\n          </div>\n        </div>\n\n        <div class=\"col-lg-6 col-md-6 col-sm-6\">\n          <div class=\"card card-stats\">\n            <div class=\"card-header\" data-background-color=\"orange\">\n              <i class=\"material-icons\">weekend</i>\n            </div>\n            <div class=\"card-content\">\n              <p class=\"category\">Website Visits</p>\n              <h3 class=\"card-title\">{{websiteVisits}}</h3>\n            </div>\n            <div class=\"card-footer\">\n              <div class=\"stats\">\n                <i class=\"material-icons\">date_range</i> Last 5 Minutes\n                <!--<i class=\"material-icons text-danger\">warning</i> <a href=\"#pablo\">Get More Space...</a>-->\n              </div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"col-lg-6 col-md-6 col-sm-6\">\n          <div class=\"card card-stats\">\n            <div class=\"card-header\" data-background-color=\"orange\">\n              <i class=\"fa fa-globe\"></i>\n            </div>\n            <div class=\"card-content\">\n              <p class=\"category\">Online</p>\n              <h3 class=\"card-title\">{{onlineCount}}</h3>\n            </div>\n            <div class=\"card-footer\">\n              <div class=\"stats\">\n                <i class=\"material-icons\">update</i> Just Updated\n              </div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"col-lg-6 col-md-6 col-sm-6\">\n          <div class=\"card card-stats\">\n            <div class=\"card-header\" data-background-color=\"orange\">\n              <i class=\"material-icons\">equalizer</i>\n            </div>\n            <div class=\"card-content\">\n              <p class=\"category\">Enrolled Students</p>\n              <h3 class=\"card-title\">75</h3>\n            </div>\n            <div class=\"card-footer\">\n              <div class=\"stats\">\n                <i class=\"material-icons\">local_offer</i> Tracked from Google Analytics\n              </div>\n            </div>\n          </div>\n        </div>\n\n\n        <div class=\"col-lg-6 col-md-6 col-sm-6\">\n          <div class=\"card card-stats\">\n            <div class=\"card-header\" data-background-color=\"orange\">\n              <i class=\"material-icons\">store</i>\n            </div>\n            <div class=\"card-content\">\n              <p class=\"category\">Enrolled Subjects</p>\n              <h3 class=\"card-title\">34</h3>\n            </div>\n            <div class=\"card-footer\">\n              <div class=\"stats\">\n                <i class=\"material-icons\">date_range</i> Last 24 Hours\n              </div>\n            </div>\n          </div>\n        </div>\n\n      </div>\n    </div>\n  </div>\n\n  <footer class=\"footer\" style=\"background-color: white\">\n    <div class=\"container-fluid\">\n      <p class=\"copyright pull-right\">\n        Copyright &copy; {{getYear()}} - University Of Sri Jayewardenapura , Virtual Learning Environment / Developed by\n        Imalka Gunawardana\n      </p>\n    </div>\n  </footer>\n\n</div>\n"
 
 /***/ }),
 
@@ -1469,12 +1236,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DashboardComponent", function() { return DashboardComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
-/* harmony import */ var _assets_js_material_dashboard98f3_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../assets/js/material-dashboard98f3.js */ "./src/assets/js/material-dashboard98f3.js");
-/* harmony import */ var _assets_js_material_dashboard98f3_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_js_material_dashboard98f3_js__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _services_login_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../services/login.service */ "./src/app/services/login.service.ts");
-/* harmony import */ var ngx_cookie_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-cookie-service */ "./node_modules/ngx-cookie-service/index.js");
-/* harmony import */ var _additional_classes_login_status__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../additional-classes/login-status */ "./src/app/views/additional-classes/login-status.ts");
-/* harmony import */ var _services_socket_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../services/socket.service */ "./src/app/services/socket.service.ts");
+/* harmony import */ var _classes_login_status__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../classes/login-status */ "./src/app/classes/login-status.ts");
+/* harmony import */ var _services_login_screen_login_login_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../services/login-screen/login/login.service */ "./src/app/services/login-screen/login/login.service.ts");
+/* harmony import */ var _services_common_socket_socket_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../services/common/socket/socket.service */ "./src/app/services/common/socket/socket.service.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1490,17 +1255,16 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
-
 var DashboardComponent = /** @class */ (function () {
-    function DashboardComponent(datePipe, loginService, cookieService, socketService) {
+    function DashboardComponent(datePipe, socketService, router, loginService) {
         var _this = this;
         this.datePipe = datePipe;
-        this.loginService = loginService;
-        this.cookieService = cookieService;
         this.socketService = socketService;
+        this.router = router;
+        this.loginService = loginService;
         this.onlineCount = 0;
         this.websiteVisits = 0;
-        // loadMaterials();
+        this.userName = localStorage.getItem('userName');
         socketService.onlineCount.subscribe(function (value) {
             _this.onlineCount = value;
         });
@@ -1508,16 +1272,58 @@ var DashboardComponent = /** @class */ (function () {
             _this.websiteVisits = value;
         });
     }
+    DashboardComponent.prototype.login = function () {
+        this.router.navigate(['/root/log-screen/login']);
+    };
     DashboardComponent.prototype.ngOnInit = function () {
-        // loadMaterials();
+        this.setProfileImage();
         this.socketService.sendOnlineMessage();
     };
     DashboardComponent.prototype.loginStatus = function () {
-        return _additional_classes_login_status__WEBPACK_IMPORTED_MODULE_5__["LoginStatus"].getLoginStatus();
+        return _classes_login_status__WEBPACK_IMPORTED_MODULE_2__["LoginStatus"].getLoginStatus();
+    };
+    DashboardComponent.prototype.setProfileImage = function () {
+        if (localStorage.getItem('profile-image') != "images/No") {
+            this.imagePath = this.loginService.getProfileImage();
+        }
+        else {
+            this.imagePath = "../../../assets/img/faces/User.png";
+        }
     };
     DashboardComponent.prototype.getYear = function () {
         var latest_date = this.datePipe.transform(new Date(), 'yyyy');
         return latest_date;
+    };
+    DashboardComponent.prototype.logout = function () {
+        var accType = localStorage.getItem("accountTypeForLogin");
+        localStorage.clear();
+        localStorage.setItem("accountTypeForLogin", accType);
+        this.router.navigate(['/root/log-screen/login']);
+    };
+    DashboardComponent.prototype.lock = function () {
+        localStorage.removeItem('login');
+        localStorage.setItem('accountType', 'locked');
+        this.router.navigate(['/root/log-screen/lock']);
+    };
+    DashboardComponent.prototype.routeToFree = function () {
+        if (_classes_login_status__WEBPACK_IMPORTED_MODULE_2__["LoginStatus"].getLoginStatus() == 4 || _classes_login_status__WEBPACK_IMPORTED_MODULE_2__["LoginStatus"].getLoginStatus() == 5) {
+            this.router.navigate(['/root/main/student-reg/student-details']);
+        }
+    };
+    DashboardComponent.prototype.routeToAdmin = function () {
+        if (_classes_login_status__WEBPACK_IMPORTED_MODULE_2__["LoginStatus"].getLoginStatus() == 1) {
+            this.router.navigate(['/root/main/student-reg/student-details']);
+        }
+    };
+    DashboardComponent.prototype.routeToStudent = function () {
+        if (_classes_login_status__WEBPACK_IMPORTED_MODULE_2__["LoginStatus"].getLoginStatus() == 2) {
+            this.router.navigate(['/root/main/student-reg/student-details']);
+        }
+    };
+    DashboardComponent.prototype.routeToLecturer = function () {
+        if (_classes_login_status__WEBPACK_IMPORTED_MODULE_2__["LoginStatus"].getLoginStatus() == 3) {
+            this.router.navigate(['/root/main/student-reg/student-details']);
+        }
     };
     DashboardComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -1525,11 +1331,12 @@ var DashboardComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./dashboard.component.html */ "./src/app/views/dashboard/dashboard.component.html"),
             styles: [__webpack_require__(/*! ./dashboard.component.css */ "./src/app/views/dashboard/dashboard.component.css")]
         }),
-        __metadata("design:paramtypes", [_angular_common__WEBPACK_IMPORTED_MODULE_1__["DatePipe"], _services_login_service__WEBPACK_IMPORTED_MODULE_3__["LoginService"], ngx_cookie_service__WEBPACK_IMPORTED_MODULE_4__["CookieService"], _services_socket_service__WEBPACK_IMPORTED_MODULE_6__["SocketService"]])
+        __metadata("design:paramtypes", [_angular_common__WEBPACK_IMPORTED_MODULE_1__["DatePipe"], _services_common_socket_socket_service__WEBPACK_IMPORTED_MODULE_4__["SocketService"], _angular_router__WEBPACK_IMPORTED_MODULE_5__["Router"], _services_login_screen_login_login_service__WEBPACK_IMPORTED_MODULE_3__["LoginService"]])
     ], DashboardComponent);
     return DashboardComponent;
 }());
 
+// , private cookieService: CookieService, private socketService: SocketService
 
 
 /***/ }),
@@ -1552,7 +1359,7 @@ module.exports = "html,\r\nbody,\r\ndiv,\r\nspan,\r\nobject,\r\niframe,\r\nh1,\r
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"info anim04c\">\n  <li class=\"dribbble anim04c\">\n            <span>I need to be a\n                <em> dribbble </em>player?!.</span>\n  </li>\n  <li class=\"hover anim04c\">\n    <span>hover!</span>\n  </li>\n  <li class=\"click anim04c\">\n    <span>click!</span>\n  </li>\n  <li class=\"yeaa anim04c\">\n    <span>- yeaa! -</span>\n  </li>\n</div>\n\n\n<!-- main codes start -->\n<div class=\"signboard outer\">\n  <div class=\"signboard front inner anim04c\">\n    <li class=\"year anim04c\">\n      <span></span>\n    </li>\n    <ul class=\"calendarMain anim04c\">\n      <li class=\"month anim04c\">\n        <span></span>\n      </li>\n      <li class=\"date anim04c\">\n        <span></span>\n      </li>\n      <li class=\"day anim04c\">\n        <span></span>\n      </li>\n    </ul>\n    <li class=\"clock minute anim04c\">\n      <span></span>\n    </li>\n    <li class=\"calendarNormal date2 anim04c\">\n      <span></span>\n    </li>\n  </div>\n  <div class=\"signboard left inner anim04c\">\n    <li class=\"clock hour anim04c\">\n      <span></span>\n    </li>\n    <li class=\"calendarNormal day2 anim04c\">\n      <span></span>\n    </li>\n  </div>\n  <div class=\"signboard right inner anim04c\">\n    <li class=\"clock second anim04c\">\n      <span></span>\n    </li>\n    <li class=\"calendarNormal month2 anim04c\">\n      <span></span>\n    </li>\n  </div>\n</div>\n<!-- main codes end -->\n\n\n<!--<div class=\"designer anim04c\">-->\n  <!--<li>-->\n    <!--<a href=\"https://creativemarket.com/mselmany\" target=\"_blank\">-->\n      <!--<img src=\"https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/t5/1117447_100001638983788_1284464661_q.jpg\" alt=\"\">-->\n    <!--</a>-->\n  <!--</li>-->\n<!--</div>-->\n\n"
+module.exports = "<div class=\"info anim04c\">\n  <li class=\"dribbble anim04c\">\n            <span>I need to be a\n                <em> dribbble </em>player?!.</span>\n  </li>\n  <li class=\"hover anim04c\">\n    <span>hover!</span>\n  </li>\n  <li class=\"click anim04c\">\n    <span>click!</span>\n  </li>\n  <li class=\"yeaa anim04c\">\n    <span>- yeaa! -</span>\n  </li>\n</div>\n\n\n<!-- main codes start -->\n<div class=\"signboard outer\">\n  <div class=\"signboard front inner anim04c\">\n    <li class=\"year anim04c\">\n      <span></span>\n    </li>\n    <ul class=\"calendarMain anim04c\">\n      <li class=\"month anim04c\">\n        <span></span>\n      </li>\n      <li class=\"date anim04c\">\n        <span></span>\n      </li>\n      <li class=\"day anim04c\">\n        <span></span>\n      </li>\n    </ul>\n    <li class=\"clock minute anim04c\">\n      <span></span>\n    </li>\n    <li class=\"calendarNormal date2 anim04c\">\n      <span></span>\n    </li>\n  </div>\n  <div class=\"signboard left inner anim04c\">\n    <li class=\"clock hour anim04c\">\n      <span></span>\n    </li>\n    <li class=\"calendarNormal day2 anim04c\">\n      <span></span>\n    </li>\n  </div>\n  <div class=\"signboard right inner anim04c\">\n    <li class=\"clock second anim04c\">\n      <span></span>\n    </li>\n    <li class=\"calendarNormal month2 anim04c\">\n      <span></span>\n    </li>\n  </div>\n</div>\n<!-- main codes end -->\n\n\n<!--<div class=\"designer anim04c\">-->\n<!--<li>-->\n<!--<a href=\"https://creativemarket.com/mselmany\" target=\"_blank\">-->\n<!--<img src=\"https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/t5/1117447_100001638983788_1284464661_q.jpg\" alt=\"\">-->\n<!--</a>-->\n<!--</li>-->\n<!--</div>-->\n\n"
 
 /***/ }),
 
@@ -1619,7 +1426,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row\">\r\n  <div class=\"col-md-12 col-12\">\r\n    <div class=\"card\">\r\n      <div class=\"card-header card-header-icon\" data-background-color=\"purple\">\r\n        <i class=\"material-icons\">assignment</i>\r\n      </div>\r\n\r\n      <div class=\"card-content\">\r\n        <h4 class=\"card-title\" style=\"color: #4e4e4e;font-size: 17px\">LECTURER DETAILS</h4>\r\n        <div class=\"toolbar\">\r\n          <!--        Here you can write extra buttons/actions for the toolbar              -->\r\n        </div>\r\n        <div class=\"material-datatables\">\r\n          <table class=\"table table-striped table-no-bordered table-hover datatables\" cellspacing=\"0\"\r\n                 width=\"100%\" style=\"width:100%\">\r\n            <thead>\r\n            <tr>\r\n              <th>Lecturer ID</th>\r\n              <th>Name With Initials</th>\r\n              <th>Email</th>\r\n              <th class=\"disabled-sorting text-right\">Remove</th>\r\n            </tr>\r\n            </thead>\r\n            <tfoot>\r\n            <tr>\r\n              <th>Lecturer ID</th>\r\n              <th>Name With Initials</th>\r\n              <th>Email</th>\r\n              <th class=\"text-right\">Remove</th>\r\n            </tr>\r\n            </tfoot>\r\n            <tbody>\r\n            <tr style=\"font-size: 16px;background-color: white;height: 50px\">\r\n              <td>L1</td>\r\n              <td>K.Silva</td>\r\n              <td>kamal@gmail.com</td>\r\n              <td class=\"text-right\">\r\n                <a href=\"#\" class=\"btn btn-simple btn-danger btn-icon remove\"><i\r\n                  class=\"material-icons\">close</i></a>\r\n              </td>\r\n            </tr>\r\n            <tr style=\"font-size: 16px;background-color: white;height: 50px\">\r\n              <td>L2</td>\r\n              <td>N.Silva</td>\r\n              <td>nimal@gmail.com</td>\r\n              <td class=\"text-right\">\r\n                <a href=\"#\" class=\"btn btn-simple btn-danger btn-icon remove\"><i\r\n                  class=\"material-icons\">close</i></a>\r\n              </td>\r\n            </tr>\r\n            </tbody>\r\n          </table>\r\n        </div>\r\n      </div><!-- end content-->\r\n      <div class=\"row\">\r\n        <div class=\"col-sm-8\"></div>\r\n        <div class=\"col-sm-2\"></div>\r\n        <div class=\"col-sm-2\">\r\n          <div class=\"card-footer\">\r\n            <button type=\"submit\" class=\"btn btn-fill\" style=\"width: 100%\" (click)=\"nextPage()\">Next</button>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div><!--  end card  -->\r\n  </div>\r\n</div> <!-- end col-md-12 -->\r\n<div class=\"row\">\r\n  <div class=\"col-md-12 col-12\">\r\n    <div class=\"card\">\r\n      <form class=\"form-horizontal\" (ngSubmit)=\"saveStudent()\">\r\n        <div class=\"card-header card-header-text\" data-background-color=\"rose\">\r\n          <h4 class=\"card-title\" style=\"font-weight: lighter\">LECTURER DETAILS</h4>\r\n        </div>\r\n        <!-- /.card-header -->\r\n        <div class=\"card-content\">\r\n          <div class=\"row\">\r\n            <div class=\"col-sm-12\">\r\n              <div class=\"card-footer\">\r\n                <div style=\"font-weight: bold\">Note:- If you are a new lecturer, the system will automatically generate a new Lecturer ID and it will show on above table after you save your details.</div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n          <div class=\"row\">\r\n            <label class=\"col-sm-2 label-on-left\">Faculty</label>\r\n            <div class=\"col-sm-7\">\r\n              <select class=\"form-control\" data-style=\"select-with-transition\" title=\"Single Select\" data-size=\"7\">\r\n                <option disabled selected>Select Faculty</option>\r\n                <option value=\"2\">Foobar</option>\r\n                <option value=\"3\">Is great</option>\r\n              </select>\r\n            </div>\r\n            <div class=\"col-sm-3\">\r\n              <div class=\"card-footer\">\r\n                <button type=\"submit\" class=\"btn btn-fill\" style=\"width: 100%\">Search Via Faculty</button>\r\n              </div>\r\n            </div>\r\n          </div>\r\n          <div class=\"row\">\r\n            <label class=\"col-sm-2 label-on-left\">Lecturer ID</label>\r\n            <div class=\"col-sm-10\">\r\n              <div class=\"form-group label-floating is-empty\">\r\n                <label class=\"control-label\"></label>\r\n                <input type=\"text\" class=\"form-control\" disabled>\r\n              </div>\r\n            </div>\r\n          </div>\r\n          <div class=\"row\">\r\n            <label class=\"col-sm-2 label-on-left\">Title</label>\r\n            <div class=\"col-sm-10\">\r\n              <select class=\"form-control\" data-style=\"select-with-transition\" title=\"Single Select\">\r\n                <option value=\"2\">Mr</option>\r\n                <option value=\"3\">Miss</option>\r\n                <option value=\"3\">Mrs</option>\r\n              </select>\r\n            </div>\r\n          </div>\r\n          <div class=\"row\">\r\n            <label class=\"col-sm-2 label-on-left\">Name with initials</label>\r\n            <div class=\"col-sm-10\">\r\n              <div class=\"form-group label-floating is-empty\">\r\n                <label class=\"control-label\"></label>\r\n                <input type=\"text\" class=\"form-control\" required=\"true\">\r\n              </div>\r\n            </div>\r\n          </div>\r\n          <div class=\"row\">\r\n            <label class=\"col-sm-2 label-on-left\">Full Name</label>\r\n            <div class=\"col-sm-10\">\r\n              <div class=\"form-group label-floating is-empty\">\r\n                <label class=\"control-label\"></label>\r\n                <input type=\"text\" class=\"form-control\" required=\"true\">\r\n              </div>\r\n            </div>\r\n          </div>\r\n          <div class=\"row\">\r\n            <label class=\"col-sm-2 label-on-left\">Address</label>\r\n            <div class=\"col-sm-10\">\r\n              <div class=\"form-group label-floating is-empty\">\r\n                <label class=\"control-label\"></label>\r\n                <input type=\"text\" class=\"form-control\" required=\"true\">\r\n              </div>\r\n            </div>\r\n          </div>\r\n          <div class=\"row\">\r\n            <label class=\"col-sm-2 label-on-left\">Date of birth</label>\r\n            <div class=\"col-sm-10\">\r\n              <div class=\"form-group label-floating is-empty\">\r\n                <label class=\"control-label\"></label>\r\n                <input type=\"text\" class=\"form-control\" required=\"true\">\r\n              </div>\r\n            </div>\r\n          </div>\r\n          <div class=\"row\">\r\n            <label class=\"col-sm-2 label-on-left\">Email</label>\r\n            <div class=\"col-sm-10\">\r\n              <div class=\"form-group label-floating is-empty\">\r\n                <label class=\"control-label\"></label>\r\n                <input type=\"email\" class=\"form-control\">\r\n              </div>\r\n            </div>\r\n          </div>\r\n          <div class=\"row\">\r\n            <label class=\"col-sm-2 label-on-left\">Telephone</label>\r\n            <div class=\"col-sm-10\">\r\n              <div class=\"form-group label-floating is-empty\">\r\n                <label class=\"control-label\"></label>\r\n                <input type=\"text\" class=\"form-control\" required=\"true\">\r\n              </div>\r\n            </div>\r\n          </div>\r\n          <div class=\"row\">\r\n            <label class=\"col-sm-2 label-on-left\">Gender</label>\r\n            <div class=\"col-sm-10 checkbox-radios\">\r\n              <div class=\"radio\">\r\n                <label>\r\n                  <input type=\"radio\" name=\"optionsRadios\" checked=\"true\">\r\n                  Male\r\n                </label>\r\n              </div>\r\n              <div class=\"radio\">\r\n                <label>\r\n                  <input type=\"radio\" name=\"optionsRadios\">\r\n                  Female\r\n                </label>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <div class=\"row\">\r\n          <div class=\"col-sm-12\">\r\n            <div class=\"card-footer\">\r\n              <button type=\"submit\" class=\"btn btn-fill\" style=\"left: 50%;transform: translateX(-50%)\">Save / Update Lecturer</button>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </form>\r\n      <!-- /.card-body -->\r\n    </div>\r\n    <!-- /.card -->\r\n  </div>\r\n</div>\r\n"
+module.exports = "<div class=\"row\">\n  <div class=\"col-md-12 col-12\">\n    <div class=\"card\">\n      <div class=\"card-header card-header-icon\" data-background-color=\"purple\">\n        <i class=\"material-icons\">assignment</i>\n      </div>\n\n      <div class=\"card-content\">\n        <h4 class=\"card-title\" style=\"color: #4e4e4e;font-size: 17px\">LECTURER DETAILS</h4>\n        <div class=\"toolbar\">\n          <!--        Here you can write extra buttons/actions for the toolbar              -->\n        </div>\n        <div class=\"material-datatables\">\n          <table class=\"table table-striped table-no-bordered table-hover datatables\" cellspacing=\"0\"\n                 width=\"100%\" style=\"width:100%\">\n            <thead>\n            <tr>\n              <th>Lecturer ID</th>\n              <th>Name With Initials</th>\n              <th>Email</th>\n              <th class=\"disabled-sorting text-right\">Remove</th>\n            </tr>\n            </thead>\n            <tfoot>\n            <tr>\n              <th>Lecturer ID</th>\n              <th>Name With Initials</th>\n              <th>Email</th>\n              <th class=\"text-right\">Remove</th>\n            </tr>\n            </tfoot>\n            <tbody>\n            <tr style=\"font-size: 16px;background-color: white;height: 50px\">\n              <td>L1</td>\n              <td>K.Silva</td>\n              <td>kamal@gmail.com</td>\n              <td class=\"text-right\">\n                <a href=\"#\" class=\"btn btn-simple btn-danger btn-icon remove\"><i\n                  class=\"material-icons\">close</i></a>\n              </td>\n            </tr>\n            <tr style=\"font-size: 16px;background-color: white;height: 50px\">\n              <td>L2</td>\n              <td>N.Silva</td>\n              <td>nimal@gmail.com</td>\n              <td class=\"text-right\">\n                <a href=\"#\" class=\"btn btn-simple btn-danger btn-icon remove\"><i\n                  class=\"material-icons\">close</i></a>\n              </td>\n            </tr>\n            </tbody>\n          </table>\n        </div>\n      </div><!-- end content-->\n      <div class=\"row\">\n        <div class=\"col-sm-8\"></div>\n        <div class=\"col-sm-2\"></div>\n        <div class=\"col-sm-2\">\n          <div class=\"card-footer\">\n            <button type=\"submit\" class=\"btn btn-fill\" style=\"width: 100%\" (click)=\"nextPage()\">Next</button>\n          </div>\n        </div>\n      </div>\n    </div><!--  end card  -->\n  </div>\n</div> <!-- end col-md-12 -->\n<div class=\"row\">\n  <div class=\"col-md-12 col-12\">\n    <div class=\"card\">\n      <form class=\"form-horizontal\" (ngSubmit)=\"saveStudent()\">\n        <div class=\"card-header card-header-text\" data-background-color=\"rose\">\n          <h4 class=\"card-title\" style=\"font-weight: lighter\">LECTURER DETAILS</h4>\n        </div>\n        <!-- /.card-header -->\n        <div class=\"card-content\">\n          <div class=\"row\">\n            <div class=\"col-sm-12\">\n              <div class=\"card-footer\">\n                <div style=\"font-weight: bold\">Note:- If you are a new lecturer, the system will automatically generate a new Lecturer ID and it will show on above table after you save your details.</div>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Faculty</label>\n            <div class=\"col-sm-7\">\n              <select class=\"form-control\" data-style=\"select-with-transition\" title=\"Single Select\" data-size=\"7\">\n                <option disabled selected>Select Faculty</option>\n                <option value=\"2\">Foobar</option>\n                <option value=\"3\">Is great</option>\n              </select>\n            </div>\n            <div class=\"col-sm-3\">\n              <div class=\"card-footer\">\n                <button type=\"submit\" class=\"btn btn-fill\" style=\"width: 100%\">Search Via Faculty</button>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Lecturer ID</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"text\" class=\"form-control\" disabled>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Title</label>\n            <div class=\"col-sm-10\">\n              <select class=\"form-control\" data-style=\"select-with-transition\" title=\"Single Select\">\n                <option value=\"2\">Mr</option>\n                <option value=\"3\">Miss</option>\n                <option value=\"3\">Mrs</option>\n              </select>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Name with initials</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"text\" class=\"form-control\" required=\"true\">\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Full Name</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"text\" class=\"form-control\" required=\"true\">\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Address</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"text\" class=\"form-control\" required=\"true\">\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Date of birth</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"text\" class=\"form-control\" required=\"true\">\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Email</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"email\" class=\"form-control\">\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Telephone</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"text\" class=\"form-control\" required=\"true\">\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Gender</label>\n            <div class=\"col-sm-10 checkbox-radios\">\n              <div class=\"radio\">\n                <label>\n                  <input type=\"radio\" name=\"optionsRadios\" checked=\"true\">\n                  Male\n                </label>\n              </div>\n              <div class=\"radio\">\n                <label>\n                  <input type=\"radio\" name=\"optionsRadios\">\n                  Female\n                </label>\n              </div>\n            </div>\n          </div>\n        </div>\n        <div class=\"row\">\n          <div class=\"col-sm-12\">\n            <div class=\"card-footer\">\n              <button type=\"submit\" class=\"btn btn-fill\" style=\"left: 50%;transform: translateX(-50%)\">Save / Update Lecturer</button>\n            </div>\n          </div>\n        </div>\n      </form>\n      <!-- /.card-body -->\n    </div>\n    <!-- /.card -->\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -1634,10 +1441,10 @@ module.exports = "<div class=\"row\">\r\n  <div class=\"col-md-12 col-12\">\r\n 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LecturerDetailsComponent", function() { return LecturerDetailsComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _assets_js_data_tables_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../assets/js/data-tables.js */ "./src/assets/js/data-tables.js");
-/* harmony import */ var _assets_js_data_tables_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_js_data_tables_js__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _services_wizard_color_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../services/wizard-color.service */ "./src/app/services/wizard-color.service.ts");
+/* harmony import */ var _assets_js_data_tables_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../assets/js/data-tables.js */ "./src/assets/js/data-tables.js");
+/* harmony import */ var _assets_js_data_tables_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_assets_js_data_tables_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _services_common_wizard_color_wizard_color_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../services/common/wizard-color/wizard-color.service */ "./src/app/services/common/wizard-color/wizard-color.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1670,7 +1477,7 @@ var LecturerDetailsComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./lecturer-details.component.html */ "./src/app/views/lecturer-subjects-registrations/lecturer-details/lecturer-details.component.html"),
             styles: [__webpack_require__(/*! ./lecturer-details.component.css */ "./src/app/views/lecturer-subjects-registrations/lecturer-details/lecturer-details.component.css")]
         }),
-        __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"], _services_wizard_color_service__WEBPACK_IMPORTED_MODULE_3__["WizardColorService"]])
+        __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"], _services_common_wizard_color_wizard_color_service__WEBPACK_IMPORTED_MODULE_3__["WizardColorService"]])
     ], LecturerDetailsComponent);
     return LecturerDetailsComponent;
 }());
@@ -1697,7 +1504,7 @@ module.exports = "\r\n.nav-tabs.wizard {\r\n  background-color: transparent;\r\n
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!-- multistep form -->\n<div class=\"main-panel\">\n  <nav class=\"navbar navbar-transparent navbar-absolute\" style=\"background-color: #FAFAFA\">\n    <div class=\"container-fluid\">\n      <!--<div class=\"navbar-minimize\">-->\n        <!--<button id=\"minimizeSidebar\" class=\"btn btn-round btn-white btn-fill btn-just-icon\"-->\n                <!--style=\"background-color: grey\">-->\n          <!--<i class=\"material-icons visible-on-sidebar-regular\">more_vert</i>-->\n          <!--<i class=\"material-icons visible-on-sidebar-mini\">view_list</i>-->\n        <!--</button>-->\n      <!--</div>-->\n      <div class=\"navbar-header\">\n        <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\">\n          <span class=\"sr-only\">Toggle navigation</span>\n          <span class=\"icon-bar\"></span>\n          <span class=\"icon-bar\"></span>\n          <span class=\"icon-bar\"></span>\n        </button>\n        <a class=\"navbar-brand\" style=\"color: grey\"> Lecturer with Subjects Enrollment </a>\n      </div>\n      <style>\n        @media (min-width: 992px) {\n          #sec1 {\n            width: 49%\n          }\n\n          #sec2 {\n            width: 50.5%\n          }\n        }\n      </style>\n      <ul class=\"nav nav-tabs wizard\" #wizardComp>\n        <li class=\"tab-color\" style=\"width: 49.7%;\"><a data-toggle=\"tab\" aria-expanded=\"false\"><span class=\"nmbr\">1</span> Lecturer Registration</a></li>\n        <!--<li style=\"width: 33%;\"><a data-toggle=\"tab\" aria-expanded=\"false\"><span class=\"nmbr\">2</span> Lecturer Registration</a></li>-->\n        <li style=\"width: 49.7%;\"><a data-toggle=\"tab\" aria-expanded=\"false\"><span class=\"nmbr\">2</span> Subjects Registration</a>\n        </li>\n      </ul>\n      <router-outlet></router-outlet>\n    </div>\n    <footer class=\"footer\" style=\"background-color: white;border-top: 1px solid #e7e7e7\">\n      <div class=\"container-fluid\">\n        <p class=\"copyright pull-right\">\n          Copyright &copy; {{getYear()}} - University Of Sri Jayewardenapura , Virtual Learning Environment / Developed by\n          Imalka Gunawardana\n        </p>\n      </div>\n    </footer>\n  </nav>\n</div>\n"
+module.exports = "<!-- multistep form -->\n<div class=\"main-panel\">\n  <nav class=\"navbar navbar-transparent navbar-absolute\" style=\"background-color: #FAFAFA\">\n    <div class=\"container-fluid\">\n      <!--<div class=\"navbar-minimize\">-->\n      <!--<button id=\"minimizeSidebar\" class=\"btn btn-round btn-white btn-fill btn-just-icon\"-->\n      <!--style=\"background-color: grey\">-->\n      <!--<i class=\"material-icons visible-on-sidebar-regular\">more_vert</i>-->\n      <!--<i class=\"material-icons visible-on-sidebar-mini\">view_list</i>-->\n      <!--</button>-->\n      <!--</div>-->\n      <div class=\"navbar-header\">\n        <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\">\n          <span class=\"sr-only\">Toggle navigation</span>\n          <span class=\"icon-bar\"></span>\n          <span class=\"icon-bar\"></span>\n          <span class=\"icon-bar\"></span>\n        </button>\n        <a class=\"navbar-brand\" style=\"color: grey\"> Lecturer with Subjects Enrollment </a>\n      </div>\n      <style>\n        @media (min-width: 992px) {\n          #sec1 {\n            width: 49%\n          }\n\n          #sec2 {\n            width: 50.5%\n          }\n        }\n      </style>\n      <ul class=\"nav nav-tabs wizard\" #wizardComp>\n        <li class=\"tab-color\" style=\"width: 49.7%;\"><a data-toggle=\"tab\" aria-expanded=\"false\"><span class=\"nmbr\">1</span> Lecturer Registration</a></li>\n        <!--<li style=\"width: 33%;\"><a data-toggle=\"tab\" aria-expanded=\"false\"><span class=\"nmbr\">2</span> Lecturer Registration</a></li>-->\n        <li style=\"width: 49.7%;\"><a data-toggle=\"tab\" aria-expanded=\"false\"><span class=\"nmbr\">2</span> Subjects Registration</a>\n        </li>\n      </ul>\n      <router-outlet></router-outlet>\n    </div>\n    <footer class=\"footer\" style=\"background-color: white;border-top: 1px solid #e7e7e7\">\n      <div class=\"container-fluid\">\n        <p class=\"copyright pull-right\">\n          Copyright &copy; {{getYear()}} - University Of Sri Jayewardenapura , Virtual Learning Environment / Developed by\n          Imalka Gunawardana\n        </p>\n      </div>\n    </footer>\n  </nav>\n</div>\n"
 
 /***/ }),
 
@@ -1712,11 +1519,11 @@ module.exports = "<!-- multistep form -->\n<div class=\"main-panel\">\n  <nav cl
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LecturerSubjectsRegistrationsComponent", function() { return LecturerSubjectsRegistrationsComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
-/* harmony import */ var _assets_js_material_dashboard98f3_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../assets/js/material-dashboard98f3.js */ "./src/assets/js/material-dashboard98f3.js");
-/* harmony import */ var _assets_js_material_dashboard98f3_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_assets_js_material_dashboard98f3_js__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _services_wizard_color_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../services/wizard-color.service */ "./src/app/services/wizard-color.service.ts");
+/* harmony import */ var _assets_js_material_dashboard98f3_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../assets/js/material-dashboard98f3.js */ "./src/assets/js/material-dashboard98f3.js");
+/* harmony import */ var _assets_js_material_dashboard98f3_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_assets_js_material_dashboard98f3_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
+/* harmony import */ var _services_common_wizard_color_wizard_color_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../services/common/wizard-color/wizard-color.service */ "./src/app/services/common/wizard-color/wizard-color.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1768,7 +1575,7 @@ var LecturerSubjectsRegistrationsComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./lecturer-subjects-registrations.component.html */ "./src/app/views/lecturer-subjects-registrations/lecturer-subjects-registrations.component.html"),
             styles: [__webpack_require__(/*! ./lecturer-subjects-registrations.component.css */ "./src/app/views/lecturer-subjects-registrations/lecturer-subjects-registrations.component.css")]
         }),
-        __metadata("design:paramtypes", [_angular_core__WEBPACK_IMPORTED_MODULE_0__["Renderer2"], _angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["DatePipe"], _services_wizard_color_service__WEBPACK_IMPORTED_MODULE_4__["WizardColorService"]])
+        __metadata("design:paramtypes", [_angular_core__WEBPACK_IMPORTED_MODULE_0__["Renderer2"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["DatePipe"], _services_common_wizard_color_wizard_color_service__WEBPACK_IMPORTED_MODULE_4__["WizardColorService"]])
     ], LecturerSubjectsRegistrationsComponent);
     return LecturerSubjectsRegistrationsComponent;
 }());
@@ -1812,8 +1619,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _assets_js_data_tables_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../assets/js/data-tables.js */ "./src/assets/js/data-tables.js");
 /* harmony import */ var _assets_js_data_tables_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_assets_js_data_tables_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _services_wizard_color_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../services/wizard-color.service */ "./src/app/services/wizard-color.service.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _services_common_wizard_color_wizard_color_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../services/common/wizard-color/wizard-color.service */ "./src/app/services/common/wizard-color/wizard-color.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1845,7 +1652,7 @@ var SubjectsDetailsComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./subjects-details.component.html */ "./src/app/views/lecturer-subjects-registrations/subjects-details/subjects-details.component.html"),
             styles: [__webpack_require__(/*! ./subjects-details.component.css */ "./src/app/views/lecturer-subjects-registrations/subjects-details/subjects-details.component.css")]
         }),
-        __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"], _services_wizard_color_service__WEBPACK_IMPORTED_MODULE_2__["WizardColorService"]])
+        __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"], _services_common_wizard_color_wizard_color_service__WEBPACK_IMPORTED_MODULE_3__["WizardColorService"]])
     ], SubjectsDetailsComponent);
     return SubjectsDetailsComponent;
 }());
@@ -1872,7 +1679,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row\">\r\n  <div class=\"col-md-4 col-sm-6 col-md-offset-4 col-sm-offset-3\">\r\n    <div class=\"card card-login card-hidden\" style=\"background-color: rgba(0,0,0,0.6);border: none\">\r\n      <div class=\"card-header text-center\" data-background-color=\"rose\">\r\n        <h4 class=\"card-title\">Email Verification</h4>\r\n        <div class=\"social-line\">\r\n          <a href=\"https://www.google.com/\" target=\"_blank\" class=\"btn btn-just-icon btn-simple\">\r\n            <i class=\"fa fa-google\"></i>\r\n          </a>\r\n          <a href=\"#pablo\" class=\"btn btn-just-icon btn-simple\">\r\n            <i class=\"fa fa-youtube-play\"></i>\r\n          </a>\r\n          <a href=\"https://www.dropbox.com/\" target=\"_blank\" class=\"btn btn-just-icon btn-simple\">\r\n            <i class=\"fa fa-dropbox\"></i>\r\n          </a>\r\n        </div>\r\n      </div>\r\n      <!--<p class=\"category text-center\">-->\r\n      <!--Or Be Classical-->\r\n      <!--</p>-->\r\n      <div class=\"card-content\">\r\n        <form #frmLogin=\"ngForm\" action=\"\" method=\"post\" (ngSubmit)=\"sendEmail()\">\r\n          <!--<div class=\"input-group\">-->\r\n        <!--<span class=\"input-group-addon\">-->\r\n          <!--<i class=\"material-icons\">face</i>-->\r\n        <!--</span>-->\r\n\r\n            <!--<div class=\"form-group label-floating\">-->\r\n              <!--<label class=\"control-label\">Username</label>-->\r\n              <!--<input type=\"text\" class=\"form-control\" [(ngModel)]=\"email.userName\" name=\"txtUserid\" style=\"color: white\"-->\r\n                     <!--(keyup)=\"setEmail()\">-->\r\n            <!--</div>-->\r\n          <!--</div>-->\r\n          <div class=\"input-group\">\r\n        <span class=\"input-group-addon\">\r\n          <i class=\"material-icons\">email</i>\r\n        </span>\r\n            <div class=\"form-group label-floating\">\r\n              <label class=\"control-label\">Email</label>\r\n              <input type=\"text\" class=\"form-control\" name=\"txtEmail\" style=\"color: white\" [(ngModel)]=\"email.emailAddress\">\r\n            </div>\r\n          </div>\r\n          <div class=\"footer text-center\">\r\n            <button type=\"submit\" class=\"btn btn-rose btn-simple btn-wd btn-lg\" style=\"color: #e9b500\">\r\n              Send\r\n            </button>\r\n          </div>\r\n          <div *ngIf=\"failed\" class=\"alert alert-danger\"\r\n               style=\"margin-left: 10px;margin-right: 10px;text-align: center;color: #870c00;font-weight: bold;width: 100%\">\r\n            {{afterEmail.reply}}\r\n          </div>\r\n        </form>\r\n        <div *ngIf=\"success\">\r\n          <div class=\"input-group\">\r\n        <span class=\"input-group-addon\">\r\n          <i class=\"material-icons\">subject</i>\r\n        </span>\r\n            <div class=\"form-group label-floating\">\r\n              <label class=\"control-label\">Verification Code</label>\r\n              <input type=\"text\" class=\"form-control\" #verNumber name=\"txtCode\" style=\"color: white\">\r\n            </div>\r\n          </div>\r\n          <div class=\"footer text-center\">\r\n            <button type=\"submit\" class=\"btn btn-rose btn-simple btn-wd btn-lg\" style=\"color: #e9b500\"\r\n                    (click)=\"verifyNumber()\">\r\n              Submit\r\n            </button>\r\n          </div>\r\n          <div *ngIf=\"notVerified\" class=\"alert alert-danger\"\r\n               style=\"margin-left: 10px;margin-right: 10px;text-align: center;color: #870c00;font-weight: bold;width: 100%;\">\r\n            Invalid verification code\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n<div class=\"row\">\r\n  <div class=\"col-12\" style=\"color: rgba(255,255,255,0.71);font-size: 12px;text-align: center;margin-top: 50px\">(Note:- System will send a verification code to your email, check your email and enter the verification code to reset your password)</div>\r\n</div>\r\n"
+module.exports = "<div class=\"row\">\n  <div class=\"col-md-4 col-sm-6 col-md-offset-4 col-sm-offset-3\">\n    <div class=\"card card-login card-hidden\" style=\"background-color: rgba(0,0,0,0.6);border: none\">\n      <div class=\"card-header text-center\" data-background-color=\"rose\">\n        <h4 class=\"card-title\">Email Verification</h4>\n        <div class=\"social-line\">\n          <a href=\"https://www.google.com/\" target=\"_blank\" class=\"btn btn-just-icon btn-simple\">\n            <i class=\"fa fa-google\"></i>\n          </a>\n          <a href=\"#pablo\" class=\"btn btn-just-icon btn-simple\">\n            <i class=\"fa fa-youtube-play\"></i>\n          </a>\n          <a href=\"https://www.dropbox.com/\" target=\"_blank\" class=\"btn btn-just-icon btn-simple\">\n            <i class=\"fa fa-dropbox\"></i>\n          </a>\n        </div>\n      </div>\n      <!--<p class=\"category text-center\">-->\n      <!--Or Be Classical-->\n      <!--</p>-->\n      <div class=\"card-content\">\n        <form #frmLogin=\"ngForm\" action=\"\" method=\"post\" (ngSubmit)=\"sendEmail()\">\n          <!--<div class=\"input-group\">-->\n          <!--<span class=\"input-group-addon\">-->\n          <!--<i class=\"material-icons\">face</i>-->\n          <!--</span>-->\n\n          <!--<div class=\"form-group label-floating\">-->\n          <!--<label class=\"control-label\">Username</label>-->\n          <!--<input type=\"text\" class=\"form-control\" [(ngModel)]=\"email.userName\" name=\"txtUserid\" style=\"color: white\"-->\n          <!--(keyup)=\"setEmail()\">-->\n          <!--</div>-->\n          <!--</div>-->\n          <div class=\"input-group\">\n        <span class=\"input-group-addon\">\n          <i class=\"material-icons\">email</i>\n        </span>\n            <div class=\"form-group label-floating\">\n              <label class=\"control-label\">Email</label>\n              <input type=\"text\" class=\"form-control\" name=\"txtEmail\" style=\"color: white\" [(ngModel)]=\"email.emailAddress\">\n            </div>\n          </div>\n          <div class=\"footer text-center\">\n            <button type=\"submit\" class=\"btn btn-rose btn-simple btn-wd btn-lg\" style=\"color: #e9b500\">\n              Send\n            </button>\n          </div>\n          <div *ngIf=\"failed\" class=\"alert alert-danger\"\n               style=\"margin-left: 10px;margin-right: 10px;text-align: center;color: #870c00;font-weight: bold;width: 100%\">\n            {{afterEmail.reply}}\n          </div>\n        </form>\n        <div *ngIf=\"success\">\n          <div class=\"input-group\">\n        <span class=\"input-group-addon\">\n          <i class=\"material-icons\">subject</i>\n        </span>\n            <div class=\"form-group label-floating\">\n              <label class=\"control-label\">Verification Code</label>\n              <input type=\"text\" class=\"form-control\" #verNumber name=\"txtCode\" style=\"color: white\">\n            </div>\n          </div>\n          <div class=\"footer text-center\">\n            <button type=\"submit\" class=\"btn btn-rose btn-simple btn-wd btn-lg\" style=\"color: #e9b500\"\n                    (click)=\"verifyNumber()\">\n              Submit\n            </button>\n          </div>\n          <div *ngIf=\"notVerified\" class=\"alert alert-danger\"\n               style=\"margin-left: 10px;margin-right: 10px;text-align: center;color: #870c00;font-weight: bold;width: 100%;\">\n            Invalid verification code\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n<div class=\"row\">\n  <div class=\"col-12\" style=\"color: rgba(255,255,255,0.71);font-size: 12px;text-align: center;margin-top: 50px\">(Note:- System will send a verification code to your email, check your email and enter the verification code to reset your password)</div>\n</div>\n"
 
 /***/ }),
 
@@ -1887,10 +1694,10 @@ module.exports = "<div class=\"row\">\r\n  <div class=\"col-md-4 col-sm-6 col-md
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EmailVerifyComponent", function() { return EmailVerifyComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _services_login_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../services/login.service */ "./src/app/services/login.service.ts");
+/* harmony import */ var _assets_js_login_login_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../assets/js/login/login.js */ "./src/assets/js/login/login.js");
+/* harmony import */ var _assets_js_login_login_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_assets_js_login_login_js__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _dtos_email__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../dtos/email */ "./src/app/dtos/email.ts");
-/* harmony import */ var _assets_js_login_login_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../assets/js/login/login.js */ "./src/assets/js/login/login.js");
-/* harmony import */ var _assets_js_login_login_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_assets_js_login_login_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _services_login_screen_login_login_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../services/login-screen/login/login.service */ "./src/app/services/login-screen/login/login.service.ts");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1942,7 +1749,7 @@ var EmailVerifyComponent = /** @class */ (function () {
     };
     EmailVerifyComponent.prototype.verifyNumber = function () {
         if (this.email.verNumber == this.verNumber.nativeElement.value) {
-            this.router.navigate(['/log-screen/password-reset']);
+            this.router.navigate(['/root/log-screen/password-reset']);
         }
         else {
             this.notVerified = true;
@@ -1958,7 +1765,7 @@ var EmailVerifyComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./email-verify.component.html */ "./src/app/views/login-screen/email-verify/email-verify.component.html"),
             styles: [__webpack_require__(/*! ./email-verify.component.css */ "./src/app/views/login-screen/email-verify/email-verify.component.css")]
         }),
-        __metadata("design:paramtypes", [_services_login_service__WEBPACK_IMPORTED_MODULE_1__["LoginService"], _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"]])
+        __metadata("design:paramtypes", [_services_login_screen_login_login_service__WEBPACK_IMPORTED_MODULE_3__["LoginService"], _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"]])
     ], EmailVerifyComponent);
     return EmailVerifyComponent;
 }());
@@ -2002,11 +1809,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _assets_js_login_login_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../assets/js/login/login.js */ "./src/assets/js/login/login.js");
 /* harmony import */ var _assets_js_login_login_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_assets_js_login_login_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
-/* harmony import */ var _services_login_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../services/login.service */ "./src/app/services/login.service.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _dtos_user__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../dtos/user */ "./src/app/dtos/user.ts");
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
+/* harmony import */ var _dtos_user__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../dtos/user */ "./src/app/dtos/user.ts");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
+/* harmony import */ var _services_login_screen_login_login_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../services/login-screen/login/login.service */ "./src/app/services/login-screen/login/login.service.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2022,14 +1828,12 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
-
 var LockComponent = /** @class */ (function () {
-    function LockComponent(datePipe, loginService, router, sanitizer) {
+    function LockComponent(datePipe, loginService, router) {
         this.datePipe = datePipe;
         this.loginService = loginService;
         this.router = router;
-        this.sanitizer = sanitizer;
-        this.user = new _dtos_user__WEBPACK_IMPORTED_MODULE_5__["User"]();
+        this.user = new _dtos_user__WEBPACK_IMPORTED_MODULE_2__["User"]();
         this.failed = false;
         this.userName = localStorage.getItem('userName');
         this.path = localStorage.getItem('image');
@@ -2048,7 +1852,7 @@ var LockComponent = /** @class */ (function () {
                 _this.failed = false;
                 localStorage.setItem("login", "logged");
                 localStorage.setItem("accountType", _this.user.accountType);
-                _this.router.navigate(['/main/dashboard']);
+                _this.router.navigate(['/root/dashboard']);
             }
             else {
                 _this.failed = true;
@@ -2077,7 +1881,7 @@ var LockComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./lock.component.html */ "./src/app/views/login-screen/lock/lock.component.html"),
             styles: [__webpack_require__(/*! ./lock.component.css */ "./src/app/views/login-screen/lock/lock.component.css")]
         }),
-        __metadata("design:paramtypes", [_angular_common__WEBPACK_IMPORTED_MODULE_2__["DatePipe"], _services_login_service__WEBPACK_IMPORTED_MODULE_3__["LoginService"], _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"], _angular_platform_browser__WEBPACK_IMPORTED_MODULE_6__["DomSanitizer"]])
+        __metadata("design:paramtypes", [_angular_common__WEBPACK_IMPORTED_MODULE_3__["DatePipe"], _services_login_screen_login_login_service__WEBPACK_IMPORTED_MODULE_4__["LoginService"], _angular_router__WEBPACK_IMPORTED_MODULE_5__["Router"]])
     ], LockComponent);
     return LockComponent;
 }());
@@ -2086,10 +1890,62 @@ var LockComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/views/login-screen/log-screen/log-screen.component.css":
-/*!************************************************************************!*\
-  !*** ./src/app/views/login-screen/log-screen/log-screen.component.css ***!
-  \************************************************************************/
+/***/ "./src/app/views/login-screen/lock/lock.guard.ts":
+/*!*******************************************************!*\
+  !*** ./src/app/views/login-screen/lock/lock.guard.ts ***!
+  \*******************************************************/
+/*! exports provided: LockGuard */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LockGuard", function() { return LockGuard; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _services_login_screen_login_login_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../services/login-screen/login/login.service */ "./src/app/services/login-screen/login/login.service.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var LockGuard = /** @class */ (function () {
+    function LockGuard(loginService, router) {
+        this.loginService = loginService;
+        this.router = router;
+    }
+    ;
+    LockGuard.prototype.canActivate = function (next, state) {
+        if (localStorage.getItem('accountType') != "locked") {
+            this.router.navigate(['/root/dashboard']);
+            return false;
+        }
+        return true;
+    };
+    LockGuard = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
+            providedIn: 'root'
+        }),
+        __metadata("design:paramtypes", [_services_login_screen_login_login_service__WEBPACK_IMPORTED_MODULE_2__["LoginService"],
+            _angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"]])
+    ], LockGuard);
+    return LockGuard;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/views/login-screen/login-screen.component.css":
+/*!***************************************************************!*\
+  !*** ./src/app/views/login-screen/login-screen.component.css ***!
+  \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -2097,33 +1953,33 @@ module.exports = ""
 
 /***/ }),
 
-/***/ "./src/app/views/login-screen/log-screen/log-screen.component.html":
-/*!*************************************************************************!*\
-  !*** ./src/app/views/login-screen/log-screen/log-screen.component.html ***!
-  \*************************************************************************/
+/***/ "./src/app/views/login-screen/login-screen.component.html":
+/*!****************************************************************!*\
+  !*** ./src/app/views/login-screen/login-screen.component.html ***!
+  \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"off-canvas-sidebar\">\n  <nav class=\"navbar navbar-primary navbar-transparent navbar-absolute\">\n    <!--<nav class=\"navbar navbar-transparent navbar-absolute\" style=\"background-color: #FAFAFA\">-->\n    <div class=\"container\">\n      <div class=\"navbar-header\">\n        <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#navigation-example-2\">\n          <span class=\"sr-only\">Toggle navigation</span>\n          <span class=\"icon-bar\"></span>\n          <span class=\"icon-bar\"></span>\n          <span class=\"icon-bar\"></span>\n        </button>\n\n        <a class=\"navbar-brand\">Virtual Learning Environment</a>\n      </div>\n      <div class=\"collapse navbar-collapse\">\n        <ul class=\"nav navbar-nav navbar-right\">\n          <li routerLinkActive=\"active\">\n            <a routerLink=\"/main/dashboard\">\n              <i class=\"material-icons\">dashboard</i>\n              Dashboard\n            </a>\n          </li>\n          <!--<li routerLinkActive=\"active\">-->\n          <!--<a routerLink=\"/log-screen/login\">-->\n          <!--<i class=\"material-icons\">fingerprint</i>-->\n          <!--Login-->\n          <!--</a>-->\n          <!--</li>-->\n          <!--<li routerLinkActive=\"active\">-->\n          <!--<a routerLink=\"/log-screen/lock\">-->\n          <!--<i class=\"material-icons\">lock_open</i>-->\n          <!--Lock-->\n          <!--</a>-->\n          <!--</li>-->\n        </ul>\n      </div>\n    </div>\n  </nav>\n  <div class=\"wrapper wrapper-full-page\">\n    <div class=\"full-page {{getPage()}}-page\" filter-color=\"black\"\n         data-image=\"assets/img/dashboard/architecture-asphalt-berlin-417023.jpg\" style=\"background-size: cover;\">\n      <div class=\"content\">\n        <div class=\"container\">\n          <router-outlet></router-outlet>\n        </div>\n      </div>\n\n      <footer class=\"footer\" style=\"padding: 0px\">\n        <div class=\"container\" style=\"margin-right: 0px\">\n          <p class=\"copyright pull-right\">\n            Copyright &copy; {{getYear()}} - University Of Sri Jayewardenapura , Virtual Learning Environment /\n            Developed\n            by\n            Imalka Gunawardana\n          </p>\n        </div>\n      </footer>\n\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"off-canvas-sidebar\">\n  <nav class=\"navbar navbar-primary navbar-transparent navbar-absolute\">\n    <!--<nav class=\"navbar navbar-transparent navbar-absolute\" style=\"background-color: #FAFAFA\">-->\n    <div class=\"container\">\n      <div class=\"navbar-header\">\n        <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#navigation-example-2\">\n          <span class=\"sr-only\">Toggle navigation</span>\n          <span class=\"icon-bar\"></span>\n          <span class=\"icon-bar\"></span>\n          <span class=\"icon-bar\"></span>\n        </button>\n\n        <a class=\"navbar-brand\">Virtual Learning Environment</a>\n      </div>\n      <div class=\"collapse navbar-collapse\">\n        <ul class=\"nav navbar-nav navbar-right\">\n          <li routerLinkActive=\"active\">\n            <a routerLink=\"/root/dashboard\">\n              <i class=\"material-icons\">dashboard</i>\n              Dashboard\n            </a>\n          </li>\n          <!--<li routerLinkActive=\"active\">-->\n          <!--<a routerLink=\"/log-screen/login\">-->\n          <!--<i class=\"material-icons\">fingerprint</i>-->\n          <!--Login-->\n          <!--</a>-->\n          <!--</li>-->\n          <!--<li routerLinkActive=\"active\">-->\n          <!--<a routerLink=\"/log-screen/lock\">-->\n          <!--<i class=\"material-icons\">lock_open</i>-->\n          <!--Lock-->\n          <!--</a>-->\n          <!--</li>-->\n        </ul>\n      </div>\n    </div>\n  </nav>\n  <div class=\"wrapper wrapper-full-page\">\n    <div class=\"full-page {{getPage()}}-page\" filter-color=\"black\"\n         data-image=\"assets/img/dashboard/architecture-asphalt-berlin-417023.jpg\" style=\"background-size: cover;\">\n      <div class=\"content\">\n        <div class=\"container\">\n          <router-outlet></router-outlet>\n        </div>\n      </div>\n\n      <footer class=\"footer\" style=\"padding: 0px\">\n        <div class=\"container\" style=\"margin-right: 0px\">\n          <p class=\"copyright pull-right\">\n            Copyright &copy; {{getYear()}} - University Of Sri Jayewardenapura , Virtual Learning Environment /\n            Developed\n            by\n            Imalka Gunawardana\n          </p>\n        </div>\n      </footer>\n\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
-/***/ "./src/app/views/login-screen/log-screen/log-screen.component.ts":
-/*!***********************************************************************!*\
-  !*** ./src/app/views/login-screen/log-screen/log-screen.component.ts ***!
-  \***********************************************************************/
-/*! exports provided: LogScreenComponent */
+/***/ "./src/app/views/login-screen/login-screen.component.ts":
+/*!**************************************************************!*\
+  !*** ./src/app/views/login-screen/login-screen.component.ts ***!
+  \**************************************************************/
+/*! exports provided: LoginScreenComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LogScreenComponent", function() { return LogScreenComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoginScreenComponent", function() { return LoginScreenComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _assets_js_login_login_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../assets/js/login/login.js */ "./src/assets/js/login/login.js");
+/* harmony import */ var _assets_js_login_login_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../assets/js/login/login.js */ "./src/assets/js/login/login.js");
 /* harmony import */ var _assets_js_login_login_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_assets_js_login_login_js__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _assets_js_material_dashboard98f3_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../assets/js/material-dashboard98f3.js */ "./src/assets/js/material-dashboard98f3.js");
+/* harmony import */ var _assets_js_material_dashboard98f3_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../assets/js/material-dashboard98f3.js */ "./src/assets/js/material-dashboard98f3.js");
 /* harmony import */ var _assets_js_material_dashboard98f3_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_assets_js_material_dashboard98f3_js__WEBPACK_IMPORTED_MODULE_4__);
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -2139,8 +1995,8 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
-var LogScreenComponent = /** @class */ (function () {
-    function LogScreenComponent(datePipe, router) {
+var LoginScreenComponent = /** @class */ (function () {
+    function LoginScreenComponent(datePipe, router) {
         var _this = this;
         this.datePipe = datePipe;
         this.router = router;
@@ -2148,15 +2004,15 @@ var LogScreenComponent = /** @class */ (function () {
             _this.getPage();
         });
     }
-    LogScreenComponent.prototype.ngOnInit = function () {
+    LoginScreenComponent.prototype.ngOnInit = function () {
         loadMaterials();
         loadLogin();
     };
-    LogScreenComponent.prototype.getYear = function () {
+    LoginScreenComponent.prototype.getYear = function () {
         var latest_date = this.datePipe.transform(new Date(), 'yyyy');
         return latest_date;
     };
-    LogScreenComponent.prototype.getPage = function () {
+    LoginScreenComponent.prototype.getPage = function () {
         if (this.router.url.includes('login') || this.router.url.includes('email-verify') || this.router.url.includes('password-reset')) {
             return 'login';
         }
@@ -2164,15 +2020,67 @@ var LogScreenComponent = /** @class */ (function () {
             return 'lock';
         }
     };
-    LogScreenComponent = __decorate([
+    LoginScreenComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'app-log-screen',
-            template: __webpack_require__(/*! ./log-screen.component.html */ "./src/app/views/login-screen/log-screen/log-screen.component.html"),
-            styles: [__webpack_require__(/*! ./log-screen.component.css */ "./src/app/views/login-screen/log-screen/log-screen.component.css")]
+            selector: 'app-login-screen',
+            template: __webpack_require__(/*! ./login-screen.component.html */ "./src/app/views/login-screen/login-screen.component.html"),
+            styles: [__webpack_require__(/*! ./login-screen.component.css */ "./src/app/views/login-screen/login-screen.component.css")]
         }),
         __metadata("design:paramtypes", [_angular_common__WEBPACK_IMPORTED_MODULE_1__["DatePipe"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]])
-    ], LogScreenComponent);
-    return LogScreenComponent;
+    ], LoginScreenComponent);
+    return LoginScreenComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/views/login-screen/login-screen.guard.ts":
+/*!**********************************************************!*\
+  !*** ./src/app/views/login-screen/login-screen.guard.ts ***!
+  \**********************************************************/
+/*! exports provided: LoginScreenGuard */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoginScreenGuard", function() { return LoginScreenGuard; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _services_login_screen_login_login_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../services/login-screen/login/login.service */ "./src/app/services/login-screen/login/login.service.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var LoginScreenGuard = /** @class */ (function () {
+    function LoginScreenGuard(loginService, router) {
+        this.loginService = loginService;
+        this.router = router;
+    }
+    ;
+    LoginScreenGuard.prototype.canActivate = function (next, state) {
+        if (this.loginService.isAuthenticated()) {
+            this.router.navigate(['/root/dashboard']);
+            return false;
+        }
+        return true;
+    };
+    LoginScreenGuard = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
+            providedIn: 'root'
+        }),
+        __metadata("design:paramtypes", [_services_login_screen_login_login_service__WEBPACK_IMPORTED_MODULE_2__["LoginService"],
+            _angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"]])
+    ], LoginScreenGuard);
+    return LoginScreenGuard;
 }());
 
 
@@ -2197,7 +2105,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row\">\n  <div class=\"col-md-4 col-sm-6 col-md-offset-4 col-sm-offset-3\">\n    <form #frmLogin=\"ngForm\" action=\"\" method=\"post\" (ngSubmit)=\"getLogin()\">\n      <div class=\"card card-login card-hidden\" style=\"background-color: rgba(0,0,0,0.6);border: none\">\n        <div class=\"card-header text-center\" data-background-color=\"rose\">\n          <h4 class=\"card-title\">Login</h4>\n          <div class=\"social-line\">\n            <a href=\"https://www.google.com/\" target=\"_blank\" class=\"btn btn-just-icon btn-simple\">\n              <i class=\"fa fa-google\"></i>\n            </a>\n            <a href=\"#pablo\" class=\"btn btn-just-icon btn-simple\">\n              <i class=\"fa fa-youtube-play\"></i>\n            </a>\n            <a href=\"https://www.dropbox.com/\" target=\"_blank\" class=\"btn btn-just-icon btn-simple\">\n              <i class=\"fa fa-dropbox\"></i>\n            </a>\n          </div>\n        </div>\n        <!--<p class=\"category text-center\">-->\n        <!--Or Be Classical-->\n        <!--</p>-->\n        <div class=\"card-content\">\n          <div class=\"input-group\">\n            <span class=\"input-group-addon\">\n                <i class=\"material-icons\">account_circle</i>\n             </span>\n            <div class=\"form-group label-floating\">\n              <label class=\"control-label\">I'm a/an</label>\n            <select class=\"selectpicker\" data-style=\"select-with-transition\" [(ngModel)]=\"user.accountType\" name=\"txtType\" style=\"color: white\">\n              <option>admin</option>\n              <option>student</option>\n              <option>lecturer</option>\n              <option>demonstrator</option>\n            </select>\n            </div>\n            <!--<select class=\"selectpicker\" data-style=\"select-with-transition\" multiple title=\"Choose City\" data-size=\"7\">-->\n          </div>\n\n          <div class=\"input-group\">\n        <span class=\"input-group-addon\">\n          <i class=\"material-icons\">face</i>\n        </span>\n\n            <div class=\"form-group label-floating\">\n              <label class=\"control-label\">Email or ID</label>\n              <input type=\"text\" class=\"form-control\" [(ngModel)]=\"user.userID\" name=\"txtUserid\" style=\"color: white\">\n            </div>\n          </div>\n\n          <div class=\"input-group\">\n        <span class=\"input-group-addon\">\n          <i class=\"material-icons\">lock_outline</i>\n        </span>\n            <div class=\"form-group label-floating\">\n              <label class=\"control-label\">Password</label>\n              <input type=\"{{passwordVisibility?'text':'password'}}\" class=\"form-control\" [(ngModel)]=\"user.userPassword\" name=\"txtPassword\"\n                     style=\"color: white\">\n            </div>\n            <span class=\"input-group-addon\" style=\"cursor: pointer\" (click)=\"passwordVisible()\">\n          <i class=\"material-icons\">visibility</i>\n        </span>\n          </div>\n        </div>\n        <div class=\"footer text-center\">\n          <button type=\"submit\" class=\"btn btn-rose btn-simple btn-wd btn-lg\" style=\"color: #e9b500\">\n            Sign In\n          </button>\n        </div>\n        <div *ngIf=\"failed\" class=\"alert alert-danger\"\n             style=\"margin-left: 10px;margin-right: 10px;text-align: center;color: #870c00;font-weight: bold\">\n          Incorrect username or password\n        </div>\n        <div class=\"row\">\n          <div class=\"col-12\" style=\"margin-left: 40px;color: #9e9e9e;font-size: 12px;cursor: pointer\"\n               routerLink=\"/log-screen/email-verify\">Forgot / Change Password?\n          </div>\n        </div>\n      </div>\n    </form>\n  </div>\n</div>\n<div class=\"row\">\n  <div class=\"col-12\" style=\"color: rgba(255,255,255,0.71);font-size: 12px;text-align: center;margin-top: 5px\">(Note:- System will automatically set the account type via the previous login)</div>\n  <div class=\"col-12\" style=\"color: rgba(255,255,255,0.71);font-size: 12px;text-align: center;margin-top: 5px\">(Note:- System can maintain different account types with a single username and password)</div>\n</div>\n"
+module.exports = "<div class=\"row\">\n  <div class=\"col-md-4 col-sm-6 col-md-offset-4 col-sm-offset-3\">\n    <form #frmLogin=\"ngForm\" action=\"\" method=\"post\" (ngSubmit)=\"getLogin()\">\n      <div class=\"card card-login card-hidden\" style=\"background-color: rgba(0,0,0,0.6);border: none\">\n        <div class=\"card-header text-center\" data-background-color=\"rose\">\n          <h4 class=\"card-title\">Login</h4>\n          <div class=\"social-line\">\n            <a href=\"https://www.google.com/\" target=\"_blank\" class=\"btn btn-just-icon btn-simple\">\n              <i class=\"fa fa-google\"></i>\n            </a>\n            <a href=\"#pablo\" class=\"btn btn-just-icon btn-simple\">\n              <i class=\"fa fa-youtube-play\"></i>\n            </a>\n            <a href=\"https://www.dropbox.com/\" target=\"_blank\" class=\"btn btn-just-icon btn-simple\">\n              <i class=\"fa fa-dropbox\"></i>\n            </a>\n          </div>\n        </div>\n        <!--<p class=\"category text-center\">-->\n        <!--Or Be Classical-->\n        <!--</p>-->\n        <div class=\"card-content\">\n          <div class=\"input-group\">\n            <span class=\"input-group-addon\">\n                <i class=\"material-icons\">account_circle</i>\n             </span>\n            <div class=\"form-group label-floating\">\n              <label class=\"control-label\">I'm a/an</label>\n              <select class=\"selectpicker\" data-style=\"select-with-transition\" [(ngModel)]=\"user.accountType\" name=\"txtType\" style=\"color: white\">\n                <option>admin</option>\n                <option>student</option>\n                <option>lecturer</option>\n                <option>demonstrator</option>\n              </select>\n            </div>\n            <!--<select class=\"selectpicker\" data-style=\"select-with-transition\" multiple title=\"Choose City\" data-size=\"7\">-->\n          </div>\n\n          <div class=\"input-group\">\n        <span class=\"input-group-addon\">\n          <i class=\"material-icons\">face</i>\n        </span>\n\n            <div class=\"form-group label-floating\">\n              <label class=\"control-label\">Email or ID</label>\n              <input type=\"text\" class=\"form-control\" [(ngModel)]=\"user.userID\" name=\"txtUserid\" style=\"color: white\">\n            </div>\n          </div>\n\n          <div class=\"input-group\">\n        <span class=\"input-group-addon\">\n          <i class=\"material-icons\">lock_outline</i>\n        </span>\n            <div class=\"form-group label-floating\">\n              <label class=\"control-label\">Password</label>\n              <input type=\"{{passwordVisibility?'text':'password'}}\" class=\"form-control\" [(ngModel)]=\"user.userPassword\" name=\"txtPassword\"\n                     style=\"color: white\">\n            </div>\n            <span class=\"input-group-addon\" style=\"cursor: pointer\" (click)=\"passwordVisible()\">\n          <i class=\"material-icons\">visibility</i>\n        </span>\n          </div>\n        </div>\n        <div class=\"footer text-center\">\n          <button type=\"submit\" class=\"btn btn-rose btn-simple btn-wd btn-lg\" style=\"color: #e9b500\">\n            Sign In\n          </button>\n        </div>\n        <div *ngIf=\"failed\" class=\"alert alert-danger\"\n             style=\"margin-left: 10px;margin-right: 10px;text-align: center;color: #870c00;font-weight: bold\">\n          Incorrect username or password\n        </div>\n        <div class=\"row\">\n          <div class=\"col-12\" style=\"margin-left: 40px;color: #9e9e9e;font-size: 12px;cursor: pointer\"\n               routerLink=\"/log-screen/email-verify\">Forgot / Change Password?\n          </div>\n        </div>\n      </div>\n    </form>\n  </div>\n</div>\n<div class=\"row\">\n  <div class=\"col-12\" style=\"color: rgba(255,255,255,0.71);font-size: 12px;text-align: center;margin-top: 5px\">(Note:- System will automatically set the account type via the previous login)</div>\n  <div class=\"col-12\" style=\"color: rgba(255,255,255,0.71);font-size: 12px;text-align: center;margin-top: 5px\">(Note:- System can maintain different account types with a single username and password)</div>\n</div>\n"
 
 /***/ }),
 
@@ -2212,13 +2120,12 @@ module.exports = "<div class=\"row\">\n  <div class=\"col-md-4 col-sm-6 col-md-o
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoginComponent", function() { return LoginComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _assets_js_login_login_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../assets/js/login/login.js */ "./src/assets/js/login/login.js");
-/* harmony import */ var _assets_js_login_login_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_assets_js_login_login_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
-/* harmony import */ var _services_login_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../services/login.service */ "./src/app/services/login.service.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var ngx_cookie_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ngx-cookie-service */ "./node_modules/ngx-cookie-service/index.js");
-/* harmony import */ var _dtos_user__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../dtos/user */ "./src/app/dtos/user.ts");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _assets_js_login_login_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../assets/js/login/login.js */ "./src/assets/js/login/login.js");
+/* harmony import */ var _assets_js_login_login_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_assets_js_login_login_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _dtos_user__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../dtos/user */ "./src/app/dtos/user.ts");
+/* harmony import */ var _services_login_screen_login_login_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../services/login-screen/login/login.service */ "./src/app/services/login-screen/login/login.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2234,15 +2141,13 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
-
 var LoginComponent = /** @class */ (function () {
-    function LoginComponent(datePipe, loginService, router, cookieService) {
+    function LoginComponent(datePipe, loginService, router) {
         this.datePipe = datePipe;
         this.loginService = loginService;
         this.router = router;
-        this.cookieService = cookieService;
-        this.user = new _dtos_user__WEBPACK_IMPORTED_MODULE_6__["User"]();
-        this.loggedUser = new _dtos_user__WEBPACK_IMPORTED_MODULE_6__["User"]();
+        this.user = new _dtos_user__WEBPACK_IMPORTED_MODULE_4__["User"]();
+        this.loggedUser = new _dtos_user__WEBPACK_IMPORTED_MODULE_4__["User"]();
         this.failed = false;
         this.passwordVisibility = false;
     }
@@ -2268,7 +2173,7 @@ var LoginComponent = /** @class */ (function () {
                 localStorage.setItem("accountType", _this.loggedUser.accountType);
                 localStorage.setItem("accountTypeForLogin", _this.loggedUser.accountType);
                 localStorage.setItem("profile-image", _this.loggedUser.profileImage);
-                _this.router.navigate(['/main/dashboard']);
+                _this.router.navigate(['/root/dashboard']);
             }
             else {
                 _this.failed = true;
@@ -2289,9 +2194,61 @@ var LoginComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./login.component.html */ "./src/app/views/login-screen/login/login.component.html"),
             styles: [__webpack_require__(/*! ./login.component.css */ "./src/app/views/login-screen/login/login.component.css")]
         }),
-        __metadata("design:paramtypes", [_angular_common__WEBPACK_IMPORTED_MODULE_2__["DatePipe"], _services_login_service__WEBPACK_IMPORTED_MODULE_3__["LoginService"], _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"], ngx_cookie_service__WEBPACK_IMPORTED_MODULE_5__["CookieService"]])
+        __metadata("design:paramtypes", [_angular_common__WEBPACK_IMPORTED_MODULE_1__["DatePipe"], _services_login_screen_login_login_service__WEBPACK_IMPORTED_MODULE_5__["LoginService"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]])
     ], LoginComponent);
     return LoginComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/views/login-screen/login/login.guard.ts":
+/*!*********************************************************!*\
+  !*** ./src/app/views/login-screen/login/login.guard.ts ***!
+  \*********************************************************/
+/*! exports provided: LoginGuard */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoginGuard", function() { return LoginGuard; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _services_login_screen_login_login_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../services/login-screen/login/login.service */ "./src/app/services/login-screen/login/login.service.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var LoginGuard = /** @class */ (function () {
+    function LoginGuard(loginService, router) {
+        this.loginService = loginService;
+        this.router = router;
+    }
+    ;
+    LoginGuard.prototype.canActivate = function (next, state) {
+        if (!this.loginService.isAuthenticated()) {
+            this.router.navigate(['/root/dashboard']);
+            return false;
+        }
+        return true;
+    };
+    LoginGuard = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
+            providedIn: 'root'
+        }),
+        __metadata("design:paramtypes", [_services_login_screen_login_login_service__WEBPACK_IMPORTED_MODULE_2__["LoginService"],
+            _angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"]])
+    ], LoginGuard);
+    return LoginGuard;
 }());
 
 
@@ -2368,6 +2325,54 @@ var PasswordResetComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/views/login-screen/password-reset/password-reset.guard.ts":
+/*!***************************************************************************!*\
+  !*** ./src/app/views/login-screen/password-reset/password-reset.guard.ts ***!
+  \***************************************************************************/
+/*! exports provided: PasswordResetGuard */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PasswordResetGuard", function() { return PasswordResetGuard; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var PasswordResetGuard = /** @class */ (function () {
+    function PasswordResetGuard(router) {
+        this.router = router;
+    }
+    ;
+    PasswordResetGuard.prototype.canActivate = function (next, state) {
+        if (localStorage.getItem("verified") != "true") {
+            this.router.navigate(['/root/log-screen/login']);
+            return false;
+        }
+        return true;
+    };
+    PasswordResetGuard = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
+            providedIn: 'root'
+        }),
+        __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"]])
+    ], PasswordResetGuard);
+    return PasswordResetGuard;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/views/main/main.component.css":
 /*!***********************************************!*\
   !*** ./src/app/views/main/main.component.css ***!
@@ -2386,7 +2391,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Google Tag Manager (noscript) -->\n<noscript>\n  <iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-NKDMSK6\"\n          height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>\n</noscript>\n<!-- End Google Tag Manager (noscript) -->\n\n<div class=\"wrapper\">\n\n  <!--<div class=\"sidebar\" data-active-color=\"rose\" data-background-color=\"black\" data-image=\"../assets/img/sidebar-3.jpg\">-->\n  <div class=\"sidebar\" data-active-color=\"rose\" data-background-color=\"black\"\n       data-image=\"assets/img/dashboard/kumar-vineet-460218-unsplash.jpg\"\n       style.display=\"{{isInLoginPage() && checkSize() ? 'none' : 'block'}}\">\n    <!--\n        Tip 1: You can change the color of active element of the sidebar using: data-active-color=\"purple | blue | green | orange | red | rose\"\n        Tip 2: you can also add an image using data-image tag\n        Tip 3: you can change the color of the sidebar with data-background-color=\"white | black\"\n    -->\n\n    <!--<div class=\"logo\">-->\n    <!--<a href=\"http://www.creative-tim.com/\" class=\"simple-text logo-mini\">-->\n    <!--CT-->\n    <!--</a>-->\n\n    <!--<div class=\"simple-text logo-normal\">-->\n    <!--Virtual Learning Environment-->\n    <!--</div>-->\n    <!--</div>-->\n\n    <div class=\"sidebar-wrapper\">\n      <!--<div *ngIf=\"isValid;then content else other_content\">here is ignored</div>-->\n      <!--<ng-template #content>content here...</ng-template>-->\n      <!--<ng-template #other_content>other content here...</ng-template>-->\n      <div class=\"user\" *ngIf=\"loginStatus()==1\">\n        <div class=\"info\">\n          <div class=\"photo\">\n            <!--<img src=\"http://localhost:8080/api/v1/user/file?path=images/12118677_925715314176721_1987028172390362012_n.jpg\"/>-->\n            <img [src]=\"imagePath\">\n          </div>\n          <a data-toggle=\"collapse\" href=\"#collapseExample\" class=\"collapsed\">\n                    <span style=\"font-weight: bold;font-size: 13px;color: #e9b500\">\n                         {{userName}}\n                        <b class=\"caret\"></b>\n                    </span>\n          </a>\n          <div class=\"clearfix\"></div>\n          <div class=\"collapse\" id=\"collapseExample\">\n            <ul class=\"nav\" style=\"font-weight: lighter\">\n              <li>\n                <a href=\"#\">\n                  <i class=\"fa fa-user-circle\"></i>\n                  <span class=\"sidebar-normal\"> My Profile </span>\n                </a>\n              </li>\n              <li (click)=\"lock()\">\n                <a>\n                  <i class=\"material-icons\">lock_open</i>\n                  <span class=\"sidebar-normal\"> Lock </span>\n                </a>\n              </li>\n              <li (click)=\"logout()\">\n                <a>\n                  <i class=\"material-icons\">fingerprint</i>\n                  <span class=\"sidebar-normal\"> Sign Out </span>\n                </a>\n              </li>\n            </ul>\n          </div>\n        </div>\n      </div>\n      <div class=\"user\" *ngIf=\"loginStatus()==2\">\n        <div class=\"info\">\n          <div class=\"photo\">\n            <img [src]=\"imagePath\">\n          </div>\n          <a data-toggle=\"collapse\" href=\"#collapseExample\" class=\"collapsed\">\n                    <span style=\"font-weight: bold;font-size: 13px;color: #e9b500\">\n                         {{userName}}\n                        <b class=\"caret\"></b>\n                    </span>\n          </a>\n          <div class=\"clearfix\"></div>\n          <div class=\"collapse\" id=\"collapseExample\">\n            <ul class=\"nav\" style=\"font-weight: lighter\">\n              <li>\n                <a href=\"#\">\n                  <i class=\"fa fa-user-circle\"></i>\n                  <span class=\"sidebar-normal\"> My Profile </span>\n                </a>\n              </li>\n              <li (click)=\"lock()\">\n                <a>\n                  <i class=\"material-icons\">lock_open</i>\n                  <span class=\"sidebar-normal\"> Lock </span>\n                </a>\n              </li>\n              <li (click)=\"logout()\">\n                <a>\n                  <i class=\"material-icons\">fingerprint</i>\n                  <span class=\"sidebar-normal\"> Sign Out </span>\n                </a>\n              </li>\n            </ul>\n          </div>\n        </div>\n      </div>\n      <div class=\"user\" *ngIf=\"loginStatus()==4\">\n        <div class=\"info\">\n          <div class=\"photo\">\n            <img src=\"assets/img/faces/lock.png\"/>\n            <i class=\"fa fa-power-off\"></i>\n          </div>\n          <a data-toggle=\"collapse\" href=\"#collapseExample\" class=\"collapsed\">\n                    <span style=\"font-weight: bold;font-size: 13px;color: #e9b500\">\n                         Account is locked\n                        <b class=\"caret\"></b>\n                    </span>\n          </a>\n          <div class=\"clearfix\"></div>\n          <div class=\"collapse\" id=\"collapseExample\">\n            <ul class=\"nav\">\n              <li (click)=\"unlock()\">\n                <a>\n                  <i class=\"material-icons\">lock_open</i>\n                  <span class=\"sidebar-normal\"> Unlock </span>\n                </a>\n              </li>\n              <li (click)=\"logout()\">\n                <a>\n                  <i class=\"material-icons\">fingerprint</i>\n                  <span class=\"sidebar-normal\"> Sign Out </span>\n                </a>\n              </li>\n            </ul>\n          </div>\n        </div>\n      </div>\n      <div class=\"user\" *ngIf=\"loginStatus()==5\">\n        <div class=\"info\">\n          <div class=\"photo\">\n            <img src=\"assets/img/faces/shut-down-icon (1).png\"/>\n          </div>\n          <a data-toggle=\"collapse\" href=\"#collapseExample\" class=\"collapsed\">\n                    <span style=\"font-weight: bold;font-size: 13px;color: #e9b500\">\n                         You are not signed in\n                        <b class=\"caret\"></b>\n                    </span>\n          </a>\n          <div class=\"clearfix\"></div>\n          <div class=\"collapse\" id=\"collapseExample\">\n            <ul class=\"nav\">\n              <li (click)=\"login()\">\n                <a>\n                  <i class=\"material-icons\">fingerprint</i>\n                  <span class=\"sidebar-normal\"> Sign In </span>\n                </a>\n              </li>\n            </ul>\n          </div>\n        </div>\n      </div>\n      <ul class=\"nav\" *ngIf=\"loginStatus()==1\">\n\n        <li class=\"btnMain {{compoDashboardIsActive()}}\">\n          <a routerLink=\"/main/dashboard\">\n            <i class=\"material-icons\">dashboard</i>\n            <p> Dashboard </p>\n          </a>\n        </li>\n\n        <li>\n          <a data-toggle=\"collapse\" href=\"#pagesExamples\">\n            <i class=\"material-icons\">assignment_ind</i>\n            <p> Enrollments\n              <b class=\"caret\"></b>\n            </p>\n          </a>\n\n          <div class=\"collapse\" id=\"pagesExamples\">\n            <ul class=\"nav\">\n              <li class=\"btnMain {{compoStudentIsActive()}}\">\n                <a routerLink=\"/main/student-reg/student-details\" (click)=\"refreshPage()\">\n                  <span class=\"sidebar-mini\"> SR </span>\n                  <span class=\"sidebar-normal\"> Student Registration </span>\n                </a>\n              </li>\n              <li>\n                <a href=\"pages/timeline.html\">\n                  <span class=\"sidebar-mini\"> DR </span>\n                  <span class=\"sidebar-normal\"> Demonstrator Registration </span>\n                </a>\n              </li>\n              <li class=\"btnMain {{compoLecturerIsActive()}}\">\n                <a routerLink=\"/main/lecturers-subjects/lecturer-details\" href=\"#\">\n                  <span class=\"sidebar-mini\"> LSR </span>\n                  <span class=\"sidebar-normal\"> Lecturer & Subjects </span>\n                </a>\n              </li>\n            </ul>\n          </div>\n        </li>\n        <li>\n          <a href=\"widgets.html\">\n            <i class=\"material-icons\">widgets</i>\n            <p> Widgets </p>\n          </a>\n        </li>\n\n        <li>\n          <a href=\"charts.html\">\n            <i class=\"material-icons\">timeline</i>\n            <p> Charts </p>\n          </a>\n        </li>\n\n        <li>\n          <a href=\"calendar.html\">\n            <i class=\"material-icons\">date_range</i>\n            <p> Calendar </p>\n          </a>\n        </li>\n      </ul>\n      <ul class=\"nav\" *ngIf=\"loginStatus()==2\">\n\n        <li class=\"btnMain {{compoDashboardIsActive()}}\">\n          <a routerLink=\"/main/dashboard\">\n            <i class=\"material-icons\">dashboard</i>\n            <p> Dashboard </p>\n          </a>\n        </li>\n\n        <li>\n          <a data-toggle=\"collapse\" href=\"#pagesEnrollments\">\n            <i class=\"material-icons\">assignment_ind</i>\n            <p> Enrollments\n              <b class=\"caret\"></b>\n            </p>\n          </a>\n\n          <div class=\"collapse\" id=\"pagesEnrollments\">\n            <ul class=\"nav\">\n              <li class=\"btnMain {{compoStudentIsActive()}}\">\n                <a routerLink=\"/main/student-reg/student-details\" (click)=\"refreshPage()\">\n                  <span class=\"sidebar-mini\"> SR </span>\n                  <span class=\"sidebar-normal\"> Student Registration </span>\n                </a>\n              </li>\n              <li>\n                <a href=\"pages/timeline.html\">\n                  <span class=\"sidebar-mini\"> DR </span>\n                  <span class=\"sidebar-normal\"> Demonstrator Registration </span>\n                </a>\n              </li>\n              <li class=\"btnMain {{compoLecturerIsActive()}}\">\n                <a routerLink=\"/main/lecturers-subjects/lecturer-details\" href=\"#\">\n                  <span class=\"sidebar-mini\"> LSR </span>\n                  <span class=\"sidebar-normal\"> Lecturer & Subjects </span>\n                </a>\n              </li>\n            </ul>\n          </div>\n        </li>\n\n        <li>\n          <a data-toggle=\"collapse\" href=\"#pagesExamples\">\n            <i class=\"material-icons\">assignment</i>\n            <p> Course Work\n              <b class=\"caret\"></b>\n            </p>\n          </a>\n\n        </li>\n      </ul>\n      <ul class=\"nav\" *ngIf=\"loginStatus()==4\">\n\n        <li class=\"btnMain {{compoDashboardIsActive()}}\">\n          <a routerLink=\"/main/dashboard\">\n            <i class=\"material-icons\">dashboard</i>\n            <p> Dashboard </p>\n          </a>\n        </li>\n\n        <li>\n          <a data-toggle=\"collapse\" href=\"#componentsExamples\">\n            <i class=\"material-icons\">apps</i>\n            <p> Components\n              <b class=\"caret\"></b>\n            </p>\n          </a>\n\n          <div class=\"collapse\" id=\"componentsExamples\">\n            <ul class=\"nav\">\n              <li>\n                <a href=\"components/buttons.html\">\n                  <span class=\"sidebar-mini\"> B </span>\n                  <span class=\"sidebar-normal\"> Buttons </span>\n                </a>\n              </li>\n              <li>\n                <a href=\"components/grid.html\">\n                  <span class=\"sidebar-mini\"> GS </span>\n                  <span class=\"sidebar-normal\"> Grid System </span>\n                </a>\n              </li>\n              <li>\n                <a href=\"components/panels.html\">\n                  <span class=\"sidebar-mini\"> P </span>\n                  <span class=\"sidebar-normal\"> Panels </span>\n                </a>\n              </li>\n              <li>\n                <a href=\"components/sweet-alert.html\">\n                  <span class=\"sidebar-mini\"> SA </span>\n                  <span class=\"sidebar-normal\"> Sweet Alert </span>\n                </a>\n              </li>\n              <li>\n                <a href=\"components/notifications.html\">\n                  <span class=\"sidebar-mini\"> N </span>\n                  <span class=\"sidebar-normal\"> Notifications </span>\n                </a>\n              </li>\n              <li>\n                <a href=\"components/icons.html\">\n                  <span class=\"sidebar-mini\"> I </span>\n                  <span class=\"sidebar-normal\"> Icons </span>\n                </a>\n              </li>\n              <li>\n                <a href=\"components/typography.html\">\n                  <span class=\"sidebar-mini\"> T </span>\n                  <span class=\"sidebar-normal\"> Typography </span>\n                </a>\n              </li>\n            </ul>\n          </div>\n        </li>\n\n        <li>\n          <a data-toggle=\"collapse\" href=\"#formsExamples\">\n            <i class=\"material-icons\">content_paste</i>\n            <p> Forms\n              <b class=\"caret\"></b>\n            </p>\n          </a>\n\n          <div class=\"collapse\" id=\"formsExamples\">\n            <ul class=\"nav\">\n              <li>\n                <a href=\"forms/regular.html\">\n                  <span class=\"sidebar-mini\"> RF </span>\n                  <span class=\"sidebar-normal\"> Regular Forms </span>\n                </a>\n              </li>\n              <li>\n                <a href=\"forms/extended.html\">\n                  <span class=\"sidebar-mini\"> EF </span>\n                  <span class=\"sidebar-normal\"> Extended Forms </span>\n                </a>\n              </li>\n              <li>\n                <a href=\"forms/validation.html\">\n                  <span class=\"sidebar-mini\"> VF </span>\n                  <span class=\"sidebar-normal\"> Validation Forms </span>\n                </a>\n              </li>\n              <li>\n                <a href=\"forms/wizard.html\">\n                  <span class=\"sidebar-mini\"> W </span>\n                  <span class=\"sidebar-normal\"> Wizard </span>\n                </a>\n              </li>\n            </ul>\n          </div>\n        </li>\n\n        <li>\n          <a data-toggle=\"collapse\" href=\"#tablesExamples\">\n            <i class=\"material-icons\">grid_on</i>\n            <p> Tables\n              <b class=\"caret\"></b>\n            </p>\n          </a>\n\n          <div class=\"collapse\" id=\"tablesExamples\">\n            <ul class=\"nav\">\n              <li>\n                <a href=\"tables/regular.html\">\n                  <span class=\"sidebar-mini\"> RT </span>\n                  <span class=\"sidebar-normal\"> Regular Tables </span>\n                </a>\n              </li>\n              <li>\n                <a href=\"tables/extended.html\">\n                  <span class=\"sidebar-mini\"> ET </span>\n                  <span class=\"sidebar-normal\"> Extended Tables </span>\n                </a>\n              </li>\n              <li>\n                <a href=\"tables/datatables.net.html\">\n                  <span class=\"sidebar-mini\"> DT </span>\n                  <span class=\"sidebar-normal\"> DataTables.net </span>\n                </a>\n              </li>\n            </ul>\n          </div>\n        </li>\n\n        <li>\n          <a data-toggle=\"collapse\" href=\"#mapsExamples\">\n            <i class=\"material-icons\">place</i>\n            <p> Maps\n              <b class=\"caret\"></b>\n            </p>\n          </a>\n\n          <div class=\"collapse\" id=\"mapsExamples\">\n            <ul class=\"nav\">\n              <li>\n                <a href=\"maps/google.html\">\n                  <span class=\"sidebar-mini\"> GM </span>\n                  <span class=\"sidebar-normal\"> Google Maps </span>\n                </a>\n              </li>\n              <li>\n                <a href=\"maps/fullscreen.html\">\n                  <span class=\"sidebar-mini\"> FSM </span>\n                  <span class=\"sidebar-normal\"> Full Screen Map </span>\n                </a>\n              </li>\n              <li>\n                <a href=\"maps/vector.html\">\n                  <span class=\"sidebar-mini\"> VM </span>\n                  <span class=\"sidebar-normal\"> Vector Map </span>\n                </a>\n              </li>\n            </ul>\n          </div>\n        </li>\n\n        <li>\n          <a href=\"widgets.html\">\n            <i class=\"material-icons\">widgets</i>\n            <p> Widgets </p>\n          </a>\n        </li>\n\n        <li>\n          <a href=\"charts.html\">\n            <i class=\"material-icons\">timeline</i>\n            <p> Charts </p>\n          </a>\n        </li>\n\n        <li>\n          <a href=\"calendar.html\">\n            <i class=\"material-icons\">date_range</i>\n            <p> Calendar </p>\n          </a>\n        </li>\n\n      </ul>\n      <ul class=\"nav\" *ngIf=\"loginStatus()==5\">\n\n        <li class=\"btnMain {{compoDashboardIsActive()}}\">\n          <a routerLink=\"/main/dashboard\">\n            <i class=\"material-icons\">dashboard</i>\n            <p> Dashboard </p>\n          </a>\n        </li>\n\n        <li>\n          <a data-toggle=\"collapse\" href=\"#pagesExamples\">\n            <i class=\"material-icons\">assignment_ind</i>\n            <p> Enrollments\n              <b class=\"caret\"></b>\n            </p>\n          </a>\n\n          <div class=\"collapse\" id=\"pagesExamples\">\n            <ul class=\"nav\">\n              <li class=\"btnMain {{compoStudentIsActive()}}\">\n                <a routerLink=\"/main/student-reg/student-details\" (click)=\"refreshPage()\">\n                  <span class=\"sidebar-mini\"> SR </span>\n                  <span class=\"sidebar-normal\"> Student Registration </span>\n                </a>\n              </li>\n            </ul>\n          </div>\n        </li>\n        <li>\n          <a href=\"widgets.html\">\n            <i class=\"material-icons\">widgets</i>\n            <p> Widgets </p>\n          </a>\n        </li>\n\n        <li>\n          <a href=\"charts.html\">\n            <i class=\"material-icons\">timeline</i>\n            <p> Charts </p>\n          </a>\n        </li>\n\n        <li>\n          <a href=\"calendar.html\">\n            <i class=\"material-icons\">date_range</i>\n            <p> Calendar </p>\n          </a>\n        </li>\n      </ul>\n    </div>\n  </div>\n  <router-outlet></router-outlet>\n</div>\n"
+module.exports = "<!-- Google Tag Manager (noscript) -->\n<!--<noscript>-->\n  <!--<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-NKDMSK6\"-->\n          <!--height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>-->\n<!--</noscript>-->\n<!-- End Google Tag Manager (noscript) -->\n\n<div class=\"wrapper\">\n\n  <!--<div class=\"sidebar\" data-active-color=\"rose\" data-background-color=\"black\" data-image=\"../assets/img/sidebar-3.jpg\">-->\n  <div class=\"sidebar\" data-active-color=\"rose\" data-background-color=\"black\"\n       data-image=\"assets/img/dashboard/kumar-vineet-460218-unsplash.jpg\"\n       style.display=\"{{isInLoginPage() && checkSize() ? 'none' : 'block'}}\">\n    <div class=\"sidebar-wrapper\">\n      <div class=\"user\" *ngIf=\"loginStatus()==1\">\n        <div class=\"info\">\n          <div class=\"photo\">\n            <!--<img src=\"http://localhost:8080/api/v1/user/file?path=images/12118677_925715314176721_1987028172390362012_n.jpg\"/>-->\n            <img [src]=\"imagePath\">\n          </div>\n          <a data-toggle=\"collapse\" href=\"#collapseExample\" class=\"collapsed\">\n                    <span style=\"font-weight: bold;font-size: 13px;color: #e9b500\">\n                         {{userName}}\n                        <b class=\"caret\"></b>\n                    </span>\n          </a>\n          <div class=\"clearfix\"></div>\n          <div class=\"collapse\" id=\"collapseExample\">\n            <ul class=\"nav\" style=\"font-weight: lighter\">\n              <li>\n                <a href=\"#\">\n                  <i class=\"fa fa-user-circle\"></i>\n                  <span class=\"sidebar-normal\"> My Profile </span>\n                </a>\n              </li>\n              <li (click)=\"lock()\">\n                <a>\n                  <i class=\"material-icons\">lock_open</i>\n                  <span class=\"sidebar-normal\"> Lock </span>\n                </a>\n              </li>\n              <li (click)=\"logout()\">\n                <a>\n                  <i class=\"material-icons\">fingerprint</i>\n                  <span class=\"sidebar-normal\"> Sign Out </span>\n                </a>\n              </li>\n            </ul>\n          </div>\n        </div>\n      </div>\n      <div class=\"user\" *ngIf=\"loginStatus()==2\">\n        <div class=\"info\">\n          <div class=\"photo\">\n            <img [src]=\"imagePath\">\n          </div>\n          <a data-toggle=\"collapse\" href=\"#collapseExample\" class=\"collapsed\">\n                    <span style=\"font-weight: bold;font-size: 13px;color: #e9b500\">\n                         {{userName}}\n                        <b class=\"caret\"></b>\n                    </span>\n          </a>\n          <div class=\"clearfix\"></div>\n          <div class=\"collapse\" id=\"collapseExample\">\n            <ul class=\"nav\" style=\"font-weight: lighter\">\n              <li>\n                <a href=\"#\">\n                  <i class=\"fa fa-user-circle\"></i>\n                  <span class=\"sidebar-normal\"> My Profile </span>\n                </a>\n              </li>\n              <li (click)=\"lock()\">\n                <a>\n                  <i class=\"material-icons\">lock_open</i>\n                  <span class=\"sidebar-normal\"> Lock </span>\n                </a>\n              </li>\n              <li (click)=\"logout()\">\n                <a>\n                  <i class=\"material-icons\">fingerprint</i>\n                  <span class=\"sidebar-normal\"> Sign Out </span>\n                </a>\n              </li>\n            </ul>\n          </div>\n        </div>\n      </div>\n      <div class=\"user\" *ngIf=\"loginStatus()==4\">\n        <div class=\"info\">\n          <div class=\"photo\">\n            <img src=\"assets/img/faces/lock.png\"/>\n            <i class=\"fa fa-power-off\"></i>\n          </div>\n          <a data-toggle=\"collapse\" href=\"#collapseExample\" class=\"collapsed\">\n                    <span style=\"font-weight: bold;font-size: 13px;color: #e9b500\">\n                         Account is locked\n                        <b class=\"caret\"></b>\n                    </span>\n          </a>\n          <div class=\"clearfix\"></div>\n          <div class=\"collapse\" id=\"collapseExample\">\n            <ul class=\"nav\">\n              <li (click)=\"unlock()\">\n                <a>\n                  <i class=\"material-icons\">lock_open</i>\n                  <span class=\"sidebar-normal\"> Unlock </span>\n                </a>\n              </li>\n              <li (click)=\"logout()\">\n                <a>\n                  <i class=\"material-icons\">fingerprint</i>\n                  <span class=\"sidebar-normal\"> Sign Out </span>\n                </a>\n              </li>\n            </ul>\n          </div>\n        </div>\n      </div>\n      <div class=\"user\" *ngIf=\"loginStatus()==5\">\n        <div class=\"info\">\n          <div class=\"photo\">\n            <img src=\"assets/img/faces/shut-down-icon (1).png\"/>\n          </div>\n          <a data-toggle=\"collapse\" href=\"#collapseExample\" class=\"collapsed\">\n                    <span style=\"font-weight: bold;font-size: 13px;color: #e9b500\">\n                         You are not signed in\n                        <b class=\"caret\"></b>\n                    </span>\n          </a>\n          <div class=\"clearfix\"></div>\n          <div class=\"collapse\" id=\"collapseExample\">\n            <ul class=\"nav\">\n              <li (click)=\"login()\">\n                <a>\n                  <i class=\"material-icons\">fingerprint</i>\n                  <span class=\"sidebar-normal\"> Sign In </span>\n                </a>\n              </li>\n            </ul>\n          </div>\n        </div>\n      </div>\n      <ul class=\"nav\" *ngIf=\"loginStatus()==1\">\n\n        <li class=\"btnMain {{compoDashboardIsActive()}}\">\n          <a routerLink=\"/root/dashboard\">\n            <i class=\"material-icons\">dashboard</i>\n            <p> Dashboard </p>\n          </a>\n        </li>\n\n        <li>\n          <a data-toggle=\"collapse\" href=\"#pagesExamples\">\n            <i class=\"material-icons\">assignment_ind</i>\n            <p> Enrollments\n              <b class=\"caret\"></b>\n            </p>\n          </a>\n\n          <div class=\"collapse\" id=\"pagesExamples\">\n            <ul class=\"nav\">\n              <li class=\"btnMain {{compoStudentIsActive()}}\">\n                <a routerLink=\"/root/main/student-reg/student-details\" (click)=\"refreshPage()\">\n                  <span class=\"sidebar-mini\"> SR </span>\n                  <span class=\"sidebar-normal\"> Student Registration </span>\n                </a>\n              </li>\n              <li>\n                <a href=\"pages/timeline.html\">\n                  <span class=\"sidebar-mini\"> DR </span>\n                  <span class=\"sidebar-normal\"> Demonstrator Registration </span>\n                </a>\n              </li>\n              <li class=\"btnMain {{compoLecturerIsActive()}}\">\n                <a routerLink=\"/root/main/lecturers-subjects/lecturer-details\" href=\"#\">\n                  <span class=\"sidebar-mini\"> LSR </span>\n                  <span class=\"sidebar-normal\"> Lecturer & Subjects </span>\n                </a>\n              </li>\n            </ul>\n          </div>\n        </li>\n        <li>\n          <a href=\"widgets.html\">\n            <i class=\"material-icons\">widgets</i>\n            <p> Widgets </p>\n          </a>\n        </li>\n\n        <li>\n          <a href=\"charts.html\">\n            <i class=\"material-icons\">timeline</i>\n            <p> Charts </p>\n          </a>\n        </li>\n\n        <li>\n          <a href=\"calendar.html\">\n            <i class=\"material-icons\">date_range</i>\n            <p> Calendar </p>\n          </a>\n        </li>\n      </ul>\n      <ul class=\"nav\" *ngIf=\"loginStatus()==2\">\n\n        <li class=\"btnMain {{compoDashboardIsActive()}}\">\n          <a routerLink=\"/root/dashboard\">\n            <i class=\"material-icons\">dashboard</i>\n            <p> Dashboard </p>\n          </a>\n        </li>\n\n        <li>\n          <a data-toggle=\"collapse\" href=\"#pagesEnrollments\">\n            <i class=\"material-icons\">assignment_ind</i>\n            <p> Enrollments\n              <b class=\"caret\"></b>\n            </p>\n          </a>\n\n          <div class=\"collapse\" id=\"pagesEnrollments\">\n            <ul class=\"nav\">\n              <li class=\"btnMain {{compoStudentIsActive()}}\">\n                <a routerLink=\"/root/main/student-reg/student-details\" (click)=\"refreshPage()\">\n                  <span class=\"sidebar-mini\"> SR </span>\n                  <span class=\"sidebar-normal\"> Student Registration </span>\n                </a>\n              </li>\n              <li>\n                <a href=\"pages/timeline.html\">\n                  <span class=\"sidebar-mini\"> DR </span>\n                  <span class=\"sidebar-normal\"> Demonstrator Registration </span>\n                </a>\n              </li>\n              <li class=\"btnMain {{compoLecturerIsActive()}}\">\n                <a routerLink=\"/root/main/lecturers-subjects/lecturer-details\" href=\"#\">\n                  <span class=\"sidebar-mini\"> LSR </span>\n                  <span class=\"sidebar-normal\"> Lecturer & Subjects </span>\n                </a>\n              </li>\n            </ul>\n          </div>\n        </li>\n\n        <li>\n          <a data-toggle=\"collapse\" href=\"#pagesExamples\">\n            <i class=\"material-icons\">assignment</i>\n            <p> Course Work\n              <b class=\"caret\"></b>\n            </p>\n          </a>\n\n        </li>\n      </ul>\n      <ul class=\"nav\" *ngIf=\"loginStatus()==4\">\n\n        <li class=\"btnMain {{compoDashboardIsActive()}}\">\n          <a routerLink=\"/root/dashboard\">\n            <i class=\"material-icons\">dashboard</i>\n            <p> Dashboard </p>\n          </a>\n        </li>\n\n        <li>\n          <a data-toggle=\"collapse\" href=\"#componentsExamples\">\n            <i class=\"material-icons\">apps</i>\n            <p> Components\n              <b class=\"caret\"></b>\n            </p>\n          </a>\n\n          <div class=\"collapse\" id=\"componentsExamples\">\n            <ul class=\"nav\">\n              <li>\n                <a href=\"components/buttons.html\">\n                  <span class=\"sidebar-mini\"> B </span>\n                  <span class=\"sidebar-normal\"> Buttons </span>\n                </a>\n              </li>\n              <li>\n                <a href=\"components/grid.html\">\n                  <span class=\"sidebar-mini\"> GS </span>\n                  <span class=\"sidebar-normal\"> Grid System </span>\n                </a>\n              </li>\n              <li>\n                <a href=\"components/panels.html\">\n                  <span class=\"sidebar-mini\"> P </span>\n                  <span class=\"sidebar-normal\"> Panels </span>\n                </a>\n              </li>\n              <li>\n                <a href=\"components/sweet-alert.html\">\n                  <span class=\"sidebar-mini\"> SA </span>\n                  <span class=\"sidebar-normal\"> Sweet Alert </span>\n                </a>\n              </li>\n              <li>\n                <a href=\"components/notifications.html\">\n                  <span class=\"sidebar-mini\"> N </span>\n                  <span class=\"sidebar-normal\"> Notifications </span>\n                </a>\n              </li>\n              <li>\n                <a href=\"components/icons.html\">\n                  <span class=\"sidebar-mini\"> I </span>\n                  <span class=\"sidebar-normal\"> Icons </span>\n                </a>\n              </li>\n              <li>\n                <a href=\"components/typography.html\">\n                  <span class=\"sidebar-mini\"> T </span>\n                  <span class=\"sidebar-normal\"> Typography </span>\n                </a>\n              </li>\n            </ul>\n          </div>\n        </li>\n\n        <li>\n          <a data-toggle=\"collapse\" href=\"#formsExamples\">\n            <i class=\"material-icons\">content_paste</i>\n            <p> Forms\n              <b class=\"caret\"></b>\n            </p>\n          </a>\n\n          <div class=\"collapse\" id=\"formsExamples\">\n            <ul class=\"nav\">\n              <li>\n                <a href=\"forms/regular.html\">\n                  <span class=\"sidebar-mini\"> RF </span>\n                  <span class=\"sidebar-normal\"> Regular Forms </span>\n                </a>\n              </li>\n              <li>\n                <a href=\"forms/extended.html\">\n                  <span class=\"sidebar-mini\"> EF </span>\n                  <span class=\"sidebar-normal\"> Extended Forms </span>\n                </a>\n              </li>\n              <li>\n                <a href=\"forms/validation.html\">\n                  <span class=\"sidebar-mini\"> VF </span>\n                  <span class=\"sidebar-normal\"> Validation Forms </span>\n                </a>\n              </li>\n              <li>\n                <a href=\"forms/wizard.html\">\n                  <span class=\"sidebar-mini\"> W </span>\n                  <span class=\"sidebar-normal\"> Wizard </span>\n                </a>\n              </li>\n            </ul>\n          </div>\n        </li>\n\n        <li>\n          <a data-toggle=\"collapse\" href=\"#tablesExamples\">\n            <i class=\"material-icons\">grid_on</i>\n            <p> Tables\n              <b class=\"caret\"></b>\n            </p>\n          </a>\n\n          <div class=\"collapse\" id=\"tablesExamples\">\n            <ul class=\"nav\">\n              <li>\n                <a href=\"tables/regular.html\">\n                  <span class=\"sidebar-mini\"> RT </span>\n                  <span class=\"sidebar-normal\"> Regular Tables </span>\n                </a>\n              </li>\n              <li>\n                <a href=\"tables/extended.html\">\n                  <span class=\"sidebar-mini\"> ET </span>\n                  <span class=\"sidebar-normal\"> Extended Tables </span>\n                </a>\n              </li>\n              <li>\n                <a href=\"tables/datatables.net.html\">\n                  <span class=\"sidebar-mini\"> DT </span>\n                  <span class=\"sidebar-normal\"> DataTables.net </span>\n                </a>\n              </li>\n            </ul>\n          </div>\n        </li>\n\n        <li>\n          <a data-toggle=\"collapse\" href=\"#mapsExamples\">\n            <i class=\"material-icons\">place</i>\n            <p> Maps\n              <b class=\"caret\"></b>\n            </p>\n          </a>\n\n          <div class=\"collapse\" id=\"mapsExamples\">\n            <ul class=\"nav\">\n              <li>\n                <a href=\"maps/google.html\">\n                  <span class=\"sidebar-mini\"> GM </span>\n                  <span class=\"sidebar-normal\"> Google Maps </span>\n                </a>\n              </li>\n              <li>\n                <a href=\"maps/fullscreen.html\">\n                  <span class=\"sidebar-mini\"> FSM </span>\n                  <span class=\"sidebar-normal\"> Full Screen Map </span>\n                </a>\n              </li>\n              <li>\n                <a href=\"maps/vector.html\">\n                  <span class=\"sidebar-mini\"> VM </span>\n                  <span class=\"sidebar-normal\"> Vector Map </span>\n                </a>\n              </li>\n            </ul>\n          </div>\n        </li>\n\n        <li>\n          <a href=\"widgets.html\">\n            <i class=\"material-icons\">widgets</i>\n            <p> Widgets </p>\n          </a>\n        </li>\n\n        <li>\n          <a href=\"charts.html\">\n            <i class=\"material-icons\">timeline</i>\n            <p> Charts </p>\n          </a>\n        </li>\n\n        <li>\n          <a href=\"calendar.html\">\n            <i class=\"material-icons\">date_range</i>\n            <p> Calendar </p>\n          </a>\n        </li>\n\n      </ul>\n      <ul class=\"nav\" *ngIf=\"loginStatus()==5\">\n\n        <li class=\"btnMain {{compoDashboardIsActive()}}\">\n          <a routerLink=\"/root/dashboard\">\n            <i class=\"material-icons\">dashboard</i>\n            <p> Dashboard </p>\n          </a>\n        </li>\n\n        <li>\n          <a data-toggle=\"collapse\" href=\"#pagesExamples\">\n            <i class=\"material-icons\">assignment_ind</i>\n            <p> Enrollments\n              <b class=\"caret\"></b>\n            </p>\n          </a>\n\n          <div class=\"collapse\" id=\"pagesExamples\">\n            <ul class=\"nav\">\n              <li class=\"btnMain {{compoStudentIsActive()}}\">\n                <a routerLink=\"/root/main/student-reg/student-details\" (click)=\"refreshPage()\">\n                  <span class=\"sidebar-mini\"> SR </span>\n                  <span class=\"sidebar-normal\"> Student Registration </span>\n                </a>\n              </li>\n            </ul>\n          </div>\n        </li>\n        <!--<li>-->\n          <!--<a href=\"widgets.html\">-->\n            <!--<i class=\"material-icons\">widgets</i>-->\n            <!--<p> Widgets </p>-->\n          <!--</a>-->\n        <!--</li>-->\n\n        <!--<li>-->\n          <!--<a href=\"charts.html\">-->\n            <!--<i class=\"material-icons\">timeline</i>-->\n            <!--<p> Charts </p>-->\n          <!--</a>-->\n        <!--</li>-->\n\n        <!--<li>-->\n          <!--<a href=\"calendar.html\">-->\n            <!--<i class=\"material-icons\">date_range</i>-->\n            <!--<p> Calendar </p>-->\n          <!--</a>-->\n        <!--</li>-->\n      </ul>\n    </div>\n  </div>\n  <router-outlet></router-outlet>\n</div>\n"
 
 /***/ }),
 
@@ -2401,13 +2406,13 @@ module.exports = "<!-- Google Tag Manager (noscript) -->\n<noscript>\n  <iframe 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MainComponent", function() { return MainComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _assets_js_material_dashboard98f3_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../assets/js/material-dashboard98f3.js */ "./src/assets/js/material-dashboard98f3.js");
-/* harmony import */ var _assets_js_material_dashboard98f3_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_js_material_dashboard98f3_js__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _services_login_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../services/login.service */ "./src/app/services/login.service.ts");
-/* harmony import */ var _additional_classes_login_status__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../additional-classes/login-status */ "./src/app/views/additional-classes/login-status.ts");
-/* harmony import */ var _services_wizard_color_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../services/wizard-color.service */ "./src/app/services/wizard-color.service.ts");
-/* harmony import */ var _services_socket_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../services/socket.service */ "./src/app/services/socket.service.ts");
+/* harmony import */ var _assets_js_material_dashboard98f3_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../assets/js/material-dashboard98f3.js */ "./src/assets/js/material-dashboard98f3.js");
+/* harmony import */ var _assets_js_material_dashboard98f3_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_assets_js_material_dashboard98f3_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _classes_login_status__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../classes/login-status */ "./src/app/classes/login-status.ts");
+/* harmony import */ var _services_login_screen_login_login_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../services/login-screen/login/login.service */ "./src/app/services/login-screen/login/login.service.ts");
+/* harmony import */ var _services_common_wizard_color_wizard_color_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../services/common/wizard-color/wizard-color.service */ "./src/app/services/common/wizard-color/wizard-color.service.ts");
+/* harmony import */ var _services_common_socket_socket_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../services/common/socket/socket.service */ "./src/app/services/common/socket/socket.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2417,6 +2422,8 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
+
 
 
 
@@ -2443,68 +2450,54 @@ var MainComponent = /** @class */ (function () {
                 _this.checkSize();
             });
         };
-        window.addEventListener("beforeunload", function (e) {
-            // socketService.sendOfflineMessage();
-        });
         loadMaterials();
-        socketService.initSocket();
     }
-    MainComponent.prototype.beforeunloadHandler = function ($event) {
-    };
-    MainComponent.prototype.ngAfterViewInit = function () {
-    };
     MainComponent.prototype.ngOnInit = function () {
-        // loadMaterials();
-        // var tomorrow = new Date('2000-01-01');
-        // tomorrow.setDate(tomorrow.getDate()+1);
-        // console.log(window.localStorage)
         this.setProfileImage();
+    };
+    MainComponent.prototype.compoDashboardIsActive = function () {
+        if (this.router.isActive('/root/main/dashboard', false)) {
+            return 'active';
+        }
+        return '';
+    };
+    MainComponent.prototype.compoStudentIsActive = function () {
+        if (this.router.isActive('/root/main/student-reg', false)) {
+            return 'active';
+        }
+        return '';
+    };
+    MainComponent.prototype.compoLecturerIsActive = function () {
+        if (this.router.isActive('/root/main/lecturers-subjects', false)) {
+            return 'active';
+        }
+        return '';
+    };
+    MainComponent.prototype.loginStatus = function () {
+        return _classes_login_status__WEBPACK_IMPORTED_MODULE_3__["LoginStatus"].getLoginStatus();
+    };
+    MainComponent.prototype.login = function () {
+        this.router.navigate(['/root/log-screen/login']);
+    };
+    MainComponent.prototype.unlock = function () {
+        this.router.navigate(['/root/log-screen/lock']);
+    };
+    MainComponent.prototype.logout = function () {
+        var accType = localStorage.getItem("accountTypeForLogin");
+        localStorage.clear();
+        localStorage.setItem("accountTypeForLogin", accType);
+        this.router.navigate(['/root/log-screen/login']);
+    };
+    MainComponent.prototype.lock = function () {
+        localStorage.removeItem('login');
+        localStorage.setItem('accountType', 'locked');
+        this.router.navigate(['/root/log-screen/lock']);
     };
     MainComponent.prototype.isInLoginPage = function () {
         return this.router.url.includes('login') || this.router.url.includes('lock');
     };
     MainComponent.prototype.checkSize = function () {
         return window.innerWidth >= 991;
-    };
-    MainComponent.prototype.compoDashboardIsActive = function () {
-        // this.removeClassActive();
-        // this.renderer.addClass(btn, "active");
-        if (this.router.isActive('/main/dashboard', false)) {
-            return 'active';
-        }
-        return '';
-    };
-    MainComponent.prototype.compoStudentIsActive = function () {
-        if (this.router.isActive('/main/student-reg', false)) {
-            return 'active';
-        }
-        return '';
-    };
-    MainComponent.prototype.compoLecturerIsActive = function () {
-        if (this.router.isActive('/main/lecturers-subjects', false)) {
-            return 'active';
-        }
-        return '';
-    };
-    MainComponent.prototype.loginStatus = function () {
-        return _additional_classes_login_status__WEBPACK_IMPORTED_MODULE_4__["LoginStatus"].getLoginStatus();
-    };
-    MainComponent.prototype.login = function () {
-        this.router.navigate(['/log-screen/login']);
-    };
-    MainComponent.prototype.unlock = function () {
-        this.router.navigate(['/log-screen/lock']);
-    };
-    MainComponent.prototype.logout = function () {
-        var accType = localStorage.getItem("accountTypeForLogin");
-        localStorage.clear();
-        localStorage.setItem("accountTypeForLogin", accType);
-        this.router.navigate(['/log-screen/login']);
-    };
-    MainComponent.prototype.lock = function () {
-        localStorage.removeItem('login');
-        localStorage.setItem('accountType', 'locked');
-        this.router.navigate(['/log-screen/lock']);
     };
     MainComponent.prototype.setProfileImage = function () {
         if (localStorage.getItem('profile-image') != "images/No") {
@@ -2517,21 +2510,82 @@ var MainComponent = /** @class */ (function () {
     MainComponent.prototype.refreshPage = function () {
         this.wizardColor.setStudentWizardGreen(0);
     };
-    __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["HostListener"])('window:beforeunload', ['$event']),
-        __metadata("design:type", Function),
-        __metadata("design:paramtypes", [Object]),
-        __metadata("design:returntype", void 0)
-    ], MainComponent.prototype, "beforeunloadHandler", null);
     MainComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-main',
             template: __webpack_require__(/*! ./main.component.html */ "./src/app/views/main/main.component.html"),
             styles: [__webpack_require__(/*! ./main.component.css */ "./src/app/views/main/main.component.css")]
         }),
-        __metadata("design:paramtypes", [_angular_core__WEBPACK_IMPORTED_MODULE_0__["Renderer2"], _angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"], _services_login_service__WEBPACK_IMPORTED_MODULE_3__["LoginService"], _services_wizard_color_service__WEBPACK_IMPORTED_MODULE_5__["WizardColorService"], _services_socket_service__WEBPACK_IMPORTED_MODULE_6__["SocketService"]])
+        __metadata("design:paramtypes", [_angular_core__WEBPACK_IMPORTED_MODULE_0__["Renderer2"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"], _services_login_screen_login_login_service__WEBPACK_IMPORTED_MODULE_4__["LoginService"], _services_common_wizard_color_wizard_color_service__WEBPACK_IMPORTED_MODULE_5__["WizardColorService"], _services_common_socket_socket_service__WEBPACK_IMPORTED_MODULE_6__["SocketService"]])
     ], MainComponent);
     return MainComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/views/root/root.component.css":
+/*!***********************************************!*\
+  !*** ./src/app/views/root/root.component.css ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/views/root/root.component.html":
+/*!************************************************!*\
+  !*** ./src/app/views/root/root.component.html ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<router-outlet></router-outlet>\n"
+
+/***/ }),
+
+/***/ "./src/app/views/root/root.component.ts":
+/*!**********************************************!*\
+  !*** ./src/app/views/root/root.component.ts ***!
+  \**********************************************/
+/*! exports provided: RootComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RootComponent", function() { return RootComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _services_common_socket_socket_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../services/common/socket/socket.service */ "./src/app/services/common/socket/socket.service.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var RootComponent = /** @class */ (function () {
+    function RootComponent(socketService) {
+        this.socketService = socketService;
+        socketService.initSocket();
+    }
+    RootComponent.prototype.ngOnInit = function () {
+    };
+    RootComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-root',
+            template: __webpack_require__(/*! ./root.component.html */ "./src/app/views/root/root.component.html"),
+            styles: [__webpack_require__(/*! ./root.component.css */ "./src/app/views/root/root.component.css")]
+        }),
+        __metadata("design:paramtypes", [_services_common_socket_socket_service__WEBPACK_IMPORTED_MODULE_1__["SocketService"]])
+    ], RootComponent);
+    return RootComponent;
 }());
 
 
@@ -2572,12 +2626,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SemesterPaymentsComponent", function() { return SemesterPaymentsComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _assets_js_data_tables_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../assets/js/data-tables.js */ "./src/assets/js/data-tables.js");
-/* harmony import */ var _assets_js_data_tables_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_js_data_tables_js__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _additional_classes_login_status__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../additional-classes/login-status */ "./src/app/views/additional-classes/login-status.ts");
-/* harmony import */ var _services_degree_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../services/degree.service */ "./src/app/services/degree.service.ts");
-/* harmony import */ var _services_student_registration_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../services/student-registration.service */ "./src/app/services/student-registration.service.ts");
-/* harmony import */ var _services_wizard_color_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../services/wizard-color.service */ "./src/app/services/wizard-color.service.ts");
+/* harmony import */ var _services_common_degree_degree_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../services/common/degree/degree.service */ "./src/app/services/common/degree/degree.service.ts");
+/* harmony import */ var _services_student_reg_student_registration_student_registration_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../services/student-reg/student-registration/student-registration.service */ "./src/app/services/student-reg/student-registration/student-registration.service.ts");
+/* harmony import */ var _services_common_wizard_color_wizard_color_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../services/common/wizard-color/wizard-color.service */ "./src/app/services/common/wizard-color/wizard-color.service.ts");
+/* harmony import */ var _classes_login_status__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../classes/login-status */ "./src/app/classes/login-status.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2587,7 +2639,6 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-
 
 
 
@@ -2643,7 +2694,7 @@ var SemesterPaymentsComponent = /** @class */ (function () {
         this.router.navigate(['/main/student-reg/student-summary']);
     };
     SemesterPaymentsComponent.prototype.loginStatus = function () {
-        return _additional_classes_login_status__WEBPACK_IMPORTED_MODULE_3__["LoginStatus"].getLoginStatus();
+        return _classes_login_status__WEBPACK_IMPORTED_MODULE_5__["LoginStatus"].getLoginStatus();
     };
     SemesterPaymentsComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -2651,7 +2702,7 @@ var SemesterPaymentsComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./semester-payments.component.html */ "./src/app/views/student-reg/semester-payments/semester-payments.component.html"),
             styles: [__webpack_require__(/*! ./semester-payments.component.css */ "./src/app/views/student-reg/semester-payments/semester-payments.component.css")]
         }),
-        __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"], _services_degree_service__WEBPACK_IMPORTED_MODULE_4__["DegreeService"], _services_student_registration_service__WEBPACK_IMPORTED_MODULE_5__["StudentRegistrationService"], _services_wizard_color_service__WEBPACK_IMPORTED_MODULE_6__["WizardColorService"]])
+        __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"], _services_common_degree_degree_service__WEBPACK_IMPORTED_MODULE_2__["DegreeService"], _services_student_reg_student_registration_student_registration_service__WEBPACK_IMPORTED_MODULE_3__["StudentRegistrationService"], _services_common_wizard_color_wizard_color_service__WEBPACK_IMPORTED_MODULE_4__["WizardColorService"]])
     ], SemesterPaymentsComponent);
     return SemesterPaymentsComponent;
 }());
@@ -2678,7 +2729,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row\">\n  <div class=\"col-md-12 col-12\">\n    <div class=\"card\">\n      <div class=\"card-header card-header-icon\" data-background-color=\"purple\">\n        <i class=\"material-icons\">assignment</i>\n      </div>\n\n      <div class=\"card-content\">\n        <h4 class=\"card-title\" style=\"color: #4e4e4e;font-size: 17px\">SEMESTER REGISTRATION DETAILS</h4>\n        <div class=\"toolbar\">\n          <!--        Here you can write extra buttons/actions for the toolbar              -->\n        </div>\n        <div class=\"material-datatables\">\n          <table class=\"table table-striped table-hover datatables\" cellspacing=\"0\"\n                 width=\"100%\" style=\"width:100%\">\n            <thead>\n            <tr>\n              <th>Semester Registration ID</th>\n              <th>Registration ID</th>\n              <th>Student Name</th>\n              <th>Date</th>\n              <th *ngIf=\"loginStatus()==1\"  class=\"disabled-sorting text-right\">Remove</th>\n            </tr>\n            </thead>\n            <tfoot>\n            <tr>\n              <th>Semester Registration ID</th>\n              <th>Registration ID</th>\n              <th>Student Name</th>\n              <th>Date</th>\n              <th *ngIf=\"loginStatus()==1\"  class=\"text-right\">Remove</th>\n            </tr>\n            </tfoot>\n            <tbody>\n            <tr style=\"font-size: 16px;background-color: white;height: 50px\">\n              <td>S1</td>\n              <td>RS1</td>\n              <td>K.Perera</td>\n              <td>08-07-2017</td>\n              <td *ngIf=\"loginStatus()==1\"  class=\"text-right\">\n                <a href=\"#\" class=\"btn btn-simple btn-danger btn-icon remove\"><i\n                  class=\"material-icons\">close</i></a>\n              </td>\n            </tr>\n            </tbody>\n          </table>\n        </div>\n      </div><!-- end content-->\n    </div><!--  end card  -->\n  </div>\n</div> <!-- end col-md-12 -->\n<div class=\"row\">\n  <div class=\"col-md-12 col-12\">\n    <div class=\"card\">\n      <div class=\"card-header card-header-icon\" data-background-color=\"purple\">\n        <i class=\"material-icons\">assignment</i>\n      </div>\n\n      <div class=\"card-content\">\n        <h4 class=\"card-title\" style=\"color: #4e4e4e;font-size: 17px\">SUBJECT DETAILS</h4>\n        <div class=\"toolbar\">\n          <!--        Here you can write extra buttons/actions for the toolbar              -->\n        </div>\n        <div class=\"material-datatables\">\n          <table class=\"table table-striped table-no-bordered table-hover datatables\" cellspacing=\"0\"\n                 width=\"100%\" style=\"width:100%\">\n            <thead>\n            <tr>\n              <th>Subject Code</th>\n              <th>Subject Name</th>\n              <th>Credits</th>\n              <th>Fee</th>\n              <th class=\"disabled-sorting text-right\">Remove</th>\n            </tr>\n            </thead>\n            <tfoot>\n            <tr>\n              <th>Subject Code</th>\n              <th>Subject Name</th>\n              <th>Credits</th>\n              <th>Fee</th>\n              <th class=\"text-right\">Remove</th>\n            </tr>\n            </tfoot>\n            <tbody>\n            <tr style=\"font-size: 16px;background-color: white;height: 50px\">\n              <td>M1</td>\n              <td>Mathematics</td>\n              <td>2</td>\n              <td>20</td>\n              <td class=\"text-right\">\n                <a href=\"#\" class=\"btn btn-simple btn-danger btn-icon remove\"><i\n                  class=\"material-icons\">close</i></a>\n              </td>\n            </tr>\n            <tr style=\"font-size: 16px;background-color: white;height: 50px\">\n              <td>CS1</td>\n              <td>Computer Science</td>\n              <td>1</td>\n              <td>30</td>\n              <td class=\"text-right\">\n                <a href=\"#\" class=\"btn btn-simple btn-danger btn-icon remove\"><i\n                  class=\"material-icons\">close</i></a>\n              </td>\n            </tr>\n            </tbody>\n          </table>\n        </div>\n        <div style=\"height: 50px\"></div>\n        <div class=\"row\">\n          <div class=\"form-horizontal\">\n          <div class=\"col-sm-2 label-on-left\">Total Credits</div>\n          <div class=\"col-sm-4\">\n            <div class=\"form-group label-floating is-empty\">\n              <label class=\"control-label\"></label>\n              <input type=\"text\" class=\"form-control\" disabled value=\"3\">\n            </div>\n          </div>\n          <div class=\"col-sm-2 label-on-left\">Total Fees</div>\n          <div class=\"col-sm-4\">\n            <div class=\"form-group label-floating is-empty\">\n              <label class=\"control-label\"></label>\n              <input type=\"text\" class=\"form-control\" disabled value=\"50\">\n            </div>\n          </div>\n          </div>\n        </div>\n      </div><!-- end content-->\n    </div><!--  end card  -->\n  </div>\n</div> <!-- end col-md-12 -->\n<div class=\"row\">\n  <div class=\"col-md-12 col-12\">\n    <div class=\"card\">\n      <form class=\"form-horizontal\" (ngSubmit)=\"saveStudent()\">\n        <div class=\"card-header card-header-text\" data-background-color=\"rose\">\n          <h4 class=\"card-title\" style=\"font-weight: lighter\">SEMESTER REGISTRATION</h4>\n        </div>\n        <!-- /.card-header -->\n        <div class=\"card-content\">\n          <div class=\"row\">\n            <div class=\"col-sm-12\">\n              <div class=\"card-footer\">\n                <div style=\"font-weight: bold\">Note:- Semester Registration ID will be automatically generated by the system.</div>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Semester Registration ID</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"text\" class=\"form-control\" required=\"true\" disabled>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Registration ID</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"text\" class=\"form-control\" required=\"true\" disabled>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Student Name</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"text\" class=\"form-control\" disabled>\n              </div>\n            </div>\n          </div>\n\n          <div *ngIf=\"loginStatus()==1\">\n            <div class=\"row\">\n              <label class=\"col-sm-2 label-on-left\">Faculty</label>\n              <div class=\"col-sm-7\">\n                <select class=\"form-control\" data-style=\"select-with-transition\" title=\"Single Select\" data-size=\"7\">\n                  <option disabled selected>Select Faculty</option>\n                  <option value=\"2\">Foobar</option>\n                  <option value=\"3\">Is great</option>\n                </select>\n              </div>\n              <div class=\"col-sm-3\">\n                <div class=\"card-footer\">\n                  <button type=\"submit\" class=\"btn btn-fill\" style=\"width: 100%\">Search Via Faculty</button>\n                </div>\n              </div>\n            </div>\n            <div class=\"row\">\n              <label class=\"col-sm-2 label-on-left\">Semester</label>\n              <div class=\"col-sm-7\">\n                <select class=\"form-control\" data-style=\"select-with-transition\" title=\"Single Select\" data-size=\"7\">\n                  <option disabled selected>Select Semester</option>\n                  <option value=\"2\">Foobar</option>\n                  <option value=\"3\">Is great</option>\n                </select>\n              </div>\n              <div class=\"col-sm-3\">\n                <div class=\"card-footer\">\n                  <button type=\"submit\" class=\"btn btn-fill\" style=\"width: 100%\">Search Via Semester</button>\n                </div>\n              </div>\n            </div>\n            <div class=\"row\">\n              <label class=\"col-sm-2 label-on-left\">Department</label>\n              <div class=\"col-sm-7\">\n                <select class=\"form-control\" data-style=\"select-with-transition\" title=\"Single Select\" data-size=\"7\">\n                  <option disabled selected>Select Department</option>\n                  <option value=\"2\">Foobar</option>\n                  <option value=\"3\">Is great</option>\n                </select>\n              </div>\n              <div class=\"col-sm-3\">\n                <div class=\"card-footer\">\n                  <button type=\"submit\" class=\"btn btn-fill\" style=\"width: 100%\">Search Via Department</button>\n                </div>\n              </div>\n            </div>\n          </div>\n          <div *ngIf=\"loginStatus()!=1\">\n            <div class=\"row\">\n              <label class=\"col-sm-2 label-on-left\">Faculty</label>\n              <div class=\"col-sm-10\">\n                <input type=\"text\" class=\"form-control\" required=\"true\" disabled>\n              </div>\n            </div>\n            <div class=\"row\">\n              <label class=\"col-sm-2 label-on-left\">Semester</label>\n              <div class=\"col-sm-10\">\n                <select class=\"form-control\" data-style=\"select-with-transition\" title=\"Single Select\" data-size=\"7\">\n                  <option disabled selected>Select Semester</option>\n                  <option value=\"2\">Foobar</option>\n                  <option value=\"3\">Is great</option>\n                </select>\n              </div>\n            </div>\n            <div class=\"row\">\n              <label class=\"col-sm-2 label-on-left\">Department</label>\n              <div class=\"col-sm-10\">\n                <select class=\"form-control\" data-style=\"select-with-transition\" title=\"Single Select\" data-size=\"7\">\n                  <option disabled selected>Select Department</option>\n                  <option value=\"2\">Foobar</option>\n                  <option value=\"3\">Is great</option>\n                </select>\n              </div>\n            </div>\n          </div>\n\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Subject Code</label>\n            <div class=\"col-sm-10\">\n              <select class=\"form-control\" data-style=\"select-with-transition\" title=\"Single Select\" data-size=\"7\">\n                <option disabled selected>Select Subject</option>\n                <option value=\"2\">Foobar</option>\n                <option value=\"3\">Is great</option>\n              </select>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Subject Name</label>\n            <div class=\"col-sm-7\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"email\" class=\"form-control\" disabled>\n              </div>\n            </div>\n            <div class=\"col-sm-3\">\n              <div class=\"card-footer\">\n                <button type=\"submit\" class=\"btn btn-fill\" style=\"width: 100%\">Add Subject</button>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <div class=\"col-sm-12\" style=\"height: 50px\"></div>\n          </div>\n          <div class=\"row\" style=\"padding-left: 50px\">\n            <div class=\"col-sm-4\">\n              <div class=\"card-footer\">\n                <button type=\"submit\" class=\"btn btn-fill\" style=\"left: 50%;transform: translateX(-50%)\" (click)=\"previousPage()\">Previous</button>\n              </div>\n            </div>\n            <div class=\"col-sm-4\">\n              <div class=\"card-footer\">\n                <button *ngIf=\"loginStatus()==1\" type=\"submit\" class=\"btn btn-fill\" style=\"left: 50%;transform: translateX(-50%)\">Save / Update Semester Registration</button>\n                <button *ngIf=\"loginStatus()!=1\" type=\"submit\" class=\"btn btn-fill\" style=\"left: 50%;transform: translateX(-50%)\">pay to save semester registration</button>\n              </div>\n            </div>\n            <div class=\"col-sm-4\">\n              <div class=\"card-footer\">\n                <button type=\"submit\" class=\"btn btn-fill\" style=\"left: 50%;transform: translateX(-50%)\" (click)=\"nextPage()\">Next</button>\n              </div>\n            </div>\n          </div>\n        </div>\n      </form>\n      <!-- /.card-body -->\n    </div>\n    <!-- /.card -->\n  </div>\n</div>\n"
+module.exports = "<div class=\"row\">\n  <div class=\"col-md-12 col-12\">\n    <div class=\"card\">\n      <div class=\"card-header card-header-icon\" data-background-color=\"purple\">\n        <i class=\"material-icons\">assignment</i>\n      </div>\n\n      <div class=\"card-content\">\n        <h4 class=\"card-title\" style=\"color: #4e4e4e;font-size: 17px\">SEMESTER REGISTRATION DETAILS</h4>\n        <div class=\"toolbar\">\n          <!--        Here you can write extra buttons/actions for the toolbar              -->\n        </div>\n        <div class=\"material-datatables\">\n          <table class=\"table table-striped table-hover datatables\" cellspacing=\"0\"\n                 width=\"100%\" style=\"width:100%\">\n            <thead>\n            <tr>\n              <th>Semester Registration ID</th>\n              <th>Registration ID</th>\n              <th>Student Name</th>\n              <th>Date</th>\n              <th *ngIf=\"loginStatus()==1\"  class=\"disabled-sorting text-right\">Remove</th>\n            </tr>\n            </thead>\n            <tfoot>\n            <tr>\n              <th>Semester Registration ID</th>\n              <th>Registration ID</th>\n              <th>Student Name</th>\n              <th>Date</th>\n              <th *ngIf=\"loginStatus()==1\"  class=\"text-right\">Remove</th>\n            </tr>\n            </tfoot>\n            <tbody>\n            <tr style=\"font-size: 16px;background-color: white;height: 50px\">\n              <td>S1</td>\n              <td>RS1</td>\n              <td>K.Perera</td>\n              <td>08-07-2017</td>\n              <td *ngIf=\"loginStatus()==1\"  class=\"text-right\">\n                <a href=\"#\" class=\"btn btn-simple btn-danger btn-icon remove\"><i\n                  class=\"material-icons\">close</i></a>\n              </td>\n            </tr>\n            </tbody>\n          </table>\n        </div>\n      </div><!-- end content-->\n    </div><!--  end card  -->\n  </div>\n</div> <!-- end col-md-12 -->\n<div class=\"row\">\n  <div class=\"col-md-12 col-12\">\n    <div class=\"card\">\n      <div class=\"card-header card-header-icon\" data-background-color=\"purple\">\n        <i class=\"material-icons\">assignment</i>\n      </div>\n\n      <div class=\"card-content\">\n        <h4 class=\"card-title\" style=\"color: #4e4e4e;font-size: 17px\">SUBJECT DETAILS</h4>\n        <div class=\"toolbar\">\n          <!--        Here you can write extra buttons/actions for the toolbar              -->\n        </div>\n        <div class=\"material-datatables\">\n          <table class=\"table table-striped table-no-bordered table-hover datatables\" cellspacing=\"0\"\n                 width=\"100%\" style=\"width:100%\">\n            <thead>\n            <tr>\n              <th>Subject Code</th>\n              <th>Subject Name</th>\n              <th>Credits</th>\n              <th>Fee</th>\n              <th class=\"disabled-sorting text-right\">Remove</th>\n            </tr>\n            </thead>\n            <tfoot>\n            <tr>\n              <th>Subject Code</th>\n              <th>Subject Name</th>\n              <th>Credits</th>\n              <th>Fee</th>\n              <th class=\"text-right\">Remove</th>\n            </tr>\n            </tfoot>\n            <tbody>\n            <tr style=\"font-size: 16px;background-color: white;height: 50px\">\n              <td>M1</td>\n              <td>Mathematics</td>\n              <td>2</td>\n              <td>20</td>\n              <td class=\"text-right\">\n                <a href=\"#\" class=\"btn btn-simple btn-danger btn-icon remove\"><i\n                  class=\"material-icons\">close</i></a>\n              </td>\n            </tr>\n            <tr style=\"font-size: 16px;background-color: white;height: 50px\">\n              <td>CS1</td>\n              <td>Computer Science</td>\n              <td>1</td>\n              <td>30</td>\n              <td class=\"text-right\">\n                <a href=\"#\" class=\"btn btn-simple btn-danger btn-icon remove\"><i\n                  class=\"material-icons\">close</i></a>\n              </td>\n            </tr>\n            </tbody>\n          </table>\n        </div>\n        <div style=\"height: 50px\"></div>\n        <div class=\"row\">\n          <div class=\"form-horizontal\">\n            <div class=\"col-sm-2 label-on-left\">Total Credits</div>\n            <div class=\"col-sm-4\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"text\" class=\"form-control\" disabled value=\"3\">\n              </div>\n            </div>\n            <div class=\"col-sm-2 label-on-left\">Total Fees</div>\n            <div class=\"col-sm-4\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"text\" class=\"form-control\" disabled value=\"50\">\n              </div>\n            </div>\n          </div>\n        </div>\n      </div><!-- end content-->\n    </div><!--  end card  -->\n  </div>\n</div> <!-- end col-md-12 -->\n<div class=\"row\">\n  <div class=\"col-md-12 col-12\">\n    <div class=\"card\">\n      <form class=\"form-horizontal\" (ngSubmit)=\"saveStudent()\">\n        <div class=\"card-header card-header-text\" data-background-color=\"rose\">\n          <h4 class=\"card-title\" style=\"font-weight: lighter\">SEMESTER REGISTRATION</h4>\n        </div>\n        <!-- /.card-header -->\n        <div class=\"card-content\">\n          <div class=\"row\">\n            <div class=\"col-sm-12\">\n              <div class=\"card-footer\">\n                <div style=\"font-weight: bold\">Note:- Semester Registration ID will be automatically generated by the system.</div>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Semester Registration ID</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"text\" class=\"form-control\" required=\"true\" disabled>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Registration ID</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"text\" class=\"form-control\" required=\"true\" disabled>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Student Name</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"text\" class=\"form-control\" disabled>\n              </div>\n            </div>\n          </div>\n\n          <div *ngIf=\"loginStatus()==1\">\n            <div class=\"row\">\n              <label class=\"col-sm-2 label-on-left\">Faculty</label>\n              <div class=\"col-sm-7\">\n                <select class=\"form-control\" data-style=\"select-with-transition\" title=\"Single Select\" data-size=\"7\">\n                  <option disabled selected>Select Faculty</option>\n                  <option value=\"2\">Foobar</option>\n                  <option value=\"3\">Is great</option>\n                </select>\n              </div>\n              <div class=\"col-sm-3\">\n                <div class=\"card-footer\">\n                  <button type=\"submit\" class=\"btn btn-fill\" style=\"width: 100%\">Search Via Faculty</button>\n                </div>\n              </div>\n            </div>\n            <div class=\"row\">\n              <label class=\"col-sm-2 label-on-left\">Semester</label>\n              <div class=\"col-sm-7\">\n                <select class=\"form-control\" data-style=\"select-with-transition\" title=\"Single Select\" data-size=\"7\">\n                  <option disabled selected>Select Semester</option>\n                  <option value=\"2\">Foobar</option>\n                  <option value=\"3\">Is great</option>\n                </select>\n              </div>\n              <div class=\"col-sm-3\">\n                <div class=\"card-footer\">\n                  <button type=\"submit\" class=\"btn btn-fill\" style=\"width: 100%\">Search Via Semester</button>\n                </div>\n              </div>\n            </div>\n            <div class=\"row\">\n              <label class=\"col-sm-2 label-on-left\">Department</label>\n              <div class=\"col-sm-7\">\n                <select class=\"form-control\" data-style=\"select-with-transition\" title=\"Single Select\" data-size=\"7\">\n                  <option disabled selected>Select Department</option>\n                  <option value=\"2\">Foobar</option>\n                  <option value=\"3\">Is great</option>\n                </select>\n              </div>\n              <div class=\"col-sm-3\">\n                <div class=\"card-footer\">\n                  <button type=\"submit\" class=\"btn btn-fill\" style=\"width: 100%\">Search Via Department</button>\n                </div>\n              </div>\n            </div>\n          </div>\n          <div *ngIf=\"loginStatus()!=1\">\n            <div class=\"row\">\n              <label class=\"col-sm-2 label-on-left\">Faculty</label>\n              <div class=\"col-sm-10\">\n                <input type=\"text\" class=\"form-control\" required=\"true\" disabled>\n              </div>\n            </div>\n            <div class=\"row\">\n              <label class=\"col-sm-2 label-on-left\">Semester</label>\n              <div class=\"col-sm-10\">\n                <select class=\"form-control\" data-style=\"select-with-transition\" title=\"Single Select\" data-size=\"7\">\n                  <option disabled selected>Select Semester</option>\n                  <option value=\"2\">Foobar</option>\n                  <option value=\"3\">Is great</option>\n                </select>\n              </div>\n            </div>\n            <div class=\"row\">\n              <label class=\"col-sm-2 label-on-left\">Department</label>\n              <div class=\"col-sm-10\">\n                <select class=\"form-control\" data-style=\"select-with-transition\" title=\"Single Select\" data-size=\"7\">\n                  <option disabled selected>Select Department</option>\n                  <option value=\"2\">Foobar</option>\n                  <option value=\"3\">Is great</option>\n                </select>\n              </div>\n            </div>\n          </div>\n\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Subject Code</label>\n            <div class=\"col-sm-10\">\n              <select class=\"form-control\" data-style=\"select-with-transition\" title=\"Single Select\" data-size=\"7\">\n                <option disabled selected>Select Subject</option>\n                <option value=\"2\">Foobar</option>\n                <option value=\"3\">Is great</option>\n              </select>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Subject Name</label>\n            <div class=\"col-sm-7\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"email\" class=\"form-control\" disabled>\n              </div>\n            </div>\n            <div class=\"col-sm-3\">\n              <div class=\"card-footer\">\n                <button type=\"submit\" class=\"btn btn-fill\" style=\"width: 100%\">Add Subject</button>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <div class=\"col-sm-12\" style=\"height: 50px\"></div>\n          </div>\n          <div class=\"row\" style=\"padding-left: 50px\">\n            <div class=\"col-sm-4\">\n              <div class=\"card-footer\">\n                <button type=\"submit\" class=\"btn btn-fill\" style=\"left: 50%;transform: translateX(-50%)\" (click)=\"previousPage()\">Previous</button>\n              </div>\n            </div>\n            <div class=\"col-sm-4\">\n              <div class=\"card-footer\">\n                <button *ngIf=\"loginStatus()==1\" type=\"submit\" class=\"btn btn-fill\" style=\"left: 50%;transform: translateX(-50%)\">Save / Update Semester Registration</button>\n                <button *ngIf=\"loginStatus()!=1\" type=\"submit\" class=\"btn btn-fill\" style=\"left: 50%;transform: translateX(-50%)\">pay to save semester registration</button>\n              </div>\n            </div>\n            <div class=\"col-sm-4\">\n              <div class=\"card-footer\">\n                <button type=\"submit\" class=\"btn btn-fill\" style=\"left: 50%;transform: translateX(-50%)\" (click)=\"nextPage()\">Next</button>\n              </div>\n            </div>\n          </div>\n        </div>\n      </form>\n      <!-- /.card-body -->\n    </div>\n    <!-- /.card -->\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -2694,10 +2745,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SemesterRegistrationComponent", function() { return SemesterRegistrationComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _assets_js_data_tables_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../assets/js/data-tables.js */ "./src/assets/js/data-tables.js");
-/* harmony import */ var _assets_js_data_tables_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_js_data_tables_js__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _additional_classes_login_status__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../additional-classes/login-status */ "./src/app/views/additional-classes/login-status.ts");
-/* harmony import */ var _services_wizard_color_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../services/wizard-color.service */ "./src/app/services/wizard-color.service.ts");
+/* harmony import */ var _services_common_wizard_color_wizard_color_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../services/common/wizard-color/wizard-color.service */ "./src/app/services/common/wizard-color/wizard-color.service.ts");
+/* harmony import */ var _classes_login_status__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../classes/login-status */ "./src/app/classes/login-status.ts");
+/* harmony import */ var _assets_js_data_tables_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../assets/js/data-tables.js */ "./src/assets/js/data-tables.js");
+/* harmony import */ var _assets_js_data_tables_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_assets_js_data_tables_js__WEBPACK_IMPORTED_MODULE_4__);
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2730,7 +2781,7 @@ var SemesterRegistrationComponent = /** @class */ (function () {
     };
     /*Get login status*/
     SemesterRegistrationComponent.prototype.loginStatus = function () {
-        return _additional_classes_login_status__WEBPACK_IMPORTED_MODULE_3__["LoginStatus"].getLoginStatus();
+        return _classes_login_status__WEBPACK_IMPORTED_MODULE_3__["LoginStatus"].getLoginStatus();
     };
     SemesterRegistrationComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -2738,7 +2789,7 @@ var SemesterRegistrationComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./semester-registration.component.html */ "./src/app/views/student-reg/semester-registration/semester-registration.component.html"),
             styles: [__webpack_require__(/*! ./semester-registration.component.css */ "./src/app/views/student-reg/semester-registration/semester-registration.component.css")]
         }),
-        __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"], _services_wizard_color_service__WEBPACK_IMPORTED_MODULE_4__["WizardColorService"]])
+        __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"], _services_common_wizard_color_wizard_color_service__WEBPACK_IMPORTED_MODULE_2__["WizardColorService"]])
     ], SemesterRegistrationComponent);
     return SemesterRegistrationComponent;
 }());
@@ -2765,7 +2816,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row\" *ngIf=\"loginStatus()==1\">\n  <div class=\"col-md-12 col-12\">\n    <div class=\"card\">\n      <div class=\"card-header card-header-icon\" data-background-color=\"purple\">\n        <i class=\"material-icons\">assignment</i>\n      </div>\n\n      <div class=\"card-content\">\n        <h4 class=\"card-title\" style=\"color: #4e4e4e;font-size: 17px\">STUDENT DETAILS</h4>\n        <div class=\"toolbar\">\n          <!--        Here you can write extra buttons/actions for the toolbar              -->\n        </div>\n        <div class=\"material-datatables\">\n          <table class=\"table table-striped table-no-bordered table-hover datatables\" cellspacing=\"0\"\n                 width=\"100%\" style=\"width:100%\">\n            <thead>\n            <tr>\n              <th>Student ID</th>\n              <th>Name With Initials</th>\n              <th>Email</th>\n              <th class=\"disabled-sorting text-right\">Remove</th>\n            </tr>\n            </thead>\n            <tfoot>\n            <tr>\n              <th>Student ID</th>\n              <th>Name With Initials</th>\n              <th>Email</th>\n              <th class=\"text-right\">Remove</th>\n            </tr>\n            </tfoot>\n            <tbody>\n            <tr style=\"font-size: 16px;background-color: white;height: 50px;cursor: pointer\"  *ngFor=\"let student of students\" (click)=\"selectStudent(student)\" [ngClass]=\"{'green':selectedRow==student.studentID}\">\n              <td>{{student.studentID}}</td>\n              <td>{{student.nameWithInitials}}</td>\n              <td>{{student.email}}</td>\n              <td class=\"text-right\">\n                <a href=\"#\" class=\"btn btn-simple btn-danger btn-icon remove\"><i\n                  class=\"material-icons\">close</i></a>\n              </td>\n            </tr>\n            </tbody>\n          </table>\n          <style>\n            .green{color: green;font-weight: bold}\n          </style>\n        </div>\n      </div><!-- end content-->\n    </div><!--  end card  -->\n  </div>\n</div> <!-- end col-md-12 -->\n<div class=\"row\">\n  <div class=\"col-md-12 col-12\">\n    <div class=\"card\">\n      <form class=\"form-horizontal\" (ngSubmit)=\"saveStudent(frmStudent)\" #frmStudent=\"ngForm\" action=\"\" method=\"post\">\n        <div class=\"card-header card-header-text\" data-background-color=\"rose\">\n          <h4 class=\"card-title\" style=\"font-weight: lighter\">STUDENT DETAILS</h4>\n        </div>\n        <!-- /.card-header -->\n        <div class=\"card-content\">\n          <div class=\"row\">\n            <div class=\"col-sm-12\">\n              <div class=\"card-footer\">\n                <div style=\"font-weight: bold\" *ngIf=\"loginStatus()!=5\">Note:- If you are a new student, the system will\n                  automatically generate a new Student ID.\n                </div>\n                <div style=\"font-weight: bold\" *ngIf=\"loginStatus()==5\">Note:- The browser is temporary saving your data\n                  until you do the payment.\n                </div>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\" *ngIf=\"loginStatus()!=5\">\n            <label class=\"col-sm-2 label-on-left\">Student ID</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"text\" class=\"form-control\" name=\"txtId\" disabled [(ngModel)]=\"student.studentID\">\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Title</label>\n            <div class=\"col-sm-10\">\n              <select class=\"form-control\" data-style=\"select-with-transition\" title=\"Single Select\"\n                      [(ngModel)]=\"student.title\" name=\"txtStudentTitle\" (change)=\"saveToLocalStorage()\">\n                <option selected>Mr</option>\n                <option>Miss</option>\n                <option>Mrs</option>\n              </select>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Name with initials</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input id=\"txtStudentNameInit\" type=\"text\" class=\"form-control\" required=\"true\"\n                       [(ngModel)]=\"student.nameWithInitials\"\n                       name=\"txtStudentNameInit\" (keyup)=\"saveToLocalStorage()\">\n                <div *ngIf=\"inputs[0]\" style=\"color: red;font-weight: bold\">Required</div>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Full Name</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"text\" class=\"form-control\" required=\"true\" [(ngModel)]=\"student.fullName\"\n                       name=\"txtStudentFullName\" (keyup)=\"saveToLocalStorage()\">\n                <div *ngIf=\"inputs[1]\" style=\"color: red;font-weight: bold\">Required</div>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Address</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"text\" class=\"form-control\" required=\"true\" [(ngModel)]=\"student.address\" name=\"txtAddress\"\n                       (keyup)=\"saveToLocalStorage()\">\n                <div *ngIf=\"inputs[2]\" style=\"color: red;font-weight: bold\">Required</div>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Date of birth</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"date\" class=\"form-control\" required=\"true\" [(ngModel)]=\"student.dateOfBirth\"\n                       name=\"txtDateOfBirth\" (change)=\"saveToLocalStorage()\">\n                <div *ngIf=\"inputs[3]\" style=\"color: red;font-weight: bold\">Required</div>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Email</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"email\" class=\"form-control\" [(ngModel)]=\"student.email\" name=\"txtEmailAddress\"\n                       (keyup)=\"saveToLocalStorage()\">\n                <div *ngIf=\"inputs[4]\" style=\"color: red;font-weight: bold\">Required</div>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Telephone</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"text\" class=\"form-control\" required=\"true\" [(ngModel)]=\"student.telephone\"\n                       name=\"txtTelephone\" (keyup)=\"saveToLocalStorage()\">\n                <div *ngIf=\"inputs[5]\" style=\"color: red;font-weight: bold\">Required</div>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Gender</label>\n            <div class=\"col-sm-10 checkbox-radios\">\n              <div class=\"radio\">\n                <label>\n                  <input type=\"radio\" ng-control=\"options\" name=\"optionsRadios\" [(ngModel)]=\"student.gender\"\n                         value=\"Male\" (click)=\"setGender('Male')\">\n                  Male\n                </label>\n              </div>\n              <div class=\"radio\">\n                <label>\n                  <input type=\"radio\" ng-control=\"options\" name=\"optionsRadios\" [(ngModel)]=\"student.gender\"\n                         value=\"Female\" (click)=\"setGender('Female')\">\n                  Female\n                </label>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <div class=\"col-sm-12\" style=\"height: 50px\"></div>\n          </div>\n          <div class=\"row\" style=\"padding-left: 50px\">\n            <div class=\"col-sm-4\"></div>\n            <div class=\"col-sm-4\">\n              <div class=\"card-footer\">\n                <button *ngIf=\"loginStatus()==1\" type=\"submit\" style=\"left: 50%;transform: translateX(-50%)\" class=\"btn btn-fill\">Save / Update Student</button>\n                <button *ngIf=\"loginStatus()!=1\" type=\"submit\" style=\"left: 50%;transform: translateX(-50%)\" class=\"btn btn-fill\">Next to register</button>\n              </div>\n            </div>\n            <div class=\"col-sm-4\">\n              <div class=\"card-footer\">\n                <button type=\"button\" style=\"left: 50%;transform: translateX(-50%)\" class=\"btn btn-fill\" (click)=\"nextPage()\" [disabled]=\"selectedRow==''\">Next</button>\n              </div>\n            </div>\n          </div>\n        </div>\n      </form>\n      <form method=\"POST\" enctype=\"multipart/form-data\" modelAttribute=\"fileBucket\" (ngSubmit)=\"upload()\"\n            #frmUp=\"ngForm\" action=\"\">\n        <input type=\"file\" name=\"file\" multiple=\"multiple\" #fileInput>\n        <div>{{size}}</div>\n        <button type=\"submit\">Click</button>\n      </form>\n      <!-- /.card-body -->\n    </div>\n    <!-- /.card -->\n  </div>\n</div>\n"
+module.exports = "<div class=\"row\" *ngIf=\"loginStatus()==1\">\n  <div class=\"col-md-12 col-12\">\n    <div class=\"card\">\n      <div class=\"card-header card-header-icon\" data-background-color=\"purple\">\n        <i class=\"material-icons\">assignment</i>\n      </div>\n\n      <div class=\"card-content\">\n        <h4 class=\"card-title\" style=\"color: #4e4e4e;font-size: 17px\">STUDENT DETAILS</h4>\n        <div class=\"toolbar\">\n          <!--        Here you can write extra buttons/actions for the toolbar              -->\n        </div>\n        <div class=\"material-datatables\">\n          <table class=\"table table-striped table-no-bordered table-hover datatables\" cellspacing=\"0\"\n                 width=\"100%\" style=\"width:100%\">\n            <thead>\n            <tr>\n              <th>Student ID</th>\n              <th>Name With Initials</th>\n              <th>Email</th>\n              <th class=\"disabled-sorting text-right\">Remove</th>\n            </tr>\n            </thead>\n            <tfoot>\n            <tr>\n              <th>Student ID</th>\n              <th>Name With Initials</th>\n              <th>Email</th>\n              <th class=\"text-right\">Remove</th>\n            </tr>\n            </tfoot>\n            <tbody>\n            <tr style=\"font-size: 16px;background-color: white;height: 50px;cursor: pointer\"  *ngFor=\"let student of students\" (click)=\"selectStudent(student)\" [ngClass]=\"{'green':selectedRow==student.studentID}\">\n              <td>{{student.studentID}}</td>\n              <td>{{student.nameWithInitials}}</td>\n              <td>{{student.email}}</td>\n              <td class=\"text-right\">\n                <a href=\"#\" class=\"btn btn-simple btn-danger btn-icon remove\"><i\n                  class=\"material-icons\">close</i></a>\n              </td>\n            </tr>\n            </tbody>\n          </table>\n          <style>\n            .green{color: green;font-weight: bold}\n          </style>\n        </div>\n      </div><!-- end content-->\n    </div><!--  end card  -->\n  </div>\n</div> <!-- end col-md-12 -->\n<div class=\"row\">\n  <div class=\"col-md-12 col-12\">\n    <div class=\"card\">\n      <form class=\"form-horizontal\" (ngSubmit)=\"saveStudent(frmStudent)\" #frmStudent=\"ngForm\" action=\"\" method=\"post\">\n        <div class=\"card-header card-header-text\" data-background-color=\"rose\">\n          <h4 class=\"card-title\" style=\"font-weight: lighter\">STUDENT DETAILS</h4>\n        </div>\n        <!-- /.card-header -->\n        <div class=\"card-content\">\n          <div class=\"row\">\n            <div class=\"col-sm-12\">\n              <div class=\"card-footer\">\n                <div style=\"font-weight: bold\" *ngIf=\"loginStatus()!=5\">Note:- If you are a new student, the system will\n                  automatically generate a new Student ID.\n                </div>\n                <div style=\"font-weight: bold\" *ngIf=\"loginStatus()==5\">Note:- The browser is temporary saving your data\n                  until you do the payment.\n                </div>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\" *ngIf=\"loginStatus()!=5\">\n            <label class=\"col-sm-2 label-on-left\">Student ID</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"text\" class=\"form-control\" name=\"txtId\" disabled [(ngModel)]=\"student.studentID\">\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Title</label>\n            <div class=\"col-sm-10\">\n              <select class=\"form-control\" data-style=\"select-with-transition\" title=\"Single Select\"\n                      [(ngModel)]=\"student.title\" name=\"txtStudentTitle\" (change)=\"saveToLocalStorage()\">\n                <option selected>Mr</option>\n                <option>Miss</option>\n                <option>Mrs</option>\n              </select>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Name with initials</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input id=\"txtStudentNameInit\" type=\"text\" class=\"form-control\" required=\"true\"\n                       [(ngModel)]=\"student.nameWithInitials\"\n                       name=\"txtStudentNameInit\" (keyup)=\"saveToLocalStorage()\">\n                <div *ngIf=\"inputs[0]\" style=\"color: red;font-weight: bold\">Required</div>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Full Name</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"text\" class=\"form-control\" required=\"true\" [(ngModel)]=\"student.fullName\"\n                       name=\"txtStudentFullName\" (keyup)=\"saveToLocalStorage()\">\n                <div *ngIf=\"inputs[1]\" style=\"color: red;font-weight: bold\">Required</div>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Address</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"text\" class=\"form-control\" required=\"true\" [(ngModel)]=\"student.address\" name=\"txtAddress\"\n                       (keyup)=\"saveToLocalStorage()\">\n                <div *ngIf=\"inputs[2]\" style=\"color: red;font-weight: bold\">Required</div>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Date of birth</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"date\" class=\"form-control\" required=\"true\" [(ngModel)]=\"student.dateOfBirth\"\n                       name=\"txtDateOfBirth\" (change)=\"saveToLocalStorage()\">\n                <div *ngIf=\"inputs[3]\" style=\"color: red;font-weight: bold\">Required</div>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Email</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"email\" class=\"form-control\" [(ngModel)]=\"student.email\" name=\"txtEmailAddress\"\n                       (keyup)=\"saveToLocalStorage()\">\n                <div *ngIf=\"inputs[4]\" style=\"color: red;font-weight: bold\">Required</div>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Telephone</label>\n            <div class=\"col-sm-10\">\n              <div class=\"form-group label-floating is-empty\">\n                <label class=\"control-label\"></label>\n                <input type=\"text\" class=\"form-control\" required=\"true\" [(ngModel)]=\"student.telephone\"\n                       name=\"txtTelephone\" (keyup)=\"saveToLocalStorage()\">\n                <div *ngIf=\"inputs[5]\" style=\"color: red;font-weight: bold\">Required</div>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <label class=\"col-sm-2 label-on-left\">Gender</label>\n            <div class=\"col-sm-10 checkbox-radios\">\n              <div class=\"radio\">\n                <label>\n                  <input type=\"radio\" ng-control=\"options\" name=\"optionsRadios\" [(ngModel)]=\"student.gender\"\n                         value=\"Male\" (click)=\"setGender('Male')\">\n                  Male\n                </label>\n              </div>\n              <div class=\"radio\">\n                <label>\n                  <input type=\"radio\" ng-control=\"options\" name=\"optionsRadios\" [(ngModel)]=\"student.gender\"\n                         value=\"Female\" (click)=\"setGender('Female')\">\n                  Female\n                </label>\n              </div>\n            </div>\n          </div>\n          <div class=\"row\">\n            <div class=\"col-sm-12\" style=\"height: 50px\"></div>\n          </div>\n          <div class=\"row\" style=\"padding-left: 50px\">\n            <div class=\"col-sm-4\"></div>\n            <div class=\"col-sm-4\">\n              <div class=\"card-footer\">\n                <button *ngIf=\"loginStatus()==1\" type=\"submit\" style=\"left: 50%;transform: translateX(-50%)\" class=\"btn btn-fill\">Save / Update Student</button>\n                <button *ngIf=\"loginStatus()!=1\" type=\"submit\" style=\"left: 50%;transform: translateX(-50%)\" class=\"btn btn-fill\">Next to register</button>\n              </div>\n            </div>\n            <div class=\"col-sm-4\">\n              <div class=\"card-footer\">\n                <button type=\"button\" style=\"left: 50%;transform: translateX(-50%)\" class=\"btn btn-fill\" (click)=\"nextPage()\" [disabled]=\"selectedRow==''\">Next</button>\n              </div>\n            </div>\n          </div>\n        </div>\n      </form>\n      <!--<form method=\"POST\" enctype=\"multipart/form-data\" modelAttribute=\"fileBucket\" (ngSubmit)=\"upload()\"-->\n            <!--#frmUp=\"ngForm\" action=\"\">-->\n        <!--<input type=\"file\" name=\"file\" multiple=\"multiple\" #fileInput>-->\n        <!--<div>{{size}}</div>-->\n        <!--<button type=\"submit\">Click</button>-->\n      <!--</form>-->\n      <!-- /.card-body -->\n    </div>\n    <!-- /.card -->\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -2780,19 +2831,19 @@ module.exports = "<div class=\"row\" *ngIf=\"loginStatus()==1\">\n  <div class=\
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StudentDetailsComponent", function() { return StudentDetailsComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _services_student_details_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../services/student-details.service */ "./src/app/services/student-details.service.ts");
+/* harmony import */ var _classes_login_status__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../classes/login-status */ "./src/app/classes/login-status.ts");
+/* harmony import */ var _dtos_student__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../dtos/student */ "./src/app/dtos/student.ts");
 /* harmony import */ var _assets_js_data_tables_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../assets/js/data-tables.js */ "./src/assets/js/data-tables.js");
 /* harmony import */ var _assets_js_data_tables_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_assets_js_data_tables_js__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _assets_js_material_dashboard98f3_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../assets/js/material-dashboard98f3.js */ "./src/assets/js/material-dashboard98f3.js");
 /* harmony import */ var _assets_js_material_dashboard98f3_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_assets_js_material_dashboard98f3_js__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _additional_classes_login_status__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../additional-classes/login-status */ "./src/app/views/additional-classes/login-status.ts");
-/* harmony import */ var _dtos_student__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../dtos/student */ "./src/app/dtos/student.ts");
-/* harmony import */ var _services_student_registration_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../services/student-registration.service */ "./src/app/services/student-registration.service.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _services_student_reg_student_details_student_details_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../services/student-reg/student-details/student-details.service */ "./src/app/services/student-reg/student-details/student-details.service.ts");
+/* harmony import */ var _services_student_reg_student_registration_student_registration_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../services/student-reg/student-registration/student-registration.service */ "./src/app/services/student-reg/student-registration/student-registration.service.ts");
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
-/* harmony import */ var _services_file_service_service__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../../services/file-service.service */ "./src/app/services/file-service.service.ts");
-/* harmony import */ var _services_wizard_color_service__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../../services/wizard-color.service */ "./src/app/services/wizard-color.service.ts");
-/* harmony import */ var _services_socket_service__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../../services/socket.service */ "./src/app/services/socket.service.ts");
+/* harmony import */ var _services_common_wizard_color_wizard_color_service__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../../services/common/wizard-color/wizard-color.service */ "./src/app/services/common/wizard-color/wizard-color.service.ts");
+/* harmony import */ var _services_common_socket_socket_service__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../../services/common/socket/socket.service */ "./src/app/services/common/socket/socket.service.ts");
+/* harmony import */ var _services_common_file_file_service__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../../services/common/file/file.service */ "./src/app/services/common/file/file.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2825,7 +2876,7 @@ var StudentDetailsComponent = /** @class */ (function () {
         this.wizardColor = wizardColor;
         this.so = so;
         this.selectedRow = "";
-        this.student = new _dtos_student__WEBPACK_IMPORTED_MODULE_6__["Student"]();
+        this.student = new _dtos_student__WEBPACK_IMPORTED_MODULE_2__["Student"]();
         this.students = new Array();
         this.inputs = [false, false, false, false, false, false];
     }
@@ -2934,7 +2985,7 @@ var StudentDetailsComponent = /** @class */ (function () {
     };
     /*Get login status*/
     StudentDetailsComponent.prototype.loginStatus = function () {
-        return _additional_classes_login_status__WEBPACK_IMPORTED_MODULE_5__["LoginStatus"].getLoginStatus();
+        return _classes_login_status__WEBPACK_IMPORTED_MODULE_1__["LoginStatus"].getLoginStatus();
     };
     StudentDetailsComponent.prototype.upload = function () {
         var inputEl = this.inputEl.nativeElement;
@@ -2960,7 +3011,7 @@ var StudentDetailsComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./student-details.component.html */ "./src/app/views/student-reg/student-details/student-details.component.html"),
             styles: [__webpack_require__(/*! ./student-details.component.css */ "./src/app/views/student-reg/student-details/student-details.component.css")]
         }),
-        __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"], _services_student_details_service__WEBPACK_IMPORTED_MODULE_2__["StudentDetailsService"], _services_student_registration_service__WEBPACK_IMPORTED_MODULE_7__["StudentRegistrationService"], _services_student_details_service__WEBPACK_IMPORTED_MODULE_2__["StudentDetailsService"], _angular_common_http__WEBPACK_IMPORTED_MODULE_8__["HttpClient"], _services_file_service_service__WEBPACK_IMPORTED_MODULE_9__["FileServiceService"], _services_wizard_color_service__WEBPACK_IMPORTED_MODULE_10__["WizardColorService"], _services_socket_service__WEBPACK_IMPORTED_MODULE_11__["SocketService"]])
+        __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_5__["Router"], _services_student_reg_student_details_student_details_service__WEBPACK_IMPORTED_MODULE_6__["StudentDetailsService"], _services_student_reg_student_registration_student_registration_service__WEBPACK_IMPORTED_MODULE_7__["StudentRegistrationService"], _services_student_reg_student_details_student_details_service__WEBPACK_IMPORTED_MODULE_6__["StudentDetailsService"], _angular_common_http__WEBPACK_IMPORTED_MODULE_8__["HttpClient"], _services_common_file_file_service__WEBPACK_IMPORTED_MODULE_11__["FileService"], _services_common_wizard_color_wizard_color_service__WEBPACK_IMPORTED_MODULE_9__["WizardColorService"], _services_common_socket_socket_service__WEBPACK_IMPORTED_MODULE_10__["SocketService"]])
     ], StudentDetailsComponent);
     return StudentDetailsComponent;
 }());
@@ -2987,7 +3038,7 @@ module.exports = "\r\n.nav-tabs.wizard {\r\n  background-color: transparent;\r\n
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!-- multistep form -->\n<div class=\"main-panel\">\n  <nav class=\"navbar navbar-transparent navbar-absolute\" style=\"background-color: #FAFAFA\">\n    <div class=\"container-fluid\">\n      <!--<div class=\"navbar-minimize\">-->\n        <!--<button id=\"minimizeSidebar\" class=\"btn btn-round btn-white btn-fill btn-just-icon\"-->\n                <!--style=\"background-color: grey\">-->\n          <!--<i class=\"material-icons visible-on-sidebar-regular\">more_vert</i>-->\n          <!--<i class=\"material-icons visible-on-sidebar-mini\">view_list</i>-->\n        <!--</button>-->\n      <!--</div>-->\n      <div class=\"navbar-header\">\n      <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\">\n        <span class=\"sr-only\">Toggle navigation</span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n      </button>\n      <a class=\"navbar-brand\" style=\"color: grey\"> Student Enrollment </a>\n    </div>\n\n      <ul id=\"wizardCompo\" class=\"nav nav-tabs wizard\" #wizardComp name=\"wizardCompo\" *ngIf=\"loginStatus()!=5\">\n        <li class=\"tab-color\" style=\"width: 19.6%\"><a data-toggle=\"tab\" aria-expanded=\"false\"><span class=\"nmbr\">1</span> Student Details</a></li>\n        <li style=\"width: 19.6%\"><a data-toggle=\"tab\" aria-expanded=\"false\"><span class=\"nmbr\">2</span> Student Registration</a></li>\n        <li style=\"width: 19.6%\"><a data-toggle=\"tab\" aria-expanded=\"false\"><span class=\"nmbr\">3</span> Semester Registration</a></li>\n        <li style=\"width: 19.6%\"><a data-toggle=\"tab\" aria-expanded=\"false\"><span class=\"nmbr\">4</span> Payments</a></li>\n        <li style=\"width: 19.6%\"><a data-toggle=\"tab\" aria-expanded=\"true\"><span class=\"nmbr\">5</span> Finish</a></li>\n      </ul>\n      <ul id=\"wizardCompo\" class=\"nav nav-tabs wizard\" #wizardComp name=\"wizardCompo\" *ngIf=\"loginStatus()==5\">\n        <li class=\"tab-color\" style=\"width: 33%\"><a data-toggle=\"tab\" aria-expanded=\"false\"><span class=\"nmbr\">1</span> Student Details</a></li>\n        <li style=\"width: 33%\"><a data-toggle=\"tab\" aria-expanded=\"false\"><span class=\"nmbr\">2</span> Student Registration</a></li>\n        <li style=\"width: 33%\"><a data-toggle=\"tab\" aria-expanded=\"true\"><span class=\"nmbr\">3</span> Finish</a></li>\n      </ul>\n      <router-outlet></router-outlet>\n    </div>\n    <footer class=\"footer\" style=\"background-color: white;border-top: 1px solid #e7e7e7\">\n      <div class=\"container-fluid\">\n        <p class=\"copyright pull-right\">\n          Copyright &copy; {{getYear()}} - University Of Sri Jayewardenapura , Virtual Learning Environment / Developed by\n          Imalka Gunawardana\n        </p>\n      </div>\n    </footer>\n  </nav>\n</div>\n"
+module.exports = "<!-- multistep form -->\n<div class=\"main-panel\">\n  <nav class=\"navbar navbar-transparent navbar-absolute\" style=\"background-color: #FAFAFA\">\n    <div class=\"container-fluid\">\n      <!--<div class=\"navbar-minimize\">-->\n      <!--<button id=\"minimizeSidebar\" class=\"btn btn-round btn-white btn-fill btn-just-icon\"-->\n      <!--style=\"background-color: grey\">-->\n      <!--<i class=\"material-icons visible-on-sidebar-regular\">more_vert</i>-->\n      <!--<i class=\"material-icons visible-on-sidebar-mini\">view_list</i>-->\n      <!--</button>-->\n      <!--</div>-->\n      <div class=\"navbar-header\">\n        <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\">\n          <span class=\"sr-only\">Toggle navigation</span>\n          <span class=\"icon-bar\"></span>\n          <span class=\"icon-bar\"></span>\n          <span class=\"icon-bar\"></span>\n        </button>\n        <a class=\"navbar-brand\" style=\"color: grey\"> Student Enrollment </a>\n      </div>\n\n      <ul id=\"wizardCompo\" class=\"nav nav-tabs wizard\" #wizardComp name=\"wizardCompo\" *ngIf=\"loginStatus()!=5\">\n        <li class=\"tab-color\" style=\"width: 19.6%\"><a data-toggle=\"tab\" aria-expanded=\"false\"><span class=\"nmbr\">1</span> Student Details</a></li>\n        <li style=\"width: 19.6%\"><a data-toggle=\"tab\" aria-expanded=\"false\"><span class=\"nmbr\">2</span> Student Registration</a></li>\n        <li style=\"width: 19.6%\"><a data-toggle=\"tab\" aria-expanded=\"false\"><span class=\"nmbr\">3</span> Semester Registration</a></li>\n        <li style=\"width: 19.6%\"><a data-toggle=\"tab\" aria-expanded=\"false\"><span class=\"nmbr\">4</span> Payments</a></li>\n        <li style=\"width: 19.6%\"><a data-toggle=\"tab\" aria-expanded=\"true\"><span class=\"nmbr\">5</span> Finish</a></li>\n      </ul>\n      <ul id=\"wizardCompo\" class=\"nav nav-tabs wizard\" #wizardComp name=\"wizardCompo\" *ngIf=\"loginStatus()==5\">\n        <li class=\"tab-color\" style=\"width: 33%\"><a data-toggle=\"tab\" aria-expanded=\"false\"><span class=\"nmbr\">1</span> Student Details</a></li>\n        <li style=\"width: 33%\"><a data-toggle=\"tab\" aria-expanded=\"false\"><span class=\"nmbr\">2</span> Student Registration</a></li>\n        <li style=\"width: 33%\"><a data-toggle=\"tab\" aria-expanded=\"true\"><span class=\"nmbr\">3</span> Finish</a></li>\n      </ul>\n      <router-outlet></router-outlet>\n    </div>\n    <footer class=\"footer\" style=\"background-color: white;border-top: 1px solid #e7e7e7\">\n      <div class=\"container-fluid\">\n        <p class=\"copyright pull-right\">\n          Copyright &copy; {{getYear()}} - University Of Sri Jayewardenapura , Virtual Learning Environment / Developed by\n          Imalka Gunawardana\n        </p>\n      </div>\n    </footer>\n  </nav>\n</div>\n"
 
 /***/ }),
 
@@ -3002,12 +3053,10 @@ module.exports = "<!-- multistep form -->\n<div class=\"main-panel\">\n  <nav cl
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StudentRegComponent", function() { return StudentRegComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
-/* harmony import */ var _assets_js_material_dashboard98f3_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../assets/js/material-dashboard98f3.js */ "./src/assets/js/material-dashboard98f3.js");
-/* harmony import */ var _assets_js_material_dashboard98f3_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_assets_js_material_dashboard98f3_js__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _additional_classes_login_status__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../additional-classes/login-status */ "./src/app/views/additional-classes/login-status.ts");
-/* harmony import */ var _services_wizard_color_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../services/wizard-color.service */ "./src/app/services/wizard-color.service.ts");
+/* harmony import */ var _classes_login_status__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../classes/login-status */ "./src/app/classes/login-status.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
+/* harmony import */ var _services_common_wizard_color_wizard_color_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../services/common/wizard-color/wizard-color.service */ "./src/app/services/common/wizard-color/wizard-color.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3017,7 +3066,6 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-
 
 
 
@@ -3035,7 +3083,7 @@ var StudentRegComponent = /** @class */ (function () {
         });
     }
     StudentRegComponent.prototype.ngOnInit = function () {
-        this.accountType = _additional_classes_login_status__WEBPACK_IMPORTED_MODULE_4__["LoginStatus"].getLoginStatus();
+        this.accountType = _classes_login_status__WEBPACK_IMPORTED_MODULE_1__["LoginStatus"].getLoginStatus();
     };
     StudentRegComponent.prototype.setElementsGreen = function (j) {
         var number = 5;
@@ -3050,7 +3098,6 @@ var StudentRegComponent = /** @class */ (function () {
             this.renderer.addClass(this.wizardComponent.nativeElement.children[i], 'completed');
         }
         this.renderer.addClass(this.wizardComponent.nativeElement.children[j], 'tab-color');
-        // console.log(this.router.url.match("\\bstudent-registrations\\b").toString())
     };
     StudentRegComponent.prototype.getYear = function () {
         var latest_date = this.datePipe.transform(new Date(), 'yyyy');
@@ -3067,9 +3114,9 @@ var StudentRegComponent = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-student-reg',
             template: __webpack_require__(/*! ./student-reg.component.html */ "./src/app/views/student-reg/student-reg.component.html"),
-            styles: [__webpack_require__(/*! ./student-reg.component.css */ "./src/app/views/student-reg/student-reg.component.css")],
+            styles: [__webpack_require__(/*! ./student-reg.component.css */ "./src/app/views/student-reg/student-reg.component.css")]
         }),
-        __metadata("design:paramtypes", [_angular_core__WEBPACK_IMPORTED_MODULE_0__["Renderer2"], _angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["DatePipe"], _services_wizard_color_service__WEBPACK_IMPORTED_MODULE_5__["WizardColorService"]])
+        __metadata("design:paramtypes", [_angular_core__WEBPACK_IMPORTED_MODULE_0__["Renderer2"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["DatePipe"], _services_common_wizard_color_wizard_color_service__WEBPACK_IMPORTED_MODULE_4__["WizardColorService"]])
     ], StudentRegComponent);
     return StudentRegComponent;
 }());
@@ -3111,22 +3158,22 @@ module.exports = "<div class=\"row\" *ngIf=\"loginStatus()!=5\">\n  <div class=\
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StudentRegistrationsComponent", function() { return StudentRegistrationsComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _assets_js_data_tables_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../assets/js/data-tables.js */ "./src/assets/js/data-tables.js");
-/* harmony import */ var _assets_js_data_tables_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_js_data_tables_js__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _additional_classes_login_status__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../additional-classes/login-status */ "./src/app/views/additional-classes/login-status.ts");
-/* harmony import */ var _services_faculty_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../services/faculty.service */ "./src/app/services/faculty.service.ts");
-/* harmony import */ var _dtos_faculty__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../dtos/faculty */ "./src/app/dtos/faculty.ts");
-/* harmony import */ var _services_intake_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../services/intake.service */ "./src/app/services/intake.service.ts");
-/* harmony import */ var _dtos_intake__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../dtos/intake */ "./src/app/dtos/intake.ts");
-/* harmony import */ var _services_degree_service__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../services/degree.service */ "./src/app/services/degree.service.ts");
-/* harmony import */ var _dtos_degree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../../dtos/degree */ "./src/app/dtos/degree.ts");
-/* harmony import */ var _dtos_registration__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../../dtos/registration */ "./src/app/dtos/registration.ts");
-/* harmony import */ var _dtos_undergraduate_details__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../../dtos/undergraduate-details */ "./src/app/dtos/undergraduate-details.ts");
-/* harmony import */ var _dtos_postgraduate_details__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../../dtos/postgraduate-details */ "./src/app/dtos/postgraduate-details.ts");
-/* harmony import */ var _services_student_registration_service__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../../services/student-registration.service */ "./src/app/services/student-registration.service.ts");
-/* harmony import */ var _services_wizard_color_service__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../../services/wizard-color.service */ "./src/app/services/wizard-color.service.ts");
-/* harmony import */ var _dtos_student__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../../dtos/student */ "./src/app/dtos/student.ts");
+/* harmony import */ var _dtos_registration__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../dtos/registration */ "./src/app/dtos/registration.ts");
+/* harmony import */ var _dtos_faculty__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../dtos/faculty */ "./src/app/dtos/faculty.ts");
+/* harmony import */ var _dtos_degree__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../dtos/degree */ "./src/app/dtos/degree.ts");
+/* harmony import */ var _dtos_undergraduate_details__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../dtos/undergraduate-details */ "./src/app/dtos/undergraduate-details.ts");
+/* harmony import */ var _dtos_intake__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../dtos/intake */ "./src/app/dtos/intake.ts");
+/* harmony import */ var _dtos_postgraduate_details__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../dtos/postgraduate-details */ "./src/app/dtos/postgraduate-details.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _dtos_student__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../dtos/student */ "./src/app/dtos/student.ts");
+/* harmony import */ var _assets_js_data_tables_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../../../assets/js/data-tables.js */ "./src/assets/js/data-tables.js");
+/* harmony import */ var _assets_js_data_tables_js__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_assets_js_data_tables_js__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _classes_login_status__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../../classes/login-status */ "./src/app/classes/login-status.ts");
+/* harmony import */ var _services_common_faculty_faculty_service__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../../services/common/faculty/faculty.service */ "./src/app/services/common/faculty/faculty.service.ts");
+/* harmony import */ var _services_common_degree_degree_service__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../../services/common/degree/degree.service */ "./src/app/services/common/degree/degree.service.ts");
+/* harmony import */ var _services_common_intake_intake_service__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../../services/common/intake/intake.service */ "./src/app/services/common/intake/intake.service.ts");
+/* harmony import */ var _services_student_reg_student_registration_student_registration_service__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../../services/student-reg/student-registration/student-registration.service */ "./src/app/services/student-reg/student-registration/student-registration.service.ts");
+/* harmony import */ var _services_common_wizard_color_wizard_color_service__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../../services/common/wizard-color/wizard-color.service */ "./src/app/services/common/wizard-color/wizard-color.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3163,12 +3210,12 @@ var StudentRegistrationsComponent = /** @class */ (function () {
         this.wizardColor = wizardColor;
         this.selectedRow = "";
         this.graduationType = "Undergraduate";
-        this.registration = new _dtos_registration__WEBPACK_IMPORTED_MODULE_10__["Registration"]();
-        this.faculty = new _dtos_faculty__WEBPACK_IMPORTED_MODULE_5__["Faculty"]();
-        this.degree = new _dtos_degree__WEBPACK_IMPORTED_MODULE_9__["Degree"]();
-        this.intake = new _dtos_intake__WEBPACK_IMPORTED_MODULE_7__["Intake"]();
-        this.underGraduate = new _dtos_undergraduate_details__WEBPACK_IMPORTED_MODULE_11__["UndergraduateDetails"]();
-        this.postGraduate = new _dtos_postgraduate_details__WEBPACK_IMPORTED_MODULE_12__["PostgraduateDetails"]();
+        this.registration = new _dtos_registration__WEBPACK_IMPORTED_MODULE_1__["Registration"]();
+        this.faculty = new _dtos_faculty__WEBPACK_IMPORTED_MODULE_2__["Faculty"]();
+        this.degree = new _dtos_degree__WEBPACK_IMPORTED_MODULE_3__["Degree"]();
+        this.intake = new _dtos_intake__WEBPACK_IMPORTED_MODULE_5__["Intake"]();
+        this.underGraduate = new _dtos_undergraduate_details__WEBPACK_IMPORTED_MODULE_4__["UndergraduateDetails"]();
+        this.postGraduate = new _dtos_postgraduate_details__WEBPACK_IMPORTED_MODULE_6__["PostgraduateDetails"]();
         this.registrations = new Array();
         this.faculties = new Array();
         this.months = new Array();
@@ -3176,7 +3223,7 @@ var StudentRegistrationsComponent = /** @class */ (function () {
         this.inputs = [false, false, false, false, false, false, false, false];
     }
     StudentRegistrationsComponent.prototype.ngOnInit = function () {
-        this.registration.student = new _dtos_student__WEBPACK_IMPORTED_MODULE_15__["Student"]();
+        this.registration.student = new _dtos_student__WEBPACK_IMPORTED_MODULE_8__["Student"]();
         this.registration.degree = this.degree;
         this.registration.degree.faculty = this.faculty;
         this.registration.intake = this.intake;
@@ -3354,7 +3401,7 @@ var StudentRegistrationsComponent = /** @class */ (function () {
     };
     /*Get login status*/
     StudentRegistrationsComponent.prototype.loginStatus = function () {
-        return _additional_classes_login_status__WEBPACK_IMPORTED_MODULE_3__["LoginStatus"].getLoginStatus();
+        return _classes_login_status__WEBPACK_IMPORTED_MODULE_10__["LoginStatus"].getLoginStatus();
     };
     /*Check required inputs*/
     StudentRegistrationsComponent.prototype.checkInputsUndergraduate = function (f) {
@@ -3389,7 +3436,7 @@ var StudentRegistrationsComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./student-registrations.component.html */ "./src/app/views/student-reg/student-registrations/student-registrations.component.html"),
             styles: [__webpack_require__(/*! ./student-registrations.component.css */ "./src/app/views/student-reg/student-registrations/student-registrations.component.css")]
         }),
-        __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["ActivatedRoute"], _angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"], _services_faculty_service__WEBPACK_IMPORTED_MODULE_4__["FacultyService"], _services_intake_service__WEBPACK_IMPORTED_MODULE_6__["IntakeService"], _services_degree_service__WEBPACK_IMPORTED_MODULE_8__["DegreeService"], _services_student_registration_service__WEBPACK_IMPORTED_MODULE_13__["StudentRegistrationService"], _services_wizard_color_service__WEBPACK_IMPORTED_MODULE_14__["WizardColorService"]])
+        __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_7__["ActivatedRoute"], _angular_router__WEBPACK_IMPORTED_MODULE_7__["Router"], _services_common_faculty_faculty_service__WEBPACK_IMPORTED_MODULE_11__["FacultyService"], _services_common_intake_intake_service__WEBPACK_IMPORTED_MODULE_13__["IntakeService"], _services_common_degree_degree_service__WEBPACK_IMPORTED_MODULE_12__["DegreeService"], _services_student_reg_student_registration_student_registration_service__WEBPACK_IMPORTED_MODULE_14__["StudentRegistrationService"], _services_common_wizard_color_wizard_color_service__WEBPACK_IMPORTED_MODULE_15__["WizardColorService"]])
     ], StudentRegistrationsComponent);
     return StudentRegistrationsComponent;
 }());
@@ -3494,10 +3541,10 @@ module.exports = "<div class=\"row\">\n  <div class=\"col-md-12 col-12\">\n    <
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StudentSummaryComponent", function() { return StudentSummaryComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _additional_classes_login_status__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../additional-classes/login-status */ "./src/app/views/additional-classes/login-status.ts");
-/* harmony import */ var jspdf__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! jspdf */ "./node_modules/jspdf/dist/jspdf.min.js");
-/* harmony import */ var jspdf__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(jspdf__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _services_student_registration_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../services/student-registration.service */ "./src/app/services/student-registration.service.ts");
+/* harmony import */ var jspdf__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! jspdf */ "./node_modules/jspdf/dist/jspdf.min.js");
+/* harmony import */ var jspdf__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(jspdf__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _services_student_reg_student_registration_student_registration_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../services/student-reg/student-registration/student-registration.service */ "./src/app/services/student-reg/student-registration/student-registration.service.ts");
+/* harmony import */ var _classes_login_status__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../classes/login-status */ "./src/app/classes/login-status.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3532,7 +3579,7 @@ var StudentSummaryComponent = /** @class */ (function () {
         }
     };
     StudentSummaryComponent.prototype.downloadPage = function () {
-        var doc = new jspdf__WEBPACK_IMPORTED_MODULE_2__();
+        var doc = new jspdf__WEBPACK_IMPORTED_MODULE_1__();
         doc.setFontSize(11);
         doc.text(10, 20, 'Thank you,');
         doc.text(10, 30, this.studentName);
@@ -3549,7 +3596,7 @@ var StudentSummaryComponent = /** @class */ (function () {
         doc.save('Registration.pdf');
     };
     StudentSummaryComponent.prototype.loginStatus = function () {
-        return _additional_classes_login_status__WEBPACK_IMPORTED_MODULE_1__["LoginStatus"].getLoginStatus();
+        return _classes_login_status__WEBPACK_IMPORTED_MODULE_3__["LoginStatus"].getLoginStatus();
     };
     StudentSummaryComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -3557,7 +3604,7 @@ var StudentSummaryComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./student-summary.component.html */ "./src/app/views/student-reg/student-summary/student-summary.component.html"),
             styles: [__webpack_require__(/*! ./student-summary.component.css */ "./src/app/views/student-reg/student-summary/student-summary.component.css")]
         }),
-        __metadata("design:paramtypes", [_services_student_registration_service__WEBPACK_IMPORTED_MODULE_3__["StudentRegistrationService"]])
+        __metadata("design:paramtypes", [_services_student_reg_student_registration_student_registration_service__WEBPACK_IMPORTED_MODULE_2__["StudentRegistrationService"]])
     ], StudentSummaryComponent);
     return StudentSummaryComponent;
 }());
@@ -4163,9 +4210,8 @@ __webpack_require__.r(__webpack_exports__);
 // The list of file replacements can be found in `angular.json`.
 var environment = {
     production: false,
-    backend_url: 'http://imalkag.ddns.net:8080'
-    // backend_url: '111.223.139.191:8080'
-    // backend_url: 'http://localhost:8080'
+    // backend_url: 'http://imalkag.ddns.net:8080'
+    backend_url: 'http://localhost:8080'
 };
 /*
  * In development mode, to ignore zone related error stack frames such as
@@ -4211,7 +4257,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! E:\class\AngularWeb\StudentManagementWithVLE\Frontend\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! E:\class\AngularWeb\VLE\Frontend\src\main.ts */"./src/main.ts");
 
 
 /***/ })
